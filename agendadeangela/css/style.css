@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500&display=swap');
 
 body{
-    background: #fffbf8;
+    background: #fff;
     color: #000;
 }
 h1, h2, h3, h5{
@@ -54,7 +54,7 @@ p{
     font-weight: lighter;
 }
 #header .sub-tittle{
-    background-color: #fffbf8;
+    background-color: #fff;
     padding: 10px 0;
 }
 #header .sub-tittle h4{
@@ -81,7 +81,10 @@ p{
     background: url(../img/bg-contact-escritorio.png) center;
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 80px 0 80px 0;
+    max-width: 1300px;
+    padding: 80px 0 50px 0;
+    display: block;
+    margin: auto;
 }
 #contact .item{
     align-items: center;
@@ -222,10 +225,32 @@ p{
 
 /* presentacion */
 #presentacion{
-    padding: 50px 0;
     background: url(../img/bg-presentacion-agenda.png) center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 80px 0 50px 0;
+    z-index: 1;
+}
+
+
+#presentacion {
+    position: relative;
+}
+
+
+#presentacion::before {
+    content: "";
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    position: absolute;
+    bottom: 0;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: -1;
 }
 #presentacion .presentacion-bg{
     background: #fff;
