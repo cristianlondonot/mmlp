@@ -1,0 +1,68 @@
+/* general */
+.contador #clockdiv{
+  color: #000;
+  display: inline-block;
+  text-align: center;
+  font-size: 85px;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+}
+.contador #clockdiv div{
+  background: rgba(255, 255, 255, 1);
+  padding: 6px;
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 25px;
+}
+.contador #clockdiv div .smalltext{
+  background: none;
+  font-size: 22px;
+  margin-top: 0px;
+}
+.contador #clockdiv div span{
+  padding: 5px;
+  margin-top: 15px;
+  border-radius: 3px;
+  background: none;
+  display: inline-block;
+}
+
+
+/* contador1 */
+.contador #clockdiv1{
+  color: white;
+  display: inline-block;
+  text-align: center;
+  font-size: 65px;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+}
+
+.contador #clockdiv1 div{
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 40px;
+}
+
+.contador #clockdiv1 div span{
+  padding: 5px;
+  border-radius: 3px;
+  background: none;
+  display: inline-block;
+}
+@media (max-width: 550px){
+  .contador #clockdiv{
+    font-size: 55px;
+  }
+  .contador #clockdiv div{
+    padding: 6px;
+    line-height: 15px;
+  }
+  .contador #clockdiv div .smalltext{
+    font-size: 12px;
+    margin-top: 0px;
+  }
+}
