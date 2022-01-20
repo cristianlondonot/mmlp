@@ -26,18 +26,18 @@
   justify-content: center;
 }
 .spc_cards .cards {
-    max-width: 750px;
-  width: 80%;
+    max-width: 850px;
+  width: 90%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 1vw;
+  grid-gap: .5vw;
   align-items: center;
 }
 @media (max-width:900px) {
   .spc_cards .cards {
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 1vw;
+    grid-gap: .3vw;
 }
 }
 @media (max-width:767px){
