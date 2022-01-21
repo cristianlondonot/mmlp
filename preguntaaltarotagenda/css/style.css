@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background: url(../img/bg.png) center;
+  background-size: cover;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  z-index: -0;
+}
+
+  
+a:hover, a:active, a:focus {
+  color: #000;
+  outline: none;
+  text-decoration: none;
+}
+  
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+  
+h1{
+  text-align: center;
+  font-family: 'titulos';
+}
+
+h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+#header{
+    background: linear-gradient(to top, #8bc53f00, #8bc53f);
+}
+#header .logo{
+    padding-top:50px;
+}
+#header .logo img{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+@media (max-width:600px){
+    #header .logo img{
+        max-width: 150px;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width:400px){
+    #header .logo{
+        padding-top:20px;
+    }
+    #header .logo img{
+        max-width: 180px;
+        padding-bottom: 20px;
+    }
+}
+
+/* chat-section */
+#chat-section{
+    padding: 90px;
+}
+#chat-section .text-subtittle{
+    padding-bottom: 20px;
+}
+#chat-section .text-subtittle h2{
+    text-align: center;
+    font-weight: bold;
+}
+#chat-section .chat{
+    max-width: 60%;
+    display: block;
+    margin: auto;
+}
+#chat-section .chat .info-bar{
+    background: #8bc53f;
+    display: flex;
+    align-items: center;
+}
+@media (max-width:600px) {
+    #chat-section{
+        padding: 0px;
+    }
+    #chat-section .text-subtittle h2{
+        font-size: 14px;
+    }
+    #chat-section .chat{
+        max-width: 100% !important;
+    }
+}
+@media (max-width:400px){
+    #chat-section .text-subtittle{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+/* info-bar */
+#chat-section .chat .info-bar img{
+    max-width: 80px;
+    padding: 5px;
+}
+#chat-section .chat .info-bar .profile-name h3{
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+#chat-section .chat .info-bar .profile-name p{
+    margin: 0;
+    line-height: 18px;
+}
+#chat-section .chat .info-bar .profile-name i{
+    color: #00ff00;
+    font-size: 10px;
+    margin-right: 5px;
+}
+@media (max-width:600px){
+    #chat-section .chat .info-bar img{
+        max-width: 50px;
+        padding: 5px;
+    }
+    #chat-section .chat .info-bar .profile-name h3{
+        font-size: 13px;
+    }
+    #chat-section .chat .info-bar .profile-name p{
+        font-size: 11px;
+        line-height: 15px;
+    }
+    #chat-section .chat .info-bar .profile-name i{
+        font-size: 9px;
+    }
+}
+/* text-content */
+#chat-section .chat .text-content{
+    background: #e1ffe1;
+    height: 350px;
+}
+@media (max-width:600px){
+    #chat-section .chat .text-content{
+        height: 250px;
+    }
+}
+/* boot message send style */
+#chat-section .chat .text-content .boot-content{
+    position: relative;
+    padding: 10px;
+}
+#chat-section .chat .text-content .boot-content .blok-text-name p{
+    margin: 0;
+    color: #808080;
+    margin-left: 70px;
+}
+#chat-section .chat .text-content .text-bg-boot{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#chat-section .chat .text-content .text-bg-boot .img-profile-boot img{
+    max-width: 50px;
+}
+#chat-section .chat .text-content .text-bg-boot .content-text-boot p{
+    line-height: 15px;
+    margin: 0;
+}
+#chat-section .chat .text-content .text-bg-boot .content-text-boot .bg-blok-text{
+    background: #c9d1bd;
+    padding: 15px 15px 15px 35px;
+    border-radius: 50px;
+    margin-left: 10px;
+    position: relative;
+    align-items: center;
+}
+#chat-section .chat .text-content .text-bg-boot .content-text-boot .bg-blok-text .flecha span{
+    color: #c9d1bd;
+    position: absolute;
+    left: -12px;
+    margin-top: -14px;
+}
+@media (max-width:600px){
+    #chat-section .chat .text-content .boot-content .blok-text-name p{
+        margin-left: 50px;
+        font-size: 13px;
+    }
+    #chat-section .chat .text-content .text-bg-boot .content-text-boot .bg-blok-text{
+        margin-left: 10px;
+    }
+    #chat-section .chat .text-content .text-bg-boot .img-profile-boot img{
+        max-width: 40px;
+    }
+    #chat-section .chat .text-content .text-bg-boot .content-text-boot p{
+        line-height: 15px;
+        font-size: 10px;
+    }
+}
+/* user message send style */
+#chat-section .chat .text-content .user-content{
+    position: relative;
+    padding: 15px;
+}
+#chat-section .chat .text-content .text-bg-user{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#chat-section .chat .text-content .text-bg-user .content-text-user p{
+    line-height: 15px;
+    margin: 0;
+}
+#chat-section .chat .text-content .text-bg-user .content-text-user .bg-blok-text{
+    background: #fff;
+    padding: 15px 35px 15px 15px;
+    border-radius: 50px;
+    position: relative;
+    align-items: center;
+}
+#chat-section .chat .text-content .text-bg-user .content-text-user .bg-blok-text .flecha span{
+    color: #fff;
+    position: absolute;
+    right: -12px;
+    margin-top: -12px;
+}
+@media (max-width:600px){
+    #chat-section .chat .text-content .text-bg-user .content-text-user p{
+        line-height: 15px;
+        font-size: 10px;
+    }
+}
+/* text-compose */
+#chat-section .chat .text-compose{
+    background: #c7e0c7;
+    padding: 20px;
+    position: relative;
+    height: 175px;
+}
+#chat-section .chat .text-compose .compose-text{
+    padding-bottom: 20px;
+}
+#chat-section .chat .text-compose .compose-text textarea{
+    width: 100%;
+    border-style: none;
+    height: 80px;
+    resize: none;
+}
+#chat-section .chat .text-compose .compose-text .flecha span{
+    position: absolute;
+    color: #fff;
+    right: 0;
+    margin-right: 65px;
+    margin-top: -15px;
+    font-size: 30px;
+}
+#chat-section .chat .text-compose .send{
+}
+#chat-section .chat .text-compose .send button{
+    background: #8bc53f;
+    color: #000;
+    font-weight: bold;
+    border-style: none;
+    padding: 5px 30px 5px 30px;
+    float: right;
+}
+@media (max-width:600px){
+    #chat-section .chat .text-compose .compose-text textarea{
+        font-size: 10px;
+    }
+    #chat-section .chat .text-compose .send button{
+        padding: 5px 20px 5px 20px;
+        font-size: 16px;
+        margin-right: 0px;
+    }
+}/* end */
+
+/* contact */
+#contact{
+    padding:  30px 0;
+}
+#contact .form-bg{
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 50px;
+}
+#contact .form-bg .tittle{
+    padding: 0 0 40px 0;
+    text-align: center;
+}
+#contact .form-bg .tittle h2{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+}
+#contact .form-bg .sub-tittle{
+    text-align: center;
+    margin: 0 0 40px 0;
+    background: #8bc53f;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+#contact .form-bg .sub-tittle h4{
+    font-size: 25px;
+    font-weight: bold;
+}
+#contact .form-bg form .form-group{
+    padding: 0 90px 20px 90px;
+}
+#contact .form-bg form .form-group input{
+    width: 100%;
+    font-size: 30px;
+    border-style: none;
+    border: 2px #8bc53f solid;
+}
+#contact .form-bg form .form-group input::placeholder{
+    font-weight: bold;
+}
+#contact .form-bg form .form-group-check{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+#contact .form-bg form .form-group-check input{
+    margin-right: 10px;
+}
+#contact .form-bg form .form-group-check label{
+    font-weight: bold;
+}
+#contact .form-bg form .boton button{
+    border-style: none;
+    background: #8bc53f;
+    color: #fff;
+    font-weight: bold;
+    width: 400px;
+    font-size: 30px;
+    display: block;
+    margin: auto;
+}
+@media (max-width:600px){
+    #contact .form-bg{
+        border-radius: 10px;
+        padding: 20px;
+    }
+    #contact .form-bg .tittle{
+        padding: 0 0 10px 0;
+    }
+    #contact .form-bg .tittle h2{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    #contact .form-bg .sub-tittle{
+        margin: 0 0 20px 0;
+        padding: 5px 5px 1px 5px;
+        border-radius: 5px;
+    }
+    #contact .form-bg .sub-tittle h4{
+        font-size: 14px;
+    }
+    #contact .form-bg form .form-group{
+        padding: 0 20px 10px 20px;
+    }
+    #contact .form-bg form .form-group-check label{
+        font-size: 10px;
+        font-weight:normal;
+    }
+    #contact .form-bg form .form-group-check input{
+        margin-right: 5px;
+        height: 11px;
+        width: 11px;
+    }
+    #contact .form-bg form .form-group input{
+        font-size: 20px;
+    }
+    #contact .form-bg form .boton button{
+        width: 250px;
+        font-size: 20px;
+    }
+}
+/* Instruction */
+#instruction{
+    padding: 30px 0 0 0;
+}
+#instruction img{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width:600px){
+    #instruction{
+        padding: 0px;
+    }
+    #instruction img{
+        max-width: 300px;
+        display: block;
+        margin: auto;
+    }
+
+}
