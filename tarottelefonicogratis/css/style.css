@@ -1,0 +1,474 @@
+@font-face {
+    font-family: 'titulos';
+    src: url(../css/fonts/nouvelle_vague_final.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'subtitulos';
+    src: url(../css/fonts/pala.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'subtitulosb';
+    src: url(../css/fonts/palab.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    background: #f7eee4;
+    margin: 0;
+}
+
+h1, h2, h3{
+    font-family: 'titulos';
+    color: #A67A51;
+}
+
+h4{
+    font-family: 'subtitulos';
+    font-size: 105px;
+    text-align: center;
+}
+
+h5{
+    font-family: 'subtitulosb';
+    font-size: 17px;
+    text-align: center;
+}
+
+p{
+    font-family: 'subtitulos';
+}
+.tittle-section{
+    text-align: center;
+}
+.tittle{
+    text-align: center;
+}
+.content-text p{
+    text-align: justify;
+}
+.content-text p a{
+    text-decoration: none;
+    color: #000;
+}
+
+@media (max-width:1107px){
+    h4{
+        font-size: 95px;
+    }
+}
+@media (max-width:1052px){
+    h4{
+        font-size: 52px;
+    }
+}
+@media (max-width:480px){
+    h4{
+        font-size: 27px;
+    }
+}
+
+/* header */
+#header{
+}
+#header .tittle{
+    text-align: center;
+    margin-top: 50px;
+}
+#header .tittle h1{
+    font-size: 105px;
+}
+#header .tittle .uppercase{
+    text-transform: uppercase;
+}
+#header .bar-fixed img{
+    width: 100%;
+}
+#header .content-textimg{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    display: block;
+    margin: auto;
+    margin-top: -30px;
+}
+#header .img-tarotis img{
+    max-width: 590px;
+    margin-left: 20px;
+}
+#header .content-text h4{
+    margin-right: 20px;
+}
+@media (max-width:1240px) {
+    #header .img-tarotis img{
+        max-width: 500px;
+        margin-left: 0px;
+    }
+    #header .content-text h4{
+        margin-right: 0px;
+    }
+}
+@media (max-width:1107px){
+    #header .tittle h1{
+        font-size: 95px;
+    }
+}
+@media (max-width:1052px){
+    #header .tittle{
+        margin-top: 20px;
+    }
+    #header .tittle h1{
+        font-size: 52px;
+    }
+    #header .content-textimg{
+        max-width: 650px;
+        margin-top: -20px;
+    }
+    #header .img-tarotis img{
+        max-width: 300px;
+        margin-left: 10px;
+    }
+    #header .content-text h4{
+        margin-right: 10px;
+    }
+}
+@media (max-width:480px){
+    #header .tittle{
+        margin-top: 10px;
+    }
+    #header .tittle h1{
+        font-size: 27px;
+    }
+    #header .content-textimg{
+        max-width: 350px;
+        margin-top: -10px;
+    }
+    #header .img-tarotis img{
+        max-width: 140px;
+        margin-left: 5px;
+    }
+    #header .content-text h4{
+        margin-right: 5px;
+    }
+}
+/* contact */
+#contact{
+    padding-bottom: 380px;
+}
+#contact .img-presentacion img{
+    max-width: 1240px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#contact .form .tittle-form{
+    margin: 50px 0;
+}
+#contact .form .aviso{
+    max-width: 1240px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#contact form{
+    max-width: 900px;
+    display: block;
+    margin: auto;
+}
+#contact form .form-group{
+    margin-bottom: 60px;
+}
+#contact form .form-group input{
+    width: 100%;
+    border-style: none;
+    background: #A67A51;
+    color: #fff;
+    font-size: 70px;
+    text-indent: 40px;
+    height: 130px;
+    font-family: 'subtitulos';
+}
+#contact form .form-group input::placeholder{
+    opacity: 10;
+}
+#contact form .form-group select{
+    width: 100%;
+    border-style: none;
+    background: #A67A51;
+    color: #fff;
+    font-size: 90px;
+    text-indent: 20px;
+    height: 150px;
+    font-family: 'subtitulos';
+}
+#contact form .form-group-check{
+    font-family: 'subtitulos';
+    margin: 60px 0;
+}
+#contact form .form-group-check label{
+    font-size: 45px;
+    line-height: 55px;
+}
+#contact form .form-group-check input{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+#contact form .boton button{
+    border-radius: 0;
+    font-size: 80px;
+    font-family: 'subtitulos';
+    background: #C49C6B;
+    border-style: none;
+    width: 100%;
+    box-shadow: 7px 7px 10px 0 #000;
+}
+@media (max-width:1052px){
+    #contact{
+        padding-bottom: 200px;
+    }
+    #contact form{
+        max-width: 480px;
+    }
+    #contact .form .tittle-form{
+        margin: 30px 0;
+    }
+    #contact form .form-group{
+        margin-bottom: 40px;
+    }
+    #contact form .form-group input{
+        font-size: 40px;
+        text-indent: 20px;
+        height: 80px;
+    }
+    #contact form .form-group select{
+        font-size: 40px;
+        text-indent: 10px;
+        height: 80px;
+    }
+    #contact form .form-group-check label{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    #contact form .form-group-check input{
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+    }
+    #contact form .form-group-check{
+        margin: 30px 0;
+    }
+    #contact form .boton button{
+        font-size: 40px;
+        box-shadow: 7px 7px 10px 0 #000;
+    }
+}
+@media (max-width:480px){
+    #contact{
+        padding-bottom: 100px;
+    }
+    #contact form{
+        max-width: 280px;
+    }
+    #contact .form .tittle-form{
+        margin: 20px 0;
+    }
+    #contact form .form-group{
+        margin-bottom: 10px;
+    }
+    #contact form .form-group input{
+        font-size: 22px;
+        text-indent: 10px;
+        height: 40px;
+    }
+    #contact form .form-group select{
+        font-size: 22px;
+        text-indent: 3px;
+        height: 40px;
+    }
+    #contact form .form-group-check label{
+        font-size: 13px;
+        line-height: 25px;
+    }
+    #contact form .form-group-check input{
+        height: 13px;
+        width: 13px;
+        margin-right: 5px;
+    }
+    #contact form .form-group-check{
+        margin: 20px 0;
+    }
+    #contact form .boton button{
+        font-size: 20px;
+        box-shadow: 7px 7px 10px 0 #000;
+    }
+}
+
+/* sobretarot */
+#sobretarot{
+
+}
+#sobretarot h3{
+    font-size: 105px;
+}
+#sobretarot h2{
+    text-transform: uppercase;
+    font-size: 105px;
+    margin-bottom: 60px;
+}
+#sobretarot .tittle-section{
+    padding: 0 0 120px 0;
+}
+#sobretarot .content-text{
+    padding: 0 120px;
+}
+#sobretarot .content-text p{
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 60px;
+}
+@media (max-width:1052px){
+    #sobretarot h3{
+        font-size: 52px;
+    }
+    #sobretarot h2{
+        text-transform: uppercase;
+        font-size: 52px;
+        margin-bottom: 30px;
+    }
+    #sobretarot .tittle-section{
+        padding: 0 0 80px 0;
+    }
+    #sobretarot .content-text{
+        padding: 0;
+        max-width: 767px;
+        display: block;
+        margin: auto;
+    }
+    #sobretarot .content-text p{
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:480px){
+    #sobretarot h3{
+        font-size: 27px;
+    }
+    #sobretarot h2{
+        text-transform: uppercase;
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+    #sobretarot .tittle-section{
+        padding: 0 0 30px 0;
+    }
+    #sobretarot .content-text{
+        padding: 0;
+        max-width: 300px;
+        display: block;
+        margin: auto;
+    }
+    #sobretarot .content-text p{
+        font-size: 17px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* test */
+#test{
+    padding: 0 120px;
+}
+#test .img-test img{
+    max-width: 250px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#test .name h5{
+    font-size: 70px;
+}
+#test .tittle h2{
+    font-size: 105px;
+    text-transform: uppercase;
+}
+#test .content-test-bg{
+    margin-top: 80px;
+}
+#test .content-text p{
+    font-size: 40px;
+    line-height: 48px;
+}
+@media (max-width:1052px){
+    #test{
+        padding: 0 !important;
+        max-width: 800px;
+        display: block;
+        margin: auto;
+    }
+    #test .img-test img{
+        max-width: 250px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    #test .name h5{
+        font-size: 30px;
+    }
+    #test .tittle h2{
+        font-size: 52px;
+    }
+    #test .content-test-bg{
+        margin-top: 40px;
+    }
+    #test .content-text p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+@media (max-width:480px){
+    #test{
+        max-width: 300px;
+        display: block;
+        margin: auto;
+    }
+    #test .tittle h2{
+        font-size: 27px;
+    }
+    #test .name h5{
+        font-size: 13px;
+    }
+    #test .content-text p{
+        font-size: 13px;
+        line-height: 17px;
+    }
+}
+
+/* footer */
+#footer{
+    padding: 0;
+}
+#footer p{
+    font-size: 45px;
+    text-align: center;
+}
+#footer a{
+    text-decoration: none;
+    color: #000;
+}
+@media (max-width:1052px){
+    #footer p{
+        font-size: 25px;
+    }
+}
+@media (max-width:480px){
+    #footer p{
+        font-size: 15px;
+    }
+}
