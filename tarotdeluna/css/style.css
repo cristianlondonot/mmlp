@@ -267,6 +267,18 @@ header .content-p-2{
     justify-content: center;
   }
 }
+@media (max-width:528px){
+  .spc_cards .section-1{
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
+  .spc_cards .section-2{
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
+}
 /* form */
 .form-bg{
   background: url(../img/bg-estrellas-form.png) top;
@@ -498,7 +510,7 @@ video {
   #estilodevida .boton-1 .border-boton{
     padding: 3px;
     border: 2px #e66f75 solid;
-    width: 320px;
+    width: 280px;
     display: block;
     margin: auto;
     margin-top: 30px;
