@@ -457,7 +457,7 @@ h1{
   border-style: none;
   border: 1px #fff solid;
   border-radius: 50px;
-  font-size: 30px;
+  font-size: 25px;
   padding: 5px 50px;
   font-weight: bold;
   box-shadow: 3px 3px 9px #000;
@@ -753,7 +753,7 @@ h1{
     max-width: 200px;
   }
   #azul-bg .boton .btn{
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px 30px;
     margin-bottom: 5px;
   }
