@@ -1,0 +1,45 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?18718026d9a4a426834a857e94fb81c0") format("truetype"),
+url("./flaticon.woff?18718026d9a4a426834a857e94fb81c0") format("woff"),
+url("./flaticon.woff2?18718026d9a4a426834a857e94fb81c0") format("woff2"),
+url("./flaticon.eot?18718026d9a4a426834a857e94fb81c0#iefix") format("embedded-opentype"),
+url("./flaticon.svg?18718026d9a4a426834a857e94fb81c0#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "email": "\f101",
+    "usuario-de-perfil": "\f102",
+    "phone-call": "\f103",
+    "calendar-in-a-circle-interface-symbol": "\f104",
+    "reloj-circular": "\f105",
+);
+
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-usuario-de-perfil:before {
+    content: map-get($flaticon-map, "usuario-de-perfil");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-calendar-in-a-circle-interface-symbol:before {
+    content: map-get($flaticon-map, "calendar-in-a-circle-interface-symbol");
+}
+.flaticon-reloj-circular:before {
+    content: map-get($flaticon-map, "reloj-circular");
+}

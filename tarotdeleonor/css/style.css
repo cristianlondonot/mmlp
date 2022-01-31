@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Dancing+Script:wght@400;500;600&family=Open+Sans:wght@300;400&family=Spartan:wght@100;200;300;400;500;600;700&display=swap');
+
+/*     font-family: 'Arimo', sans-serif;
+
+    font-family: 'Barlow', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Spartan', sans-serif; */
+@font-face {
+  font-family: 'subTitulos';
+  src: url(../css/font/Bantayog-Regular.otf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background: url(../img/bg.jpg) top center;
+  background-size: cover;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+}
+
+a:hover, a:active, a:focus {
+  color: #2dca98;
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight:lighter;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+h3, h2{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  background: rgba(255, 255, 255, 0);
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+  margin-bottom: 0px;
+}
+
+#header .container {
+  position: relative;
+  bottom: 0;
+  top:10px;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  width: 100%;
+  display: flex
+}
+
+#header .tittle{
+  display: block;
+  margin: auto;
+  width: 90%;
+  border-bottom: none;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+#header .tittle img{
+  max-width: 300px;
+  width: 100%;
+
+}
+
+@media (max-width: 780px){
+  #header .tittle{
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 488px){
+  #header .tittle .text-tittle h1 {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+/* Contact section */
+#contact {
+  background: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0px 10px 10px 10px;
+  z-index: 1;
+  
+}
+
+
+#contact  {
+  position: relative;
+  color: #fff;
+}
+
+
+#contact::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  bottom: 0;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+}
+
+#contact .bg-oscuro .tarotista{
+  display: block;
+  margin: auto;
+}
+
+#contact .bg-oscuro .tarotista p{
+  text-align: justify;
+  color: #fff;
+  font-size: 20px;
+}
+
+#contact .bg-oscuro .tarotista img{
+  max-width: 250px;
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+#contact .bg-claro {
+  padding-top: 10px;
+  max-width: 500px;
+  display: block;
+  margin: auto;
+  margin-top: 0px;
+}
+
+#contact .text-contact h2{
+  padding: 0px 5px 5px 5px;
+  color: #FFBF00;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 2px 2px 0px rgba(46, 46, 46, 0.5);
+}
+
+#contact .form{
+  max-width: 500px;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+}
+
+#contact .form .email{
+  padding-top: 10px;
+}
+
+#contact .form .email .form-group {
+  background: url(../img/iconos\ formulario-01.png) center;
+  background-size: 100%;
+  height: 75px;
+  max-width: 100%;
+  padding: 5px 5px 5px 5px;
+}
+
+#contact .form .form-group input{
+  width: 100%;
+  background: white;
+  border-style: none;
+  font-size: 15px;
+  height: 35px;
+  z-index: -1;
+  border: #666666 1px solid;
+  border-radius: 20px;
+  text-indent:10px;
+  
+}
+
+
+#contact .form .form-group img{
+  max-width: 50px;
+  position: absolute;
+  margin-bottom: 0px;
+  margin-top: -8px;
+  margin-left: -14px;
+  z-index: 2;
+}
+
+#contact .form .form-group{
+  border-radius: 10px;
+  padding-left: 0px ;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+
+#contact .form input:focus{
+  border-radius: 50px;
+}
+
+#contact .form input::placeholder{
+  color: #000;
+  font-weight: lighter;
+}
+
+#contact .form .submit{
+  padding: 5px 5px 5px 5px;
+  max-width: 215px;
+  display: block;
+  margin: auto;
+  margin-top: -50px;
+}
+
+#contact .form .border-button{
+  display: block;
+  margin: auto;
+}
+
+#contact .form button{
+  background: #FFBF00;
+  border-style: none;
+  border-radius: 50px;
+  padding: 10px 5px 10px 5px;
+  color: #fff;
+  width: 150px;
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px rgba(46, 46, 46, 0.5);
+  box-shadow: 1px 1px 0px rgba(63, 63, 63, 0.5);
+}
+
+#contact .imagen-f img{
+  max-width: 200px;
+  display: block;
+  margin: auto;
+}
+
+#contact .tittle-sec1 {
+  background: url(../img/10.png) top center;
+  background-size: 300px 40px;
+  background-repeat: no-repeat;
+  height: 40px;
+  margin-top: -25px;
+}
+
+
+
+@media (max-width: 432px){
+  #contact .aviso img{
+    max-width: 100px;
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+    align-items: center;
+  }
+  
+  #contact .aviso p{
+    color: #000;
+    text-align: center;
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 780px){
+  #contact .bg-oscuro .tarotista{
+    float: none;
+    width: 100%;
+  }
+  
+  #contact .bg-claro {
+    float: none;
+    width: 100%;
+  }
+
+  #contact {
+    height: 100%;
+  }
+  
+}
