@@ -479,3 +479,34 @@ p{
         height: 200px;
     }
 }
+
+/* footer */
+footer{
+    padding: 50px 0;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #4C1B72;
+}
+footer p span{
+    font-size: 13px;
+    color: #000;
+}
+footer p a{
+    text-decoration: none;
+    color: #4C1B72;
+}
+@media (max-width:767px){
+    footer p{
+        text-align: center;
+        font-size: 10px;
+        font-weight: bold;
+        color: #4C1B72;
+    }
+    footer p span{
+        font-size: 8px;
+        color: #000;
+    }
+}
