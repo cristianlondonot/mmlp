@@ -1,0 +1,188 @@
+.chat-bg{
+    background: #b689db;
+    border-radius: 20px 20px 30px 30px;
+}
+.chat-content{
+    padding: 10px 10px 0 10px;
+}
+/* header */
+.chat-content .chat-header{
+    background: #393C54;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 5px;
+}
+.chat-header .chat-profile-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+}
+.profile-pic img{
+    max-width: 70px;
+    width: 100%;
+    margin-right: 15px;
+    margin-top: -5px;
+}
+.chat-header .profile-name-status .name h5{
+    text-align: left !important;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    line-height: 16px;
+    font-weight: normal;
+}
+/* chat-content */
+.content-chat{
+    margin-top: -5px;
+    background-color: #fff;
+/*     max-height: 330px;
+    min-height: 330px; */
+}
+.content-chat-text{
+    background: url(../img/bg-chat.png) center;
+    background-size: cover;
+    max-height: 330px;
+    min-height: 330px;
+    padding: 20px;
+}
+/* char tarotista-msg */
+.msg-tarotista{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+.msg-tarotista-bg{
+    background: #b689db;
+    width: 50%;
+    border-radius: 10px 10px 10px 0;
+    padding: 10px;
+}
+.msg-tarotista-content p{
+    margin: 0;
+    color: #fff;
+}
+/* char user-msg */
+.msg-user{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+.msg-user-bg{
+    background: #b689db;
+    width: 50%;
+    border-radius: 10px 10px 0 10px;
+    padding: 10px;
+}
+.msg-user-content p{
+    margin: 0;
+    color: #fff;
+}
+/* text-composed */
+.text-composed-bg{
+    background: #FEF69F;
+    padding: 10px;
+    border-radius: 3px 3px 30px 30px;
+}
+.text-composed-text-bg{
+    display: flex;
+}
+.text-emoji{
+    width: 100%;
+    background: #ffffffbe;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-emoji i{
+    font-size: 30px;
+    color: rgb(146, 146, 146);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.text{
+    width: 100%;
+}
+.text textarea{
+    max-height: 40px;
+    min-height: 40px;
+    width: 100%;
+    border-style: none;
+    background: transparent;
+    font-size: 25px;
+    text-indent: 15px;
+}
+.boton-send button{
+    background: #7f7fd5;
+    color: #fff;
+    border-style: none;
+    border-radius: 15px;
+    width: 120px;
+    padding: 2px 0;
+    font-size: 30px;
+}
+@media (max-width:575px) {
+    .chat-bg{
+        background: #b689db;
+        border-radius: 20px 20px 30px 30px;
+        margin: 0 20px;
+    }
+    /* header */
+    .chat-content .chat-header{
+        border-radius: 20px 20px 0 0;
+        padding: 5px 5px;
+    }
+    .profile-pic img{
+        max-width: 40px;
+        margin-right: 15px;
+        margin-top: -5px;
+    }
+    .chat-header .profile-name-status .name{
+        margin-top: 7px;
+    }
+    .chat-header .profile-name-status .name h5{
+        font-size: 17px;
+        line-height: 6px;
+    }
+    /* char tarotista-msg */
+    .msg-tarotista-bg{
+        width: 80%;
+    }
+    .msg-tarotista-content p{
+        margin: 0;
+        color: #fff;
+    }
+    /* char user-msg */
+    .msg-user-bg{
+        width: 80%;
+    }
+    .msg-user-content p{
+        margin: 0;
+        color: #fff;
+    }
+    /* text-composed */
+    .text-composed-bg{
+        background: #FEF69F;
+        padding: 10px;
+        border-radius: 3px 3px 30px 30px;
+    }
+    .text-emoji{
+        margin-right: 15px;
+        padding-left: 0px;
+    }
+    .text-emoji i{
+        font-size: 20px;
+    }
+    .text textarea{
+        max-height: 25px;
+        min-height: 25px;
+        font-size: 15px;
+        text-indent: 5px;
+    }
+    .boton-send button{
+        border-radius: 6px;
+        width: 70px;
+        padding: 2px 0;
+        font-size: 20px;
+    }
+}
