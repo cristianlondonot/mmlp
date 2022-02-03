@@ -83,6 +83,9 @@ h1, h2, h3, h4, h5 {
 #modalFormAlert .modal-footer button:hover {
 	background-color: rgba(0,0,0,0.2);
 }
+.movil{
+	display: none;
+}
 /* Personalizadas */
 body {
 	background-color: #7f7fd5;
@@ -510,6 +513,11 @@ div.thought:after {
 	}
 }
 @media (max-width: 767px){
+	.visible-xs {
+		margin-top: 30px;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
 	header .col-sm-7 {
 		text-align: center;
 		padding-bottom: 10px;
@@ -559,12 +567,21 @@ div.thought:after {
 
 }
 @media (max-width: 600px){
+	.movil{
+		display: block;
+	}
+	.escritorio{
+		display: none;
+	}
 	#menu-icon {
-		margin-top: 20px;
+		margin-top: -50px;
 		margin-bottom: 20px;
-		padding: 20px 0px;
-		background-color: rgba(255,255,255,.2);
+		padding: 20px 30px;
+		background-color: rgba(255,255,255,.0);
 		text-align: center;
+	}
+	#menu-icon .row{
+		margin-bottom: 20px;
 	}
 	#menu-icon .col-xs-1 {
 		display: none;

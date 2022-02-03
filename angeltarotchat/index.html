@@ -199,7 +199,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 	</section>
 
-<nav class="navbar navbar-default" id="menu-icon">
+<nav class="navbar navbar-default escritorio" id="menu-icon">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-2"></div>
@@ -310,4 +310,66 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="container">
 			<div class="bubble thought">
 				<h1 class="bubble-title">Esoteric world!</h1>
+				<span class="bubble-block">
+					<span class="row">
+						<span class="col-sm-6">
+							<img src="img/fullmoon.png" alt="Full Moon">
+							<span class="bubble-block">
+								<span class="moon-data">
+									<span class="moon-house"><?php echo $contents[$_SESSION["contentDay"]]['star'];?></span>
+									<span class="moon-category">Symbol:</span> <?php echo $contents[$_SESSION["contentDay"]]['symbol'];?><br>
+									<span class="moon-category">Rules:</span> <?php echo $contents[$_SESSION["contentDay"]]['rules'];?><br>
+									<span class="moon-category">Psychology:</span> <?php echo $contents[$_SESSION["contentDay"]]['psychology'];?><br>
+								</span>
+							</span>
+						</span>
+						<span class="col-sm-6">
+							<span class="row">
+								<span class="col-sm-6">
+									<span class="moon-icon">🌑</span><br>
+									<span class="moon-label">Next new moon</span><br>
+									<span class="moon-date"><?php echo date('jS F',$moon->get_phase('next_new_moon'));?></span>
+								</span>
+								<span class="col-sm-6">
+									<span class="moon-icon">🌓</span><br>
+									<span class="moon-label">Next first quarter</span><br>
+									<span class="moon-date"><?php echo date('jS F',$moon->get_phase('next_first_quarter'));?></span>
+								</span>
+							</span>
+							<span class="row">
+								<span class="col-sm-6">
+									<span class="moon-icon">🌕</span><br>
+									<span class="moon-label">Next full moon</span><br>
+									<span class="moon-date"><?php echo date('jS F',$moon->get_phase('next_full_moon'));?></span>
+								</span>
+								<span class="col-sm-6">
+									<span class="moon-icon">🌗</span><br>
+									<span class="moon-label">Next last quarter</span><br>
+									<span class="moon-date"><?php echo date('jS F',$moon->get_phase('next_last_quarter'));?></span>
+								</span>
+							</span>
+						</span>
+					</span>
+				</span>
+				<span class="bubble-callme">Call me at: <a href="tel:<?php echo $phone;?>" class="phone"><?php echo $phonetext;?></a></span>
+			</div>
+		</div>
+	</section>
+
+	<nav class="navbar navbar-default movil" id="menu-icon">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6"><a href="javascript:void(0);" data-id="1" class="botonf"><img src="img/tarot.png" alt="Tarot Cards"></a></div>
+				<div class="col-xs-6"><a href="javascript:void(0);" data-id="2" class="botonf"><img src="img/know.png" alt="Know Me"></a></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6"><a href="javascript:void(0);" data-id="3" class="botonf"><img src="img/about.png" alt="About The Page"></a></div>
+				<div class="col-xs-6"><a href="javascript:void(0);" data-id="4" class="botonf"><img src="img/esoteric.png" alt="Esoteric World"></a></div>
+			</div>
+		</div>
+	</nav>
+
+
+</body>
+</html>
 				
