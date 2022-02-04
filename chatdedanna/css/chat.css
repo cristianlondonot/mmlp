@@ -1,0 +1,264 @@
+.chat{
+    width: 100%;
+}
+/* general */
+.chat .chat-bg{
+    background: #fff;
+    border-radius: 20px;
+    border: 4px #f3ca61 solid;
+    position: relative;
+}
+/* header */
+.chat .bg-header{
+    background: #f3ca61;
+    margin: 15px 25px;
+    border-radius: 15px;
+    align-items: center;
+}
+.chat .bg-header .tittle h3{
+    font-size: 23px;
+    margin: 0;
+    text-align: left;
+    margin-bottom: -2px;
+}
+.chat .tittle span{
+    font-family: 'sub-tittle';
+    margin-top: -30px;
+    font-size: 15px;
+}
+.chat .bg-header .img-profile{
+    padding: 10px;
+}
+.chat .bg-header .img-profile img{
+    max-width: 70px;
+    width: 100%;
+}
+/* conversation */
+.chat .conversation-bg{
+    background: url(../img/bg-estrellas-form.png) center;
+    background-size: 100%;
+    overflow-x: hidden;
+    max-height: 600px;
+    padding-bottom: 80px;
+    border-radius: 18px;
+}
+.profile-check{
+    margin-left: 20px;
+}
+/* luna-msg */
+.luna-msg{
+    padding: 0px 0;
+    position: relative;
+}
+.luna-msg .luna-msg-content{
+    position: relative;
+}
+.luna-msg .luna-msg-bg{
+    margin: 20px 0 20px 0;
+    background: #fbd2ce;
+    max-width: 65%;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 10px 10px 10px 20px;
+    align-items:stretch;
+    position: relative;
+}
+.luna-msg .name h6{
+    text-align: left;
+    color: #ff78b0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.luna-msg .msg p{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 16px;
+}
+.luna-msg .profile-check .profile-pic img{
+    max-width: 70px;
+    width: 100%;
+}
+.luna-msg .ini-msg-luna{
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+.luna-msg .ini-msg-luna img{
+    max-width: 100px;
+    margin-bottom: -50px;
+}
+/* user-msg */
+.user-msg{
+    padding: 30px 0;
+    position: relative;
+}
+.user-msg .user-msg-content{
+    position: relative;
+    align-items: center;
+    justify-content: end;
+    margin-right: 20px;
+}
+.user-msg .user-msg-bg{
+    position: relative;
+    background: #f3ca61;
+    max-width: 65%;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 10px 10px 10px 20px;
+}
+.user-msg .name h6{
+    text-align: left;
+    color: #5d5d5f;
+    font-size: 16px;
+    font-weight: bold;
+}
+.user-msg .msg p{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 16px;
+}
+.user-msg .profile-check .profile-pic img{
+    max-width: 70px;
+    width: 100%;
+}
+.user-msg .ini-msg-user{
+
+}
+.user-msg .ini-msg-user img{
+    max-width: 30px; 
+}
+/* composed-text */
+.composed-text{
+    position: absolute;
+    padding: 5px 20px;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+.composed-text .composed-text-bg{
+    justify-content: space-between;
+    align-items: center;
+    background: #74747441;
+    border-radius: 20px;
+    padding: 10px;
+}
+.composed-text .composed-text-input{
+    
+}
+.composed-text .composed-text-input textarea{
+    min-height: 50px;
+    max-height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    border-style: none;
+    padding: 7px;
+    background: transparent;
+    font-size: 22px;
+    font-family: 'cuerpo-p';
+    resize: none;
+}
+.composed-text .send-msg button{
+    background: #f3ca61;
+    border-style: none;
+    padding: 0px;
+    border-radius: 50%;
+    width: 55px;
+}
+.composed-text .send-msg button i{
+    color: #fff;
+    margin-right: -6px;
+    font-size: 36px;
+    padding: 10px;
+}
+@media (max-width:767px){
+    .chat{
+        margin-top: 20px;
+    }
+    .composed-text .composed-text-input textarea{
+        min-height: 30px;
+        max-height: 30px;
+        width: 80%;
+        border-radius: 10px;
+        padding: 7px;
+        font-size: 15px;
+    }
+}
+@media (max-width:528px){
+    .chat .conversation-bg {
+        max-height: 450px;
+    }
+    .chat .bg-header {
+        background: #f3ca61;
+        margin: 7px 8px;
+        border-radius: 15px;
+    }
+    .chat .bg-header .tittle h3{
+        font-size: 21px;
+        margin-bottom: -2px;
+    }
+    .chat .tittle span{
+        font-size: 14px;
+    }
+    .chat .bg-header .img-profile{
+        padding: 5px;
+    }
+    .chat .bg-header .img-profile img{
+        max-width: 60px;
+        width: 100%;
+    }
+    .luna-msg .luna-msg-bg{
+        max-width: 75%;
+    }
+    .luna-msg .name h6{
+        font-size: 14px;
+    }
+    .luna-msg .msg p{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .luna-msg .profile-check .profile-pic img{
+        max-width: 100px;
+        width: 100%;
+    }
+    .luna-msg .ini-msg-luna img{
+        max-width: 80px;
+        margin-left: -20px;
+        margin-top: -10px;
+    }
+    .user-msg .user-msg-bg{
+        max-width: 75%;
+    }
+    .user-msg .name h6{
+        font-size: 14px;
+    }
+    .user-msg .msg p{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .profile-check {
+        margin-left: 10px;
+    }
+    .user-msg .profile-check .profile-pic img{
+        max-width: 100px;
+        width: 100%;
+    }
+    .user-msg .ini-msg-user img{
+        max-width: 20px; 
+    }
+    .user-msg {
+        padding: 5px 0;
+    }
+    .composed-text .composed-text-bg{
+        border-radius: 20px;
+        padding:5px;
+    }
+    .composed-text .send-msg button{
+        border-radius: 50%;
+        width: 35px;
+    }
+    .composed-text .send-msg button i{
+        margin-right: -2px;
+        font-size: 16px;
+        padding: 10px;
+    }
+}

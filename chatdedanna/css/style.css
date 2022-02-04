@@ -1,0 +1,546 @@
+@font-face {
+  font-family: 'tutulos-cursiva';
+  src: url(../css/font/AboutLove.ttf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'cuerpo-p';
+  src: url(../css/font/Champagne\ &\ Limousines.ttf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'bold';
+  src: url(../css/font/LemonMilk.otf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'sub-tittle';
+  src: url(../css/font/MADE\ Sunflower\ PERSONAL\ USE.otf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  background: #fff;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  z-index: -0;
+}
+a:hover, a:active, a:focus {
+  color: #000;
+  outline: none;
+  text-decoration: none;
+}
+p {
+  font-family: 'cuerpo-p';
+}
+h1{
+  text-align: center;
+  font-family: 'tutulos-cursiva';
+}
+.container{
+  width: 100%;
+}
+h3{
+  font-family: 'sub-tittle';
+  font-size: 30px;
+}
+h3 span{
+  font-size: 20px;
+}
+.tittle h2{
+  font-family: 'tutulos-cursiva';
+  font-size: 60px;
+}
+.tittle h4{
+  font-family: 'cuerpo-p';
+  font-weight: bold;
+  font-size: 24px;
+}
+@media (max-width:528px){
+  h1{
+    font-size: 25px;
+  }
+  h3{
+    font-size: 29px;
+  }
+  h3 span{
+    font-size: 20px;
+  }
+}
+
+.movil{
+  display: none;
+}
+@media (max-width:767px){
+  .escritorio{
+    display: none;
+  }
+  .movil{
+    display: block;
+  }
+}
+/* bar-init */
+#bar-init{
+  padding: 3px 0;
+  text-align: center;
+  background: #fdeee7;
+}
+#bar-init .bar-text h1{
+  margin-top: 10px;
+  font-family: 'bold';
+}
+#bar-init .bar-text img{
+  max-width: 40px;
+  margin-top: -2px;
+}
+#bar-init hr{
+  margin-top: 0;
+  margin-bottom: 5px;
+
+}
+@media (max-width:528px){
+  #bar-init .bar-text h1{
+    margin-top: 4px;
+  }
+  #bar-init {
+    margin-bottom: 10px;
+  }
+  #bar-init hr{
+    display: none;
+  }
+  #bar-init .bar-text{
+    padding-top: 5px;
+  }
+  #bar-init .bar-text img{
+    max-width: 20px;
+    margin-top: -4px;
+  }
+}
+/* main */
+main{
+  background: url(../img/fondo.png) center;
+  background-size: 100%;
+}
+/* header */
+header{
+  /* background: url(../img/bg_header_escritorio.png) top;
+  background-size: contain;
+  background-repeat: repeat-x; */
+  width: 100%;
+  padding: 20px 0 50px 0;
+}
+/* header content-p-1 escritorio*/
+header .content-p-1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+header .content-p-1 p{
+  font-size: 25px;
+  max-width: 390px;
+  display: block;
+  margin: auto;
+  line-height: 30px;
+}
+header .img-tarotista{
+  padding-top: 20px;
+}
+header .img-tarotista img{
+  max-width: 350px;
+}
+/* header content-p-1 movil*/
+header .movil{
+  display: none;
+}
+header .movil .header-p1{
+  align-items: center;
+}
+header .movil .header-p1 h3{
+  margin-top: 20px;
+}
+header .img-tarotista-movil img{
+  max-width: 110px;
+  margin-right: 20px;
+  padding: 10px 0;
+}
+header .movil .text .tittle{
+  max-width: 150px;
+  -webkit-transform: rotate(-20deg); 
+  -moz-transform: rotate(-20deg);
+}
+header .movil .text .tittle h2{
+  line-height: 40px;
+}
+header .movil p{
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 500px;
+  padding-bottom: 7px;
+}
+header .movil .text .tittle span{
+  font-size: 45px;
+  margin-top: -20px;
+}
+@media (max-width:767px){
+  header{
+    width: 100%;
+    padding: 0 0 50px 0;
+  }
+  header .escritorio{
+    display: none;
+  }
+  header .movil{
+    display: block;
+  }
+  header .content-p-1{
+    padding-bottom: 0px;
+  }
+}
+@media (max-width:528px){
+  header .movil .header-p1 h3{
+    margin-top: 20px;
+  }
+}
+/* header content-p-2 */
+header .content-p-2{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* sobremi */
+#sobremi {
+  background: url(../img/fondotarotistaordenador.png) top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+#sobremi .img-sobremi img{
+  max-width: 600px;
+  width: 100%;
+}
+#sobremi .text-sobremi{
+  text-align: center;
+}
+#sobremi .text-sobremi p{
+  font-size: 23px;
+  line-height: 30px;
+}
+@media (max-width:528px){
+  #sobremi {
+    padding: 30px 0;
+    background: url(../img/bg-sobremi-movil.png) top;
+    background-size: 100%;
+  }
+  #sobremi .img-sobremi img{
+    max-width: 200px;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  #sobremi .text-sobremi p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+/* video */
+video {
+  width: 100%;
+}
+/* estilodevida */
+#estilodevida{
+  padding: 50px 0;
+  background: url(../img/bg-estilodevida.png) top;
+  background-size: 100%;
+  background-repeat: repeat-y;
+  margin-top: -10px;
+}
+#estilodevida .text-content{
+  text-align: center;
+}
+#estilodevida .text-content .tittle{
+  padding: 30px 0;
+}
+#estilodevida .text-content .tittle h2{
+  font-size: 38px;
+}
+#estilodevida .text-content .text span{
+  background: #fff;
+  padding: 5px;
+}
+#estilodevida .text-content .text p{
+  font-size: 23px;
+  line-height: 30px;
+}
+.call-to-action{
+  padding-top: 0px;
+  text-align: center;
+}
+.call-to-action .tittle{
+  max-width: 700px;
+  display: block;
+  margin: auto;
+}
+.call-to-action .botones{
+  display: flex;
+  justify-content: center;
+  padding: 50px 10px 50px 0px;
+}
+.call-to-action .botones .boton-s{
+  display: flex;
+  justify-content: center;
+}
+.call-to-action .boton{
+  padding: 0px 10px 0px 10px;
+}
+.call-to-action .botones .boton-1{
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+.call-to-action .botones .boton img{
+  max-width: 40px;
+  margin-top: -8px;
+}
+.call-to-action .botones .boton-2{
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+.call-to-action .botones .boton-llamada img{
+  max-width: 71px;
+  margin-right: 40px;
+}
+.call-to-action .boton .bg-boton{
+  padding: 3px;
+  border: 2px #e66f75 solid;
+}
+.call-to-action button{
+  background: #e66f75;
+  border-style: none;
+  color: #fff;
+  padding: 25px 20px 20px 20px;
+  width: 100%;
+  font-family: 'cuerpo-p';
+  font-size:30px;
+  height: 100%;
+  line-height: 0px;
+}
+@media (max-width:767px){
+  .call-to-action .bg-boton{
+    display: block;
+    margin: auto;
+  }
+  .call-to-action .botones img{
+    margin-right: 20px;
+  }
+  .call-to-action button{
+    font-size:20px;
+  }
+  .call-to-action .botones .tarifa p{
+    font-size: 10px;
+  }
+}
+@media (max-width:528px){
+  #estilodevida{
+    padding: 0px 0;
+  }
+  #estilodevida .text-content{
+    padding-top: 50px;
+  }
+  #estilodevida .text-content .tittle{
+    padding: 15px 0;
+  }
+  #estilodevida .text-content .text p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .call-to-action{
+    padding-top: 20px;
+  }
+  .call-to-action .tittle h2{
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  .call-to-action .botones{
+    display: block;
+    padding: 0px 10px 50px 0px;
+  }
+  .call-to-action .boton{
+    padding: 10px 10px 10px 10px;
+  }
+  .call-to-action .botones .boton-1{
+    width: 100%;
+  }
+  .call-to-action .botones .boton-2{
+    width: 100%;
+  }
+  .call-to-action .botones .boton-s{
+    display: block;
+  }
+  .call-to-action .botones .boton-llamada img{
+    margin-bottom: 10px;
+    display: block;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  .call-to-action .boton .bg-boton{
+    padding: 3px;
+    width: 210px;
+    border: 2px #e66f75 solid;
+  }
+  .call-to-action button{
+    padding: 15px 0px 10px 0px;
+    font-size:20px;
+    width: 200px;
+    line-height: 0px;
+  }
+}
+/* test */
+#test{
+  margin-top: -120px;
+  padding: 50px 0 50px 0;
+  background: url(../img/test-bg.png) top;
+  background-size: 100% 100%;
+}
+#test .content{
+  padding-top: 130px;
+}
+#test h2{
+  font-family: 'tutulos-cursiva';
+  text-align: center;
+  font-size: 50px;
+}
+#test .text-content p{
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 30px;
+}
+#test .test-box-g{
+  justify-content: center;
+}
+#test .content-box{
+  align-items: center;
+  padding-bottom: 60px;
+} 
+#test .img-test img{
+  max-width: 300px;
+  width: 100%;
+  border-radius: 20px;
+}
+#test .iconos{
+  justify-content: space-between;
+}
+#test .iconos .calification i{
+  margin-right: 7px;
+  font-size: 10px;
+  color: #f39b16;
+}
+#test .iconos .like i{
+  font-size: 20px;
+  color: #ea4c41;
+  padding-top: 5px;
+}
+#test .test-box{
+  max-width: 900px;
+  /* margin: 50px; */
+}
+#test .name h6{
+  color: #094c66;
+  font-weight: bold;
+}
+#test .content-test-text{
+  padding: 0px 100px 0px 10px;
+}
+#test .test-bg{
+  background: url(../img/bg-comentarios.png) center;
+  background-size: 100% 100%;
+  padding: 10px 0 5px 15px;
+}
+#test .content-box .text p{
+  line-height: 19px;
+  font-size: 15px;
+}
+@media (max-width:1199px){
+  #test .test-box {
+    max-width: 900px;
+    margin: 10px;
+  }
+}
+@media (max-width:991px){
+  #test .content-test-text {
+    padding: 0px 80px 0px 10px;
+  }
+  #test .content-box .text p {
+    line-height: 13px;
+    font-size: 12px;
+  }
+}
+@media (max-width:767px){
+  #test .content-box .text p{
+    line-height: 19px;
+    font-size: 15px;
+  }
+}
+@media (max-width:528px){
+  .body-test{
+    height: 550px;
+  }
+  #test{
+    margin-top: -10px;
+    padding: 0px 0 50px 0;
+    background: url(../img/test-bg-movil.png) top;
+    background-size: 100%;
+  }
+  #test .content {
+    padding-top: 50px;
+  }
+  #test h2{
+    font-size: 40px;
+  }
+  #test .content-test-text {
+    padding: 0px 60px 0px 10px;
+  }
+  #test .text-content p{
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 10px;
+  }
+  #test .content-box .text p {
+    line-height: 11px;
+    font-size: 10px;
+  }
+  #test .img-test img{
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  #test .iconos .calification i{
+    margin-right: 5px;
+    font-size: 9px;
+  }
+  #test .iconos .like i{
+    font-size: 15px;
+    padding-top: 8px;
+  }
+  #test .name h6{
+    font-size: 12px;
+  }
+}
+/* footer */
+footer{
+  text-align: center;
+}
+
+@media (max-width:528px){
+  footer p{
+    font-size: 10px;
+  }
+}
