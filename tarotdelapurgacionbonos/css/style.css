@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500&display=swap');
+
+body{
+    background: url(../img/bonos/bg-body-02.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000;
+}
+h1, h2, h3, h5{
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+    color: #534034;
+    letter-spacing: 7px;
+    font-weight: bold;
+}
+h2{
+    font-size: 45px;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: none;
+    letter-spacing: 4px;
+    -webkit-text-stroke: 2px black;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+*span{
+    font-family: 'Raleway', sans-serif;
+}
+.movil{
+    display: none;
+}
+@media (max-width:991px){
+    h1{
+        font-size: 35px !important;
+    }
+    h2{
+        font-size: 32px !important;
+        letter-spacing: 4px !important;
+    }
+    h4{
+        font-size: 20px !important;
+        letter-spacing: 5px !important;
+    }
+    p{
+        font-size: 20px;
+    }
+
+}
+@media (max-width:767px) {
+    h1{
+        font-size: 18px !important;
+    }
+    h2{
+        font-size: 15px !important;
+        letter-spacing: 3px !important;
+    }
+    h4{
+        font-size: 9px !important;
+        letter-spacing: 3px !important;
+        -webkit-text-stroke: 1px black;
+    }
+    p{
+        font-size: 10px;
+    }
+    .movil{
+        display: block;
+    }
+    .escritorio{
+        display: none;
+    }
+}
+/* header */
+#header{
+    text-align: center;
+}
+#header .tittle-bg{
+    padding: 20px 0 5px 0;
+    background-color: #ffeb99;
+}
+#header .tittle-bg h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: lighter;
+}
+#header .sub-tittle{
+    padding: 20px 0 10px 0;
+}
+#header .sub-tittle h4{
+    font-weight: lighter;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+@media (max-width:767px) {
+    #header .tittle-bg{
+        padding: 10px 0 5px 0;
+    }
+    #header .tittle-bg h1{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    #header .sub-tittle{
+        padding: 10px 10px 10px 10px;
+    }
+    #header .sub-tittle h4{
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+}
+
+/* pasos */
+#pasos{
+    padding: 50px 0 50px 0;
+}
+.pasos {
+    background: #fff;
+    padding: 35px 50px;
+    max-width: 930px;
+    display: block;
+    margin: auto;
+}
+#pasos .tittle-bg{
+    background: #534034;
+    color: #ffeb99;
+    padding: 20px 0;
+    text-align: center;
+    max-width: 930px;
+    display: block;
+    margin: auto;
+}
+#pasos .tittle-bg h2{
+    color: #ffeb99;
+    margin: 0;
+}
+#pasos .content-img{
+    padding: 5px;
+}
+#pasos .content-img img{
+    max-width: 300px;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+.paso-d-content {
+    align-items: center;
+}
+.pasos-content-und{
+    align-items: center;
+}
+.paso-2 .ext img{
+    max-width: 280px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.paso-3 .ext img{
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+#pasos .content-text{
+    padding: 30px 5px;
+    width: 80%;
+}
+#pasos .content-text p{
+    line-height: 39px;
+    margin: 0;
+    text-align: center;
+}
+#pasos .pasos-content{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#pasos .pasos-content .tittle-bg{
+    background-color: #ffeb99;
+    padding: 10px 5px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+#pasos .pasos-content .tittle-bg h5{
+    margin: 0;
+    font-size: 28px;
+}
+#pasos .pasos-bg{
+
+}
+#pasos form{
+    background: #fff;
+    padding: 30px 20px;
+}
+#pasos form .form-group input{
+    width: 100%;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+}
+#pasos form .form-group {
+    margin-bottom: 25px;
+    padding: 0 20px;
+}
+#pasos form .form-group input::placeholder{
+    color: #000;
+    opacity: 10;
+}
+#pasos form .form-group-check{
+    margin-bottom: 15px;
+    padding: 0 50px;
+    text-align: center;
+}
+#pasos form .form-group-check label{
+    font-family: 'Raleway', sans-serif;
+}
+#pasos button{
+    background: #534034;
+    border-style: none;
+    color: #ffeb99;
+    padding: 5px 20px;
+    width: 100%;
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+    letter-spacing: 4px;
+    border-radius: 0px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+#pasos hr{
+    border: 7px #ffeb99 solid;
+    margin: 0 0 15px 0;
+}
+#pasos .tittle-bg-p{
+    background: #534034;
+    color: #ffeb99;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+#pasos .tittle-bg-p h2{
+    color: #ffeb99;
+    margin: 0;
+}
+@media (max-width:991px){
+    #pasos{
+        padding: 30px 0 30px 0;
+    }
+    .pasos {
+        background: #fff;
+        padding: 35px 50px;
+        max-width: 670px;
+    }
+    #pasos .tittle-bg{
+        max-width: 670px;
+    }
+    .paso-2 .ext img{
+        max-width: 150px;
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .paso-3 .ext img{
+        max-width: 200px;
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+    #pasos .pasos-content .tittle-bg h5{
+        font-size: 24px;
+    }
+    #pasos .content-text p{
+        line-height: 24px;
+    }
+    #pasos button{
+        padding: 3px 20px;
+        font-size: 23px;
+        letter-spacing: 3px;
+        box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
+        margin-top: 10px;
+    }
+    #pasos hr{
+        border: 4px #ffeb99 solid;
+        margin: 0 0 15px 0;
+    }
+}
+@media (max-width:767px) {
+    #pasos{
+        padding: 20px 0 30px 0;
+    }
+    .pasos {
+        background: #fff;
+        padding: 15px 15px;
+        max-width: 300px;
+    }
+    #pasos .tittle-bg{
+        max-width: 300px;
+    }
+    .paso-2 .ext img{
+        max-width: 70px;
+        margin-top: 10px;
+    }
+    .paso-3 .ext img{
+        max-width: 100px;
+        margin-top: 10px;
+    }
+    #pasos .pasos-content .tittle-bg h5{
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    #pasos .content-text p{
+        line-height: 17px;
+    }
+    #pasos button{
+        padding: 3px 6px;
+        font-size: 11px;
+        letter-spacing: 2px;
+        box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
+        margin-top: 10px;
+    }
+    #pasos hr{
+        border: 4px #ffeb99 solid;
+        margin: 0 0 15px 0;
+    }
+}
+
+/* presentacion */
+#presentacion .presentacion-bg{
+    background: #fff;
+    border-radius: 0px;
+    padding: 30px 50px 10px 50px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+    max-width: 930px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#presentacion .content-text p{
+    text-align: center;
+}
+#presentacion .presentacion-bg .col-md-8{
+    text-align: center;
+}
+#presentacion .presentacion-bg .tittle{
+    margin-bottom: 20px;
+}
+#presentacion .presentacion-bg .img-presentation-tarotist img{
+    max-width: 230px;
+    width: 100%;
+    margin-top: 0px;
+}
+@media (max-width:991px){
+    #presentacion .content-text p{
+        text-align: center;
+    }
+    #presentacion .presentacion-bg{
+        padding: 30px 50px 10px 50px;
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+        max-width: 670px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:767px){
+    #presentacion{
+        padding: 0;
+    }
+    #presentacion .presentacion-bg{
+        border-radius: 0px;
+        padding: 20px;
+    }
+    #presentacion .content-text p{
+        text-align: center;
+    }
+    #presentacion .presentacion-bg .img-presentation-tarotist img{
+        max-width: 200px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
+
+/* card-amor */
+#card-amor{
+    background: #fff;
+    padding-bottom: 50px;
+}
+#card-amor .tittle-bg{
+    background: #ffeb99;
+    color: #534034;
+    padding: 10px 0;
+    text-align: center;
+}
+#card-amor .tittle-bg h3{
+    color: #534034;
+    margin: 0;
+}
+#card-amor .tittle-bg h6{
+    font-weight: lighter;
+    font-size: 40px;
+}
+#card-amor .bono{
+    max-width: 950px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#card-amor .bono img{
+    width: 100%;
+}
+#card-amor .boton button{
+    background: #534034;
+    letter-spacing: 6px;
+    color: #ffff00;
+    text-transform: uppercase;
+    border-style: none;
+    padding: 7px 20px;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.8);
+}
+@media (max-width:991px){
+    #card-amor .tittle-bg h6{
+        font-weight: lighter;
+        font-size: 30px !important;
+        margin: 0;
+    }
+    #card-amor .boton button{
+        letter-spacing: 4px;
+        padding: 7px 20px;
+        font-size: 20px !important;
+        box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.8);
+    }
+}
+@media (max-width:767px){
+    #card-amor .tittle-bg h6{
+        font-weight: lighter;
+        font-size: 14px;
+        margin: 0;
+    }
+    #card-amor .boton button{
+        letter-spacing: 2px;
+        padding: 7px 10px;
+        font-size: 10px !important;
+        box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.8);
+    }
+}
+
+/* realizaconsulta */
+#realizaconsulta{
+    background: linear-gradient(to top, #f7ec66, #ffeb99);
+    padding: 0 0 100px 0;
+}
+#realizaconsulta .tittle-bg{
+    background: #534034;
+    color: #ffeb99;
+    padding: 20px 0;
+    margin: 0 0 50px 0;
+    text-align: center;
+}
+#realizaconsulta .tittle-bg h2{
+    color: #ffeb99;
+    margin: 0;
+}
+#realizaconsulta .content-text{
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    margin-bottom: 60px;
+}
+#realizaconsulta .content-text span{
+    width: 5px;
+    height: 5px;
+    padding: 0px 20px 8px 20px;
+    font-size: 50px;
+    background: #534034;
+    border-radius: 50%;
+    color: #ffeb99;
+    font-weight: bold;
+    margin-right: 10px;
+}
+#realizaconsulta .content-text p{
+    font-weight: bold;
+    font-size: 40px;
+}
+#realizaconsulta .boton button{
+    font-size: 70px;
+    width: 780px;
+    background: #534034;
+    border-style: none;
+    border-radius: 0px;
+    color: #ffeb99;
+    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.8);
+    display: block;
+    margin: auto;
+}
+@media (max-width:991px){
+    #realizaconsulta{
+        padding: 0 0 80px 0;
+    }
+    #realizaconsulta .tittle-bg{
+        padding: 20px 0;
+        margin: 0 0 30px 0;
+    }
+    #realizaconsulta .content-text{
+        max-width: 450px;
+        margin-bottom: 60px;
+    }
+    #realizaconsulta .content-text span{
+        width: 5px;
+        height: 5px;
+        padding: 0px 14px 8px 14px;
+        font-size: 30px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    #realizaconsulta .content-text p{
+        font-size: 30px;
+    }
+    #realizaconsulta .boton button{
+        font-size: 45px;
+        width: 550px;
+    }
+}
+@media (max-width:767px){
+    #realizaconsulta{
+        padding: 0 0 50px 0;
+    }
+    #realizaconsulta .tittle-bg{
+        padding: 20px 0;
+        margin: 0 0 30px 0;
+    }
+    #realizaconsulta .content-text{
+        max-width: 190px;
+        margin-bottom: 40px;
+    }
+    #realizaconsulta .content-text span{
+        width: 5px;
+        height: 5px;
+        padding: 0px 7px 4px 7px;
+        font-size: 15px;
+        border-radius: 50%;
+        margin-right: 10px;
+        line-height: 8px;
+    }
+    #realizaconsulta .content-text p{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    #realizaconsulta .boton button{
+        font-size: 30px;
+        width: 280px;
+    }
+}
+
+/* call-to-action */
+#call-to-action{
+    background: url(../img/bonos/bg-form.png) center;
+    background-size: cover;
+    padding: 0;
+    text-align: center;
+}
+#call-to-action .tittle-bg{
+    background: #534034;
+    color: #ffeb99;
+    padding: 20px 0;
+    margin: 0 0 0px 0;
+    text-align: center;
+}
+#call-to-action .tittle-bg h2{
+    color: #ffeb99;
+    margin: 0;
+}
+#call-to-action .form{
+    padding: 100px 0 170px 0;
+    max-width: 780px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#call-to-action form .form-group{
+    margin-bottom: 40px;
+}
+#call-to-action form input{
+    width: 100%;
+    font-size: 35px;
+    text-indent: 15px;
+    height: 70px;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+#call-to-action form button{
+    background: #ffeb99;
+    color: #534034;
+    letter-spacing: 5px;
+    text-transform: none;
+    border-style: none;
+    padding: 8px 50px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.8);
+}
+#call-to-action form input::placeholder{
+    opacity: 10;
+}
+#call-to-action .term{
+    padding: 20px 15px;
+    background: #fff;
+}
+#call-to-action .term p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+@media (max-width:991px){
+    #call-to-action .form{
+        padding: 60px 0 110px 0;
+        max-width: 550px;
+    }
+    #call-to-action form .form-group{
+        margin-bottom: 30px;
+    }
+    #call-to-action form input{
+        font-size: 25px;
+        text-indent: 15px;
+        height: 50px;
+        color: #000;
+        font-family: 'Raleway', sans-serif;
+    }
+    #call-to-action form button{
+        letter-spacing: 5px;
+        padding: 3px 50px;
+        font-size: 25px;
+        box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.8);
+    }
+}
+@media (max-width:767px){
+    #call-to-action .form{
+        padding: 50px 0 70px 0;
+        max-width: 550px;
+    }
+    #call-to-action form .form-group{
+        margin-bottom: 20px;
+    }
+    #call-to-action form input{
+        font-size: 18px;
+        text-indent: 15px;
+        height: 40px;
+        color: #000;
+        font-family: 'Raleway', sans-serif;
+    }
+    #call-to-action form button{
+        letter-spacing: 5px;
+        padding: 3px 50px;
+        font-size: 19px;
+        box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.8);
+    }
+    #call-to-action .term {
+        padding: 10px 5px;
+    }
+    #call-to-action .term p{
+        font-size: 7px;
+    }
+}
+
+/* footer */
+footer{
+    padding: 20px 0;
+    background: #534034;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer .reduced{
+    margin-bottom: -20px;
+}
+@media (max-width:767px){
+    footer .reduced{
+        margin-bottom: -20px;
+    }
+}
