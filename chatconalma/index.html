@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat con Alma</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="img/" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7f19db1c03.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+    <!-- Bootstrap CSS File -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/chat.css" rel="stylesheet">
+</head>
+<body>
+    <!-- <div class="fixed-bar">
+        <div class="content">
+            <div class="fixer-content-bg">
+                <a href="tel:0000000" class="btn btn-primary">
+                    <p><i class="fas fa-phone-volume"></i> 806 557 300</p>
+                    <p><span>1,21€/min red fija; 1,57€/min red móvil. IVA incl.</span></p>
+                </a>
+            </div>
+        </div>
+    </div> -->
+    <header id="header">
+        <div class="container-fluid">
+            <div class="container">
+                <div id="menu-container">
+                    <div id="menu-wrapper">
+                       <div id="hamburger-menu"><span></span><span></span><span></span></div>
+                       <div class="tittle"><h1>TAROT GRATIS POR CHAT</h1></div>
+                       <!-- hamburger-menu -->
+                    </div>
+                    <!-- menu-wrapper -->
+                    <ul class="menu-list accordion">
+                        <li id="nav" class="firts-item toggle accordion-toggle"> 
+                            <!-- <span class="icon-plus"></span> -->
+                            <a class="menu-link" href="#"></a>
+                         </li>
+                       <li id="nav1" class="toggle accordion-toggle"> 
+                          <!-- <span class="icon-plus"></span> -->
+                          <a class="menu-link" data-toggle="modal" data-target="#callUrgentModal">Quiero que Alma me llame</a>
+                       </li>
+                       <!-- accordion-toggle -->
+                       <!-- <ul class="menu-submenu accordion-content">
+                          <li><a class="head" href="#">Submenu1</a></li>
+                          <li><a class="head" href="#">Submenu2</a></li>
+                          <li><a class="head" href="#">Submenu3</a></li>
+                       </ul> -->
+                       <!-- menu-submenu accordon-content-->
+                       <li id="nav2" class="toggle accordion-toggle"> 
+                          <!-- <span class="icon-plus"></span> -->
+                          <a class="menu-link" data-toggle="modal" data-target="#sobremiModal">Saber más sobre Alma </a>
+                       </li>
+                       <!-- accordion-toggle -->
+                       <!-- <ul class="menu-submenu accordion-content">
+                          <li><a class="head" href="#">Submenu1</a></li>
+                          <li><a class="head" href="#">Submenu2</a></li>
+                       </ul> -->
+                       <!-- menu-submenu accordon-content-->
+                        <li id="nav3" class="toggle accordion-toggle"> 
+                          <!-- <span class="icon-plus"></span> -->
+                          <a class="menu-link" data-toggle="modal" data-target="#callUrgentModal">Consulta Urgente</a>
+                       </li>
+                       <!-- accordion-toggle -->
+                       <!-- <ul class="menu-submenu accordion-content">
+                          <li><a class="head" href="#">Submenu1</a></li>
+                          <li><a class="head" href="#">Submenu2</a></li>
+                          <li><a class="head" href="#">Submenu3</a></li>
+                          <li><a class="head" href="#">Submenu4</a></li>
+                       </ul> -->
+                       <!-- menu-submenu accordon-content-->
+                    </ul>
+                    <!-- menu-list accordion-->
+                 </div>
+                 <!-- menu-container -->
+
+
+                <!-- ventanas emergentes menu -->
+                <!-- quien es alma -->
+                <div class="modal fade" id="sobremiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="sobremiModalLabel"></h5>
+                                <h6></h6>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                 </button>
+                            </div>
+                            <div class="modal-body">
+                                <h3>¿Quién es alma</h3>
+                                <h6>Mi nombre es Alma, tengo 52 años y soy vidente de nacimiento y tarotista.</h6>
+                                <p>Mi iniciación con el Tarot fue a los 14 años, cuando mi abuela me enseñó a conectar y potenciar mi don de la videncia a través de las cartas. En ese momento pasé a ayudarla en su consultorio presencial en Cadaqués. Fue ahí donde descubrí que el tarot es una herramienta muy poderosa para descubrir las verdades y seguir el camino que nos marca el universo. Solo ahí se encuentra la felicidad.</p>
+                                <p>Muchas personas reciben señales a diario que pretenden guiarles a la abundancia económica y sentimental, pero por las prisas, la incredulidad y la falta de conexión no son capaces de verlas. Ahí es donde el tarot te ayuda a descubrir cuál es tu camino para conseguir lo que deseas.</p>
+                                <p><span><b>Si has llegado hasta mi es porque necesitas ayuda para encontrar tu camino. Déjame tus datos por chat para que pueda llamarte o LLÁMAME AL 806 577 300.</b></span></p>
+                                <div class="firma-tarif">
+                                    <h6>Alma del Rosal</h6>
+                                    <span>1,21€/min red fija; 1,57€/min red móvil. IVA incl.</span>
+                                </div>
+                            </div>
+                            <!-- <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div> -->
+                        </div>
+                    </div>
+                 </div><!-- fin quien es alma -->
+
+                 <!-- llamada urgente alma -->
+                <div class="modal fade" id="callUrgentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="callUrgentModalLabel"></h5>
+                                <h6></h6>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                 </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Cielo, si tu consulta es urgente,<b> llámame ahora al 806 557 300.</b></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Llamar</button>
+                            </div>
+                        </div>
+                    </div>
+                 </div><!-- fin llamada urgente alma -->
+
+
+
+                 <div class="conten-header">
+                     <div class="d-flex content">
+                         <!-- <div class="cupon-dorado">
+                             <img src="img/cupon-dorado.png" alt="">
+                         </div> -->
+                     </div>
+                     <div class="img-logo">
+                         <img src="img/logo-tarotist-com.png" alt="">
+                     </div>
+                 </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="chat">
+        <div class="container">
+            <div class="content">
+                <div class="chat">
+                    <div class="header-chat">
+                        <div class="header-chat-bg d-flex">
+                            <div class="d-flex profile-line">
+                                <div class="profile-img">
+                                    <img src="img/profile.png" alt="">
+                                </div>
+                                <div class="online-name">
+                                    <h4><i class="fas fa-circle"></i>En línea con <b>ALMA</b></h4>
+                                </div>
+                            </div>
+                            <div class="date">
+                                <p><span id="date" class="date">Lunes, 17 Enero</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-content">
+                        <div class="bg-chat-content">
+
+                            <div class="msg-alma">
+                                <div class="bg-msg-alma">
+                                    <p>Hola, soy Alma, vidente de nacimiento y tarotista desde 1.989</p>
+                                    <p>Te doy la bienvenida a mi servicio de chat gratuito. Si has llegados hasta aquí es porque hay algo que te preocupa y mis cartas tienen la respuesta que necesitas</p>
+                                    <span id="time">11:11</span>
+                                </div>
+                            </div>
+
+                            <div class="msg-alma">
+                                <div class="bg-msg-alma">
+                                    <p>Antes de empezar a barajar necesito que me digas 3 cosas. Primero, tu nombre de pila.</p>
+                                    <span id="time">11:11</span>
+                                </div>
+                            </div>
+
+                            <div class="msg-user">
+                                <div class="bg-msg-user">
+                                    <p>Juan Pablo Restrepo</p>
+                                    <span id="time">11:11</span>
+                                </div>
+                            </div>
+
+                            <!-- <div class="aviso" id="aviso">
+                                <div class="content">
+                                    <img src="img/aviso-chat.png" alt="">
+                                </div>
+                            </div> -->
+
+                        </div>
+                    </div>
+
+                    <div class="composed-text">
+                        <div class="bg-composed-text">
+                            <div class="aviso" id="aviso">
+                                <div class="content">
+                                    <img src="img/aviso-chat.png" alt="">
+                                </div>
+                            </div>
+                            <div class="composed-text-content d-flex">
+                                <div class="emoji-select">
+                                    <i class="far fa-smile"></i>
+                                </div>
+                                <div class="bg-white" onclick="myFunctionB1()">
+                                    <div class="border d-flex">
+                                        <div class="select-respuesta" >
+                                            <select name="">
+                                                <option value="">Selecciona tu respuesta</option>
+                                                <option value="">option2</option>
+                                                <option value="">option3</option>
+                                                <option value="">option4</option>
+                                                <option value="">option5</option>
+                                                <option value="">option6</option>
+                                            </select>
+                                        </div>
+                                        <div class="boton-send">
+                                            <button type="submit">Enviar</button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="enviar-icono">
+                                    <i class="fas fa-paper-plane"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section id="oferta">
+        <div class="container">
+            <div class="content">
+                <div class="tittle">
+                    <h3>oferta de bienvenida</h3>
+                </div>
+                <div class="bono">
+                    <img src="img/bono-morado.png" alt="">
+                </div>
+                <div class="content-text">
+                    <p>Si tu consulta es <b>URGENTE</b> y necesitas resolver tus dudas ya, llámame a mi número directo <b>965021452.</b> Los 20 primeros podrán disfrutar de una tirada al mejor precio.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section id="sobremi">
+        <div class="tittle-n">
+            <h2>¿Quién es Alma?</h2>
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="sub-tittle">
+                    <h5>Soy Alma, tengo 52 años y soy vidente de nacimiento y tarotista.</h5>
+                </div>
+                <div class="content-text">
+                    <p>Mi iniciación con el Tarot fue a los 14 años, cuando mi abuela me enseñó a conectar y potenciar mi don de la videncia a través de las cartas. En ese momento pasé a ayudarla en su consultorio presencial en Cadaqués. Fue ahí donde descubrí que el tarot es una herramienta muy poderosa para descubrir las verdades y seguir el camino que nos marca el universo. Solo ahí se encuentra la felicidad.</p>
+                    <p>Muchas personas reciben señales a diario que pretenden guiarles a la abundancia económica y sentimental, pero por las prisas, la incredulidad y la falta de conexión no son capaces de verlas. Ahí es donde el tarot te ayuda a descubrir cuál es tu camino para conseguir lo que deseas.</p>
+                    <p>Desde hace unos meses he creado este chat para poder hacer tiradas rápidas de tarot gratis para resolver esas dudas que no nos dejan descansar y vivir en paz y en armonía con las bondades de la vida. Cuando la situación es complicada y es necesario profundizar en las respuestas, ofrezco a la persona una consulta telefónica para tratar el tema y que se pueda resolver lo más rápido posible para encontrar el camino correcto que le lleve a la felicidad. Trabajo desde mi casa, no pertenezco a ningún gran gabinete.</p>
+                    <p>Si has llegado hasta mi es porque necesitas ayuda para encontrar tu camino. Haz tu consulta por el chat de esta web o LLÁMAME AL 806 577 300.</p>
+                </div>
+                <div class="firma-tarif">
+                    <h6>Alma del Rosal</h6>
+                    <span>1,21€/min red fija; 1,57€/min red móvil. IVA incl.</span>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="opiniones">
+        <!-- <div class="tittle-n">
+            <h2>opiniones</h2>
+        </div> -->
+        <div class="container">
+            <div class="content">
+
+                <!-- <div class="opinion op-1">
+                    <div class="box">
+                        <div class="img-test">
+                            <img src="img/opinion-1.png" alt="">
+                        </div>
+                        <div class="name">
+                            <h5>Ana Martínez (Elche)</h5>
+                        </div>
+                        <div class="calification">
+                            <img src="img/califiacion-4.png" alt="">
+                        </div>
+                        <div class="content-opinion">
+                            <p>Recomiendo encarecidamente las tiradas de Alma. Transmite mucha confianza desde el primer momento y a mí me aporto una paz increíble al poder descubrir lo que mi marido tanto me había negado. Me dio nombres, fechas exactas y la solución a conflicto sentimental. Gracias por tanto Alma.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="opinion op-2">
+                    <div class="box">
+                        <div class="img-test">
+                            <img src="img/opinion-2.png" alt="">
+                        </div>
+                        <div class="name">
+                            <h5>Arturo G. (Pontevedra)</h5>
+                        </div>
+                        <div class="calification">
+                            <img src="img/calificacion-5.png" alt="">
+                        </div>
+                        <div class="content-opinion">
+                            <p>Tenía muchas dudas cuando llegué hasta la web de Alma. Ya me habían engañado en otras ocasiones, pero esta vez desde el primer minuto pude ver que Alma era totalmente sincera y una gran profesional del tarot y la videncia. Resolví un problema familiar que me atormentaba desde hacía un año en menos de 48 horas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="opinion op-3">
+                    <div class="box">
+                        <div class="img-test">
+                            <img src="img/opinion-3.png" alt="">
+                        </div>
+                        <div class="name">
+                            <h5>Encarnita Hernández (sanchinarro)</h5>
+                        </div>
+                        <div class="calification">
+                            <img src="img/califiacion-4.png" alt="">
+                        </div>
+                        <div class="content-opinion">
+                            <p>Las 3 cosas que Alma me dijo que me pasarían sucedieron tal y como me las describió. Una pena que en su día no confié del todo en lo que me decía porque tenía una gran venda que no me dejaba verlo. Alma, volveré a llamarte sin duda y esta vez confiaré 100% en ti. Si te hubiese hecho caso podría haber solucionado las cosas a tiempo y no habría sufrido de esta manera. LA RECOMENDARÉ SIEMPRE.</p>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="opinion op-4">
+                    <div class="box">
+                        <div class="img-test">
+                            <img src="img/opinion-4.png" alt="">
+                        </div>
+                        <div class="name">
+                            <h5>Esther Carrasco (Málaga)</h5>
+                        </div>
+                        <div class="calification">
+                            <img src="img/calificacion-5.png" alt="">
+                        </div>
+                        <div class="content-opinion">
+                            <p>He consultado 2 veces el tarot de Alma. Una vez por chat y otra vez por teléfono y las 2 veces acertó en todo lo que me dijo. Recomiendo la consulta telefónica porque es donde de verdad vas a poder conocer todos todos los detalles. Yo pude saber hasta nombres de personas que no me estaban haciendo ningún bien a mi vida. Gracias Alma.</p>
+                        </div>
+                    </div>
+                </div> -->
+
+
+                <!-- <div class="img-logo">
+                    <img src="img/logo-img.png" alt="">
+                </div> -->
+
+            </div>
+        </div>
+        <div class="content-footer">
+            <p><a href="">Condiciones legales</a> - <a href="">Política de privacidad</a> </p>
+        </div>
+    </section>
+
+
+    <!-- <footer id="footer">
+        <div class="container-fluid">
+            <div class="content">
+                <p><a href="">Condiciones legales</a> - <a href="">Polític de privacidad</a> </p>
+            </div>
+        </div>
+    </footer> -->
+
+
+
+    <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
