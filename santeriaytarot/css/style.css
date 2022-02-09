@@ -93,6 +93,9 @@
     font-size: 80px;
     line-height: 0;
   }
+  header .spc_loog_main_top .name_header span {
+    
+  }
   header .spc_subtit {
     width: 100%;
     display: -webkit-box;
@@ -129,6 +132,10 @@
   .sec_tirada .spc_sec_tirada .line_sbttle {
     font-size: 35px;
     text-align: center;
+  }
+  .sec_tirada .spc_sec_tirada .tittle-pp{
+    margin-bottom: 60px;
+    margin-top: -50px;
   }
   .sec_tirada .spc_sec_tirada .spc_main_stories {
     display: -ms-grid;
