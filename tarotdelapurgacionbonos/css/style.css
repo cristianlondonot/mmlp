@@ -14,7 +14,7 @@ h1, h2, h3, h5{
     font-weight: bold;
 }
 h2{
-    font-size: 45px;
+    font-size: 60px;
 }
 h4{
     font-family: 'Montserrat', sans-serif;
@@ -106,7 +106,7 @@ p{
         padding: 10px 0 5px 0;
     }
     #header .tittle-bg h1{
-        font-size: 18px;
+        font-size: 25px !important;
         letter-spacing: 3px;
     }
     #header .sub-tittle{
@@ -191,7 +191,7 @@ p{
 }
 #pasos .pasos-content .tittle-bg h5{
     margin: 0;
-    font-size: 28px;
+    font-size: 38px;
 }
 #pasos .pasos-bg{
 
@@ -431,7 +431,7 @@ p{
 #card-amor .boton button{
     background: #534034;
     letter-spacing: 6px;
-    color: #ffff00;
+    color: #f7ec66;
     text-transform: uppercase;
     border-style: none;
     padding: 7px 20px;
@@ -458,7 +458,7 @@ p{
 @media (max-width:767px){
     #card-amor .tittle-bg h6{
         font-weight: lighter;
-        font-size: 14px;
+        font-size: 14px !important;
         margin: 0;
     }
     #card-amor .boton button{
