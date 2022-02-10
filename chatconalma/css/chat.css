@@ -7,7 +7,7 @@
 }
 #chat .header-chat-bg{
     background: #075e55;
-    padding: 20px 0;
+    padding: 20px 20px;
     align-items: center;
     justify-content: space-between;
     border-radius: 0;
@@ -69,7 +69,8 @@
 }
 
 .aviso{
-    width: 80%;
+    max-width: 900px;
+    width: 100%;
     position: absolute;
     top: -160px;
     right: 0;
@@ -156,7 +157,7 @@
 @media (max-width:991px){
     /* header-chat */
     #chat .header-chat-bg{
-        padding: 13px 0;
+        padding: 13px 13px;
     }
     #chat .header-chat .profile-line .profile-img img{
         max-width: 75px;
@@ -176,6 +177,13 @@
     .bg-chat-content {
         padding: 30px 15px 30px 15px;
         max-height: 600px;
+    }
+    .aviso {
+        max-width: 570px;
+        width: 100%;
+        position: absolute;
+        top: -80px;
+        right: 0;
     }
     /* msg-alma */
     .bg-chat-content .msg-alma{
@@ -247,7 +255,7 @@
 @media (max-width:767px){
     /* header-chat */
     #chat .header-chat-bg{
-        padding: 13px 0;
+        padding: 13px 13px;
     }
     #chat .header-chat .profile-line .profile-img img{
         max-width: 50px;
@@ -269,11 +277,12 @@
         max-height: 600px;
     }
     .aviso {
-        width: 80%;
+        max-width: 270px;
+        width: 100%;
         position: absolute;
         top: -40px;
         right: 0;
-      }
+    }
     /* msg-alma */
     .bg-chat-content .msg-alma{
         padding: 5px;

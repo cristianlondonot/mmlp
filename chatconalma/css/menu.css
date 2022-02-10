@@ -18,7 +18,7 @@ ul li .menu-link:hover{
 
 #menu-wrapper .tittle{
     float: right;
-    margin-top: -52px;
+    margin-top: -47px;
     color: #3e3860;
 }
 
@@ -71,7 +71,7 @@ ul li .menu-link:hover{
     padding-bottom: 20px;
 }
 #menu-container .menu-list {
-    margin-top: -105px;
+    margin-top: -90px;
     padding-left: 0;
     display: block;
     position: absolute;
@@ -107,7 +107,7 @@ ul li .menu-link:hover{
 }
 @media (max-width:1200px){
     #menu-wrapper .tittle {
-        margin-top: -48px;
+        margin-top: -40px;
     }
     #menu-container .menu-list {
         margin-top: -88px;
