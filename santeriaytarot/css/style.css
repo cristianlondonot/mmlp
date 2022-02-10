@@ -677,6 +677,15 @@
     .name_header h1 {
       font-size: 50px !important;
     }
+
+    .sec_tirada .spc_sec_tirada .tittle-pp{
+      margin-bottom: 20px;
+      margin-top: 0px;
+    }
+
+    .sec_tirada .spc_sec_tirada .spc_main_stories .spc_stories p {
+      font-size: 15px;
+    }
   
     .spc_subtit {
       padding: 5px 0 !important;
