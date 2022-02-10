@@ -496,7 +496,7 @@
     font-size: 40px;
     font-weight: bold;
     color: #000;
-    padding: 5px 30px;
+    padding: 5px 30px 0 30px;
     border-radius: 20px;
   }
   .info_seo .main_info_sec_seo .line_info_tarotista .box_info_tarotista .spc_button_contact a span {
@@ -504,13 +504,15 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 0.5em;
+    margin-right: 0;
   }
   .info_seo .main_info_sec_seo .line_info_tarotista .box_info_tarotista .spc_button_contact a span img {
-    width: 100%;
+    width: 50px;
+    margin-top: -10;
+    margin-right: 10px;
   }
   .info_seo .main_info_sec_seo .line_info_tarotista .box_info_tarotista .spc_button_contact p {
-    color: #000;
+    color: #000
   }
   
   footer {
@@ -686,6 +688,19 @@
     .sec_tirada .spc_sec_tirada .spc_main_stories .spc_stories p {
       font-size: 15px;
     }
+
+    .info_seo .main_info_sec_seo .line_info_tarotista .box_info_tarotista .spc_button_contact a {
+      font-size: 20px !important;
+    }
+
+    .info_seo .main_info_sec_seo .line_info_tarotista .box_info_tarotista .spc_button_contact a span {
+      width: 20px;
+      margin-top: 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-right: 0;
+    }
   
     .spc_subtit {
       padding: 5px 0 !important;
@@ -767,10 +782,12 @@
       font-size: 30px;
     }
     .info_seo .main_info_sec_seo .line_info_tarotista .box_info_tarotista .spc_button_contact a span img {
-      width: 30px;
+      width: 20px;
+      margin-top: -5px;
+      margin-right: 5px;
     }
     .info_seo .main_info_sec_seo .line_info_tarotista .box_info_tarotista .spc_button_contact a {
-      padding: 5px 10px;
+      padding: 5px 25px 0 10px !important;
     }
     .font_diff1 img {
       width: 75px;
