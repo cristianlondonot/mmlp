@@ -32,6 +32,10 @@ p{
 .movil{
     display: none;
 }
+.container-fluid{
+    padding-left: 100px;
+    padding-right: 100px;
+}
 @media (max-width:991px){
     h1{
         font-size: 35px !important;
@@ -50,6 +54,10 @@ p{
 
 }
 @media (max-width:767px) {
+    .container-fluid{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     h1{
         font-size: 18px !important;
     }
@@ -77,13 +85,13 @@ p{
     text-align: center;
 }
 #header .tittle-bg{
-    padding: 20px 0 5px 0;
+    padding: 30px 0 25px 0;
     background-color: #ffeb99;
 }
 #header .tittle-bg h1{
     margin: 0;
-    font-size: 50px;
-    font-weight: lighter;
+    font-size: 70px;
+    font-weight: normal;
 }
 #header .sub-tittle{
     padding: 20px 0 10px 0;
@@ -91,7 +99,7 @@ p{
 #header .sub-tittle h4{
     font-weight: lighter;
     letter-spacing: 5px;
-    font-size: 30px;
+    font-size: 40px;
 }
 @media (max-width:767px) {
     #header .tittle-bg{
@@ -117,7 +125,6 @@ p{
 .pasos {
     background: #fff;
     padding: 35px 50px;
-    max-width: 930px;
     display: block;
     margin: auto;
 }
@@ -126,7 +133,6 @@ p{
     color: #ffeb99;
     padding: 20px 0;
     text-align: center;
-    max-width: 930px;
     display: block;
     margin: auto;
 }
@@ -238,7 +244,7 @@ p{
 }
 #pasos hr{
     border: 7px #ffeb99 solid;
-    margin: 0 0 15px 0;
+    margin: 0 0 10px 0;
 }
 #pasos .tittle-bg-p{
     background: #534034;
@@ -292,8 +298,8 @@ p{
         margin-top: 10px;
     }
     #pasos hr{
-        border: 4px #ffeb99 solid;
-        margin: 0 0 15px 0;
+        border: 3px #ffeb99 solid;
+        margin: 0 0 8px 0;
     }
 }
 @media (max-width:767px) {
@@ -303,10 +309,10 @@ p{
     .pasos {
         background: #fff;
         padding: 15px 15px;
-        max-width: 300px;
+        
     }
     #pasos .tittle-bg{
-        max-width: 300px;
+        
     }
     .paso-2 .ext img{
         max-width: 70px;
@@ -331,8 +337,8 @@ p{
         margin-top: 10px;
     }
     #pasos hr{
-        border: 4px #ffeb99 solid;
-        margin: 0 0 15px 0;
+        border: 3px #ffeb99 solid;
+        margin: 0 0 8px 0;
     }
 }
 
@@ -342,12 +348,13 @@ p{
     border-radius: 0px;
     padding: 30px 50px 10px 50px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
-    max-width: 930px;
     display: block;
     margin: auto;
     margin-bottom: 50px;
 }
-
+#presentacion .presentacion-bg-aling{
+    align-items: center;
+}
 #presentacion .content-text p{
     text-align: center;
 }
@@ -361,6 +368,8 @@ p{
     max-width: 230px;
     width: 100%;
     margin-top: 0px;
+    display: block;
+    margin: auto;
 }
 @media (max-width:991px){
     #presentacion .content-text p{
@@ -412,7 +421,6 @@ p{
     font-size: 40px;
 }
 #card-amor .bono{
-    max-width: 950px;
     width: 100%;
     display: block;
     margin: auto;
@@ -463,7 +471,7 @@ p{
 
 /* realizaconsulta */
 #realizaconsulta{
-    background: linear-gradient(to top, #f7ec66, #ffeb99);
+    background: linear-gradient(to top, #f7ec66, #fcf1c7);
     padding: 0 0 100px 0;
 }
 #realizaconsulta .tittle-bg{
@@ -588,7 +596,6 @@ p{
 }
 #call-to-action .form{
     padding: 100px 0 170px 0;
-    max-width: 780px;
     width: 100%;
     display: block;
     margin: auto;
