@@ -305,7 +305,7 @@ video {
   margin: auto;
 }
 .call-to-action .botones .boton img{
-  max-width: 40px;
+  max-width: 30px;
   margin-top: -8px;
 }
 .call-to-action .botones .boton-2{
@@ -314,8 +314,9 @@ video {
   margin: auto;
 }
 .call-to-action .botones .boton-llamada img{
-  max-width: 71px;
-  margin-right: 40px;
+  max-width: 55px;
+  margin-right: 20px;
+  margin-bottom: -9px;
 }
 .call-to-action .boton .bg-boton{
   padding: 3px;
@@ -332,10 +333,13 @@ video {
   height: 100%;
   line-height: 0px;
 }
+.call-to-action .botones .tarifa {
+  margin: 20px 0 0 70px;
+}
 @media (max-width:767px){
   .call-to-action .bg-boton{
     display: block;
-    margin: auto;
+    margin: 0 0 0 10px;
   }
   .call-to-action .botones img{
     margin-right: 20px;
@@ -366,11 +370,11 @@ video {
   }
   .call-to-action .tittle h2{
     font-size: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .call-to-action .botones{
     display: block;
-    padding: 0px 10px 50px 0px;
+    padding: 0px;
   }
   .call-to-action .boton{
     padding: 10px 10px 10px 10px;
@@ -388,7 +392,8 @@ video {
     margin-bottom: 10px;
     display: block;
     margin: auto;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
+    max-width: 40px;
   }
   .call-to-action .boton .bg-boton{
     padding: 3px;
@@ -396,10 +401,13 @@ video {
     border: 2px #e66f75 solid;
   }
   .call-to-action button{
-    padding: 15px 0px 10px 0px;
+    padding: 15px 0px 13px 0px;
     font-size:20px;
     width: 200px;
     line-height: 0px;
+  }
+  .call-to-action .botones .tarifa {
+    margin: 0 0 0 50px;
   }
 }
 /* test */
@@ -540,7 +548,11 @@ footer{
 }
 
 @media (max-width:528px){
+  footer{
+    padding: 10px 0;
+  }
   footer p{
     font-size: 10px;
+    margin: 0;
   }
 }
