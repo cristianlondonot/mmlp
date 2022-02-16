@@ -393,7 +393,6 @@ form{
 #sobremi .text-sobremi p{
   font-size: 23px;
   line-height: 30px;
-  font-weight: bold;
 }
 #sobremi .text-sobremi .tittle{
   font-family: 'sub-tittle';
@@ -405,7 +404,7 @@ form{
 @media (max-width:528px){
   #sobremi {
     padding: 30px 0;
-    background: url(../img/bg-sobremi-movil.png) center;
+    background: url(../img/fondoinfotarotista.png) top;
     background-size: 100%;
   }
   #sobremi .img-sobremi img{
@@ -425,6 +424,7 @@ form{
   #sobremi .text-sobremi p{
     font-size: 13px;
     line-height: 20px;
+    font-weight: bold;
   }
 }
 /* video */
@@ -440,6 +440,7 @@ video {
 }
 #estilodevida .text-content{
   text-align: center;
+  margin-bottom: 50px;
 }
 #estilodevida .text-content .tittle{
   padding: 30px 0;
@@ -450,10 +451,9 @@ video {
 #estilodevida .text-content .text p{
   font-size: 23px;
   line-height: 30px;
-  font-weight: bold;
 }
 #estilodevida .call-to-action{
-  padding-top: 150px;
+  padding: 50px 0;
   text-align: center;
 }
 #estilodevida .call-to-action .tittle{
@@ -481,6 +481,8 @@ video {
   padding: 3px;
   border: 2px #e66f75 solid;
   width: 220px;
+  display: block;
+  margin: auto;
 }
 #estilodevida .call-to-action button{
   background: #e66f75;
@@ -489,6 +491,11 @@ video {
   padding: 10px;
   width: 100%;
   font-family: 'cuerpo-p';
+  display: block;
+  margin: auto;
+}
+#estilodevida .call-to-action .tarifa p{
+  font-size: ;
 }
 @media (max-width:767px){
   #estilodevida .call-to-action .bg-boton{
@@ -499,9 +506,12 @@ video {
 @media (max-width:528px){
   #estilodevida{
     padding: 0px 0;
-    background: url(../img/bg-calltoaction-movil.png) top;
-    background-size: cover;
+    background: url(../img/bg-calltoaction-movil.png) bottom;
+    background-size: 100%;
     background-repeat: repeat-x;
+  }
+  #estilodevida .text-content{
+    margin-bottom: 50px;
   }
   #estilodevida .text-content .tittle{
     padding: 15px 0;
@@ -509,9 +519,10 @@ video {
   #estilodevida .text-content .text p{
     font-size: 13px;
     line-height: 20px;
+    font-weight: bold;
   }
   #estilodevida .call-to-action{
-    padding-top: 100px;
+    padding: 20px 0 0 0 !important;
   }
   #estilodevida .call-to-action .tittle h2{
     font-size: 25px;
@@ -521,13 +532,16 @@ video {
     padding: 0px 10px 50px 0px;
   }
   #estilodevida .call-to-action .boton{
-    padding: 25px 10px 10px 10px;
+    padding: 15px 10px 10px 10px;
   }
   #estilodevida .call-to-action .botones .boton-s{
     display: block;
   }
   #estilodevida .call-to-action .botones img{
     margin-bottom: 25px;
+  }
+  #estilodevida .call-to-action .tarifa p{
+    font-size: 13px;
   }
 }
 footer{
