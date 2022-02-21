@@ -1,0 +1,113 @@
+/* cardd */
+.content_cards {
+  grid-column: span 2;
+}
+.cartas_sec {
+  position: relative;
+}
+.cartas_sec .container {
+  position: relative;
+}
+.spc_cards {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.spc_cards .cards {
+  max-width: 750px;
+  width: 100%;
+  margin: auto;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw; */
+}
+.spc_cards .section-1{
+  padding-left: 20px;
+  justify-content: center;
+}
+.spc_cards .section-2{
+  padding-left: 20px;
+  justify-content: center;
+}
+.spc_cards .cards .cardd {
+  position: relative;
+  max-width: 295px;
+  width: 100%;
+  margin-top: 20px;
+}
+.spc_cards .cards .cardd-1{
+  margin-right: 20px;
+}
+.spc_cards .cards .cardd-2{
+  margin-left: 20px;
+}
+.spc_cards .cards .cardd .cara_carta, .spc_cards .cards .cardd .atras_carta {
+  width: 100%;
+  transition: 0.4s;
+}
+.spc_cards .cards .cardd .cara_carta {
+  position: relative;
+  z-index: 1;
+  transform: rotateY(180deg);
+}
+.spc_cards .cards .cardd .cara_carta img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 20px;
+}
+.spc_cards .cards .cardd .atras_carta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.spc_cards .cards .cardd .atras_carta img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.spc_cards .cards .active {
+  transform: rotatez(0deg) !important;
+}
+.spc_cards .cards .active .cara_carta {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+.spc_cards .cards .active .atras_carta {
+  z-index: 1;
+  transform: rotateY(180deg);
+}
+@media (max-width:767px) {
+  .cartas{
+    margin-top: -10px;
+  }
+  .content_cards {
+    padding-bottom: 25px;
+  }
+  .spc_cards .section-1{
+    padding-left: 0px;
+  }
+  .spc_cards .section-2{
+    padding-left: 0px;
+  }
+  .spc_cards .cards .cardd-1{
+    margin-right: 5px;
+  }
+  .spc_cards .cards .cardd-2{
+    margin-left: 5px;
+  }
+  .spc_cards .section-1{
+    padding-left: 0px;
+    justify-content: center;
+    width: 49%;
+    float: left;
+  }
+  .spc_cards .section-2{
+    padding-left: 0px;
+    justify-content: center;
+    width: 49%;
+    float: right;
+  }
+}

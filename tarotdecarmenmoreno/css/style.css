@@ -1,0 +1,546 @@
+@font-face {
+    font-family: 'titulos';
+    src: url(../css/fonts/antique_wonders/AntiqueWonders\ Free.woff) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'subtitulos';
+    src: url(../css/fonts/bebas/Bebas-Regular.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'content-text';
+    src: url(../css/fonts/biko/Biko_Regular.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'boton';
+    src: url(../css/fonts/lemon_milk/LEMONMILK-Regular.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    background: #bbd8b3;
+}
+h1{
+    font-family: 'titulos';
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2{
+    font-size: 75px;
+    font-family: 'subtitulos';
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+
+h3, h4, h5{
+    font-family: 'subtitulos';
+}
+
+h6{
+    font-family: 'content-text';
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: -2.5px;
+}
+
+p{
+    font-family: 'content-text';
+    font-size: 46px;
+    letter-spacing: -2px;
+    line-height: 50px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+main{
+    background: url(../img/bg-header.png) top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.movil{
+    display: none;
+}
+/*  */
+@media (max-width:1100px) {
+    h1{
+        font-size: 50px;
+    }
+    
+    h2{
+        font-size: 55px;
+        letter-spacing: -3px;
+    }
+    
+    h3, h4, h5{
+        font-family: 'subtitulos';
+    }
+    
+    h6{
+        font-size: 50px;
+        letter-spacing: -2.5px;
+    }
+    
+    p{
+        font-size: 46px;
+        letter-spacing: -2px;
+        line-height: 50px;
+    }
+}
+@media (max-width:767px){
+    h1{
+        font-size: 21px;
+    }
+    
+    h2{
+        font-size: 18px;
+        letter-spacing: -0.5px;
+    }
+    
+    h6{
+        font-size: 20px;
+        letter-spacing: .5px;
+    }
+    
+    p{
+        font-size: 19px;
+        letter-spacing: -1px;
+        line-height: 20px;
+    }
+    main{
+        background: url(../img/bg-header-movil.png) top;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .movil{
+        display: block;
+    }
+    .escritorio{
+        display: none;
+    }
+}
+
+/* header */
+#header .top-bar{
+    background: #f3b61f;
+    padding: 10px 0 0 0;
+}
+
+#header .content-gra{
+    
+}
+
+#header .subtittle{
+    padding: 70px 0 40px 0;
+}
+
+#header .call-to-action-btn{
+    background: #a29f15;
+    padding: 20px 20px 15px 20px;
+    width: 640px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    box-shadow: 2px 2px 5px 0 #000;
+    border-radius: 5px;
+}
+
+#header .call-to-action-btn a{
+    font-size: 73px;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'subtitulos';
+    letter-spacing: -3px;
+}
+
+#header .call-to-action-btn a span{
+    font-size: 90px;
+    font-family: 'boton';
+}
+
+#header .boton button{
+    font-family: 'boton';
+}
+@media (max-width:1100px){
+    #header .call-to-action-btn{
+        width: 455px;
+    }
+    
+    #header .call-to-action-btn a{
+        font-size: 53px;
+        line-height: 60px;
+        letter-spacing: -3px;
+    }
+    
+    #header .call-to-action-btn a span{
+        font-size: 65px;
+        font-family: 'boton';
+    }
+}
+@media (max-width:767px){
+    #header .top-bar{
+        padding: 3px 0 0 0;
+    }
+    #header .subtittle{
+        padding: 20px 0 10px 0;
+    }
+    #header .call-to-action-btn{
+        padding: 10px 0px 2px 0px;
+        width: 185px;
+        box-shadow: 2px 2px 5px 0 #000;
+        border-radius: 5px;
+    }
+    #header .call-to-action-btn a{
+        font-size: 15.2px;
+        line-height: 0px;
+        letter-spacing: -1px;
+        margin-bottom: -30px;
+    }
+    #header .call-to-action-btn a span{
+        font-size: 25px;
+        line-height: 10px;
+        font-family: 'boton';
+    }
+    .flecha {
+        margin: -5px 0 20px 0;
+    }
+    .flecha h5{
+        font-size: 25px;
+        letter-spacing: -1px;
+    }
+    .flecha img{
+        max-width: 140px;
+        display: block;
+        margin: auto;
+        margin-top: -20px;
+    }
+}
+
+/* contact-card */
+#contact-card{
+    padding: 30px 0;
+}
+#contact-card .tittle-card{
+    max-width: 530px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#contact-card .tittle-card h3{
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: -3px;
+    line-height: 70px;
+}
+@media (max-width:1100px){
+    #contact-card .tittle-card h3{
+        font-size: 65px;
+        letter-spacing: -3px;
+        line-height: 60px;
+    }
+}
+@media (max-width:767px){
+    #contact-card .tittle-card{
+        margin-top: -15px;
+    }
+    #contact-card .tittle-card h3{
+        font-size: 21px;
+        letter-spacing: -1px;
+        line-height: 25px;
+    }
+}
+
+/* cartas */
+/* form */
+.form{
+    background: #f3b61f;
+    padding: 30px 40px 70px 40px;
+    width: 100%;
+    border-radius: 30px;
+}
+.form .form-group h5{
+    font-size: 54px;
+    letter-spacing: -3px;
+    line-height: 60px;
+    text-align: center;
+}
+.form .form-group .tittle-2l{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.form .form-group textarea{
+    padding: 10px;
+    min-height: 150px;
+    max-height: 150px;
+    width: 100%;
+    border-style: none;
+    border-radius: 20px;
+    background: #e3e3e3;
+    font-family: 'subtitulos';
+    letter-spacing: -3px;
+}
+.form .form-group select{
+    width: 96%;
+    margin: 10px;
+    border-style: none;
+    font-size: 40px;
+    background: #e3e3e3;
+    border-radius: 20px;
+    text-indent: 8px;
+    font-family: 'subtitulos';
+    letter-spacing: -3px;
+    color: rgba(0, 0, 0, 0.6);
+    height: 70px;
+}
+.form .item-form{
+    justify-content: center;
+}
+.form .form-group input{
+    margin: 10px;
+    width: 100%;
+    border-style: none;
+    font-size: 40px;
+    background: #e3e3e3;
+    border-radius: 20px;
+    text-indent: 15px;
+    font-family: 'subtitulos';
+    letter-spacing: -3px;
+}
+.form .date{
+    justify-content: space-between;
+    align-items: center;
+}
+.form .date .year{
+    width: 100px;
+}
+.form .date .dia{
+    width: 70px;
+}
+.form .date .mes{
+    width: 70px;
+}
+.form .form-group-check{
+    display: flex;
+    justify-content: center;
+}
+.form .form-group-check label{
+    font-family: 'subtitulos';
+    letter-spacing: -1px;
+    font-size: 30px;
+    text-align: center;
+}
+.form .form-group-check input{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    text-align: center;
+}
+.form .boton{
+    margin-top: 30px;
+}
+.form .boton button{
+    font-size: 54px;
+    text-transform: uppercase;
+    font-family: 'subtitulos';
+    border-style: none;
+    background: #bbd8b3;
+    border-radius: 20px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+@media (max-width:1100px){
+    .form{
+        padding: 5px 20px 40px 20px;
+        width: 100%;
+        border-radius: 30px;
+    }
+    .form .form-group textarea{
+        padding: 10px;
+        min-height: 150px;
+        max-height: 150px;
+        width: 100%;
+        border-radius: 10px;
+        letter-spacing: -2px;
+    }
+    .form .form-group h5{
+        font-size: 40px;
+        letter-spacing: -2px;
+        line-height: 45px;
+    }
+    .form .form-group select{
+        width: 96%;
+        margin: 10px;
+        font-size: 30px;
+        border-radius: 10px;
+        text-indent: 8px;
+        letter-spacing: -2px;
+        height: 50px;
+    }
+    .form .form-group input{
+        margin: 10px;
+        font-size: 30px;
+        border-radius: 10px;
+        text-indent: 15px;
+        letter-spacing: -2px;
+        height: 50px;
+    }
+    .form .boton button{
+        font-size: 44px;
+        border-radius: 13px;
+        width: 200px;
+    }
+}
+@media (max-width:767px){
+    .form{
+        padding: 5px 20px 20px 20px;
+        width: 100%;
+        border-radius: 15px;
+    }
+    .form .form-group h5{
+        font-size: 20px;
+        letter-spacing: -1px;
+        line-height: 25px;
+    }
+    .tittle-form-1{
+        font-size: 25px !important;
+    }
+    .md-text-left h5{
+        text-align: left !important;
+        margin-left: 10px;
+    }
+    .form .form-group .tittle-2l{
+        max-width: 215px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .form .form-group textarea{
+        min-height: 80px;
+        max-height: 80px;
+        border-radius: 10px;
+        letter-spacing: -1px;
+    }
+    .form .form-group select{
+        width: 96%;
+        margin: 10px;
+        font-size: 20px;
+        border-radius: 10px;
+        text-indent: 8px;
+        letter-spacing: -1px;
+        height: 40px;
+    }
+    .pais {
+        margin-top: -20px;
+    }
+    .form .form-group input{
+        margin: 10px;
+        font-size: 20px;
+        border-radius: 10px;
+        text-indent: 15px;
+        letter-spacing: -1px;
+        height: 40px;
+    }
+    .form .date{
+        padding: 0 10px;
+        margin-top: -15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .form .date .year{
+        width: 60px;
+        text-indent: 3px;
+        margin: 5px;
+    }
+    .form .date .dia{
+        width: 40px;
+        text-indent: 3px;
+        margin: 5px;
+    }
+    .form .date .mes{
+        width: 40px;
+        text-indent: 3px;
+        margin: 5px;
+    }
+    .form .form-group-check label{
+        letter-spacing: -1px;
+        font-size: 15px;
+    }
+    .form .form-group-check input{
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    .form .boton{
+        margin-top: 15px;
+    }
+    .form .boton button{
+        font-size: 24px;
+        border-radius: 10px;
+        width: 130px;
+    }
+}
+
+/* sobremi */
+#sobremi{
+    padding: 50px 0;
+}
+#sobremi .img-tarotista{
+    margin: 180px 0 90px 0;
+}
+#sobremi .img-tarotista img{
+    max-width: 580px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#sobremi h1{
+    color: #fff;
+    margin-bottom: 80px;
+}
+#sobremi h6{
+    color: #fff;
+    margin: 80px 0;
+}
+@media (max-width:767px){
+    #sobremi{
+        padding: 0 0 20px 0;
+        margin-top: -40px;
+    }
+    #sobremi .img-tarotista{
+        margin: 50px 0 30px 0;
+    }
+    #sobremi .img-tarotista img{
+        max-width: 180px;
+    }
+    #sobremi h1{
+        margin-bottom: 20px;
+    }
+    #sobremi h6{
+        color: #fff;
+        margin: 30px 0;
+    }
+    #sobremi p{
+        text-align: center;
+    }
+    #sobremi .phone-call img{
+        max-width: 160px;
+        display: block;
+        margin: auto;
+    }
+}
