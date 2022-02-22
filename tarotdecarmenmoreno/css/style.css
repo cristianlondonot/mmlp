@@ -138,12 +138,15 @@ main{
     padding: 10px 0 0 0;
 }
 
-#header .content-gra{
-    
-}
-
 #header .subtittle{
     padding: 70px 0 40px 0;
+}
+
+#header .subtittle img{
+    max-width: 800px;
+    width: 100%;
+    display: block;
+    margin: auto;
 }
 
 #header .call-to-action-btn{
@@ -197,6 +200,12 @@ main{
     }
     #header .subtittle{
         padding: 20px 0 10px 0;
+    }
+    #header .subtittle img{
+        max-width: 230px;
+        width: 100%;
+        display: block;
+        margin: auto;
     }
     #header .call-to-action-btn{
         padding: 10px 0px 2px 0px;
@@ -279,6 +288,16 @@ main{
     text-align: center;
 }
 .form .form-group .tittle-2l{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.form .tittle{
+    padding: 0 0 10px 0;
+    margin: -23px 0 0 0;
+}
+.form .tittle img{
+    max-width: 310px;
     width: 100%;
     display: block;
     margin: auto;
@@ -411,6 +430,16 @@ main{
         padding: 5px 20px 20px 20px;
         width: 100%;
         border-radius: 15px;
+    }
+    .form .tittle{
+        padding: 0 0 10px 0;
+        margin: 0;
+    }
+    .form .tittle img{
+        max-width: 140px;
+        width: 100%;
+        display: block;
+        margin: auto;
     }
     .form .form-group h5{
         font-size: 20px;
