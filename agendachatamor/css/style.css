@@ -76,6 +76,30 @@ body{
         display: none;
     }
     #header .content-text h3{
+        font-size: 15px;
+        margin: 0;
+    }
+    #header .content-text h2{
+        font-size: 17px;
+        margin: 0;
+    }
+    #header .content-text h4{
+        font-size: 15px;
+
+    }
+}
+@media (max-width:575px){
+    #header .logo img{
+        width: 100%;
+        padding: 5px;
+    }
+    #header .content-text{
+        padding: 5px 0;
+    }
+    #header .content-text br{
+        display: none;
+    }
+    #header .content-text h3{
         font-size: 11px;
         margin: 0;
     }
@@ -283,7 +307,70 @@ body{
 }
 @media (max-width:767px){
     #contact{
-        padding: 10vh 0;
+        padding: 25px 0;
+    }
+    #contact  .form .col-7{
+        padding: 0 15px;
+    }
+    #contact  .form .form-group {
+        margin: 0 0 10px;
+    }
+    #contact  .form .form-group input{
+        font-size: 19px;
+        height: 37px;
+        text-indent: 10px;
+    }
+    #contact .call-to-action img{
+        max-width: 270px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    #contact .form-group-check input{
+        margin-right: 5px;
+        height: 15px;
+        width: 15px;
+    }
+    #contact .form-group-check label{
+        font-size: 19px;
+        line-height: 25px;
+    }
+    #contact .botones{
+        padding: 20px 0;
+    }
+    #contact .botones .btn-call a {
+        position: relative;
+    }
+    #contact .botones .btn-call img{
+        width: 15px;
+        position: absolute;
+        right: 10px;
+        top: calc(50% - 7.5px);
+    }
+    #contact .botones .btn-call .btn-primary{
+        border-radius: 0;
+        width: 400px;
+        font-size: 25px;
+    }
+    #contact .botones .btn-date a {
+        position: relative;
+    }
+    #contact .botones .btn-date img{
+        width: 15px;
+        position: absolute;
+        right: 10px;
+        top: calc(50% - 7.5px);
+    }
+    #contact .botones .btn-date .btn-primary{
+        border-radius: 0;
+        width: 400px;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}
+@media (max-width:575px){
+    #contact{
+        padding: 25px 0;
     }
     #contact  .form .col-7{
         padding: 0 15px;
@@ -312,7 +399,7 @@ body{
         line-height: 15px;
     }
     #contact .botones{
-        padding: 10vh 0;
+        padding: 20px 0;
     }
     #contact .botones .btn-call a {
         position: relative;
