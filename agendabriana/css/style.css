@@ -129,12 +129,11 @@ header .spc_header h2 {
   position: relative;
 }
 .sec_form_main .cntrl_spc_form .spc_form_main .line_img_tarotista .box_img_tarotista {
-  max-width: 100px;
+  max-width: 130px;
   width: 100%;
   position: relative;
   z-index: 2;
-  margin-right: -50px;
-
+  margin-right: -65px;
 }
 
 .sec_form_main .cntrl_spc_form .spc_form_main .line_img_tarotista .box_spc_texto_bnner {
@@ -300,6 +299,12 @@ header .spc_header h2 {
   padding: 10px 10px 10px 10px;
 }
 
+@media (max-width: 470px){
+  .sec_form_main .cntrl_spc_form .spc_form_main .line_img_tarotista .box_spc_texto_bnner {
+    padding: 10px 45px !important;
+  }
+}
+
 
 
 
@@ -424,6 +429,14 @@ header .spc_header h2 {
     width: 326px;
     margin: -60px 0px 0px -162px;
   }
+
+  .sec_form_main .cntrl_spc_form .spc_form_main .line_img_tarotista .box_img_tarotista {
+    max-width: 100px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    margin-right: -50px;
+  }
 }
 
 #testimonios .testimonio-1 img{
@@ -443,10 +456,27 @@ header .spc_header h2 {
 }
 
 #testimonios .call-to-action .bg-tarifas{
-  background: radial-gradient(circle, #967afa 7%, #2f1e6d 100%);
-  border: 2px #fff solid;
+  position: relative;
+  background:  #2f1e6d;
+  border: 1px #fff solid;
   border-radius: 10px;
   padding: 10px;
+  box-shadow: 3px 3px 0 0 #000;
+}
+
+#testimonios .call-to-action .adition{
+  font-size: 14px;
+}
+
+#testimonios .call-to-action .bg-tarifas p{
+  text-align: left;
+}
+
+#testimonios .call-to-action .bg-tarifas span{
+  color: #666;
+  text-align: left;
+  font-weight: bold;
+  text-decoration:line-through
 }
 
 #testimonios .call-to-action p{
@@ -495,6 +525,14 @@ header .spc_header h2 {
     text-align: justify;
     color: #ffffff;
   }
+
+  #testimonios .call-to-action .adition{
+    font-size: 11px;
+  }
+  
+  #testimonios .call-to-action .bg-tarifas span{
+    font-size: 13px;
+  }
   
   #testimonios .call-to-action p{
     color: #ffffff;
@@ -507,10 +545,11 @@ header .spc_header h2 {
     font-weight: bold;
     font-size: 20px;
   }
-  #testimonios .content-text-test .calification{
-    max-width: 120px;
-    margin-bottom: 20px;
-    margin-left: 28px;
+  #testimonios .img-test .calification img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 5px 20px 10px 20px;
   }
   #testimonios .call-to-action button{
     background: #44ad8e;
