@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+body{
+    background: #fff;
+}
+
+p{
+    font-family: 'Asap', sans-serif;
+    font-size: 33px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Yantramanav', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+@media (max-width:767px) {
+    p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
+
+/* header */
+#header{
+    padding: 20px 0 30px 0;
+}
+
+#header .title-logo img{
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width:767px){
+    #header{
+        padding: 0 0 30px 0;
+    }
+}
+
+/* contact */
+#contact{
+    padding: 0 0 120px 0;
+}
+
+#contact .title h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 90px;
+    color: #804000;
+}
+
+#contact .sub-title h4{
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+    color: #804000;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#contact .form{
+    max-width: 700px;
+    padding: 0 20px;
+    display: block;
+    margin: auto;
+}
+
+#contact .form .form-group{
+    margin-bottom: 40px;
+}
+
+#contact .form .form-group input{
+    width: 100%;
+    border-style: none;
+    border-radius: 0;
+    border: 1px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: lighter;
+    color: #804000;
+    font-size: 30px;
+    border: 2px #804000 solid;
+    text-indent: 15px;
+    box-shadow: 2px 2px 8px 0 #000;
+}
+
+#contact .form .form-group-check label{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    color: #804000;
+}
+
+#contact .form .form-group-check label a{
+    text-decoration: none;
+    color: #804000;
+    font-weight: normal;
+}
+
+#contact .form .form-group-check{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+#contact .form .form-group-check input{
+    width: 26px;
+    height: 26px;
+}
+
+#contact .form .boton{
+    margin-top: 30px;
+}
+
+#contact .form .boton button{
+    font-size: 40px;
+    text-transform: uppercase;
+    background: #804000;
+    color: #fff;
+    border-style: none;
+    width: 220px;
+    display: block;
+    margin: auto;
+}
+@media (max-width:767px) {
+    #contact{
+        padding: 0 0 80px 0;
+    }
+    
+    #contact .title h2{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    
+    #contact .sub-title h4{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    
+    #contact .form{
+        max-width: 300px;
+    }
+
+    #contact .form .form-group{
+        margin-bottom: 15px;
+    }
+    
+    #contact .form .form-group input{
+        border: 1px;
+        font-size: 16px;
+        border: 1px #804000 solid;
+        text-indent: 10px;
+        box-shadow: 2px 2px 4px 0 #000;
+    }
+    
+    #contact .form .form-group-check label{
+        font-size: 15px;
+    }
+    
+    #contact .form .form-group-check{
+        max-width: 200px;
+    }
+    
+    #contact .form .form-group-check input{
+        width: 13px;
+        height: 13px;
+    }
+    
+    #contact .form .boton{
+        margin-top: 10px;
+    }
+    
+    #contact .form .boton button{
+        font-size: 20px;
+        width: 120px;
+    }
+}
+
+/* footer */
+#footer{
+    background: #804000;
+    height: 40px;
+}
+
+@media (max-width:767px){
+    #footer{
+        height: 20px;
+    }
+}
