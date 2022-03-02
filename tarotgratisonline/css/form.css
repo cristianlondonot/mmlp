@@ -1,0 +1,122 @@
+/*form styles*/
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    height: 100%;
+}
+
+#msform fieldset {
+    border: 0 none;
+    border-radius: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+/*inputs*/
+#msform input, #msform textarea {
+    padding: 15px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #7a00f9;
+    font-size: 43px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    max-width: 1200px;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+#msform input::placeholder{
+    opacity: 10;
+}
+
+#msform input:focus, #msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 5px solid #7a00f9;
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+#msform .btn-primary{
+    background: #7a00f9;
+    border: none;
+    font-size: 30px;
+    width: 500px;
+    color: #fff;
+    margin-top: 30px;
+    font-style: normal;
+}
+
+/*headings*/
+.fs-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 720px){
+    /*inputs*/
+    #msform input, #msform textarea {
+        padding: 6px 0;
+        border: 2px solid rgb(255, 255, 255);
+        font-size: 15px;
+        max-width: 1200px;
+        -webkit-transition: All 0.5s ease-in;
+        -moz-transition: All 0.5s ease-in;
+        -o-transition: All 0.5s ease-in;
+    }
+    
+    #msform input::placeholder{
+        opacity: 10;
+    }
+    
+    #msform input:focus, #msform textarea:focus {
+        border: 2px solid #7a00f9;
+        transition: All 0.5s ease-in;
+        -webkit-transition: All 0.5s ease-in;
+        -moz-transition: All 0.5s ease-in;
+        -o-transition: All 0.5s ease-in;
+    }
+    
+    #msform .btn-primary{
+        background: #7a00f9;
+        border: none;
+        font-size: 14px;
+        width: 160px;
+        color: #fff;
+        margin-top: 10px;
+        font-style: normal;
+    }
+}

@@ -1,0 +1,94 @@
+/* card */
+.content_cards {
+  grid-column: span 2;
+}
+
+.cartas_sec {
+  position: relative;
+}
+.cartas_sec .container {
+  position: relative;
+}
+
+.card{
+  background-color: transparent ;
+  border: none;
+}
+
+.paso {
+  margin-top: 3em;
+  display: block;
+  margin: auto;
+}
+.paso p {
+  text-align: center;
+  color: black;
+  letter-spacing: 2px;
+  font-size: 29px;
+  font-weight: bold;
+  line-height: 35px;
+  /* max-width: 300px; */
+}
+
+@media(max-width:575px){
+    .paso{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .paso p {
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 23px;
+      }
+}
+
+.spc_cards {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.spc_cards .cards {
+    max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+}
+.spc_cards .cards .card {
+  position: relative;
+  width: 100%;
+}
+.spc_cards .cards .card .cara_carta, .spc_cards .cards .card .atras_carta {
+  width: 100%;
+  transition: 0.4s;
+}
+.spc_cards .cards .card .cara_carta {
+  position: relative;
+  z-index: 1;
+  transform: rotateY(180deg);
+}
+.spc_cards .cards .card .cara_carta img {
+  width: 100%;
+}
+.spc_cards .cards .card .atras_carta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.spc_cards .cards .card .atras_carta img {
+  width: 100%;
+}
+.spc_cards .cards .active {
+  transform: rotatez(0deg) !important;
+}
+.spc_cards .cards .active .cara_carta {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+.spc_cards .cards .active .atras_carta {
+  z-index: 1;
+  transform: rotateY(180deg);
+}

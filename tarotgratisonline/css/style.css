@@ -1,0 +1,381 @@
+.border-container {
+    height: 100%;
+}
+
+.content_main {
+    height: 100%;
+    position: relative;
+}
+
+.content_main .borde1, .content_main .borde2, .content_main .borde3, .content_main .borde4, .content_main .borde5, .content_main .borde6 {
+    position: absolute;
+    background-color: #7a00f9;
+    -webkit-box-shadow: 0 0 20px #7a00f9;
+          box-shadow: 0 0 20px #7a00f9;
+}
+
+.content_main .borde1 {
+    top: 0;
+    left: 0;
+    height: 13px;
+    width: 300px;
+}
+
+.content_main .borde2 {
+    top: 0;
+    right: 0;
+    height: 13px;
+    width: 300px;
+}
+
+.content_main .borde3 {
+    top: 0;
+    left: 0%;
+    height: 100%;
+    width: 13px;
+}
+
+.content_main .borde5 {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 13px;
+}
+
+.content_main .borde6 {
+    margin-top: 0px;
+    bottom: 0;
+    right: 0;
+    height: 13px;
+    width: 100%;
+    position: absolute;
+}
+
+/* @media only screen and (max-width: 720px){
+    .content_main .borde3 {
+        top: 0;
+        left: 0;
+        height: 1150px;
+        width: 3px;
+    }
+
+    .content_main .borde5 {
+        top: 0;
+        right: 0;
+        height: 1150px;
+        width: 3px;
+    }
+} */
+
+@media only screen and (max-width: 720px){
+    .content_main .borde1 {
+        top: 0;
+        left: 0;
+        height: 4px !important;
+        width: 80px;
+    }
+    
+    .content_main .borde2 {
+        top: 0;
+        right: 0;
+        height: 4px !important;
+        width: 80px;
+    }
+    
+    .content_main .borde3 {
+        top: 0;
+        left: 0%;
+        height: 100%;
+        width: 4px !important;
+    }
+    
+    .content_main .borde5 {
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 4px !important;
+    }
+    
+    .content_main .borde6 {
+        margin-top: 0px;
+        bottom: 0;
+        right: 0;
+        height: 4px !important;
+        width: 100%;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 493px){
+    /* .content_main .borde6 {
+        bottom: -530px;
+        right: 0;
+        height: 3px;
+        width: 100%;
+    } */
+}
+
+@media only screen and (max-width: 402px){
+    /* .content_main .borde6 {
+        bottom: -510px;
+        right: 0;
+        height: 3px;
+        width: 100%;
+    } */
+}
+
+/* general */
+main{
+    background: url(../img/bg.jpg) center;
+    background-size: cover;
+    padding: 40px;
+    color: #fff;
+}
+
+img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 720px){
+    main{
+        padding: 6px;
+    }
+}
+
+/* header */
+#header{
+    padding: 0;
+}
+
+#header .logo img{
+    max-width: 700px;
+    display: block;
+    margin: auto;
+}
+
+#header .logo h1{
+    display: none;
+}
+
+#header .sub-content-text p{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 50px;
+    line-height: 50px;
+}
+
+#header .title h2{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 720px){
+    #header .logo img{
+        max-width: 170px;
+        display: block;
+        margin: auto;
+    }
+    #header .sub-content-text p{
+        font-size: 10px;
+        margin-top: 20px;
+        line-height: 15px;
+    }
+    #header .title h2{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}
+
+/* tarotist */
+#tarotist{
+    padding: 60px 0 20px 0;
+}
+
+#tarotist .title-bg{
+    background: #fff;
+    padding: 8px 30px;
+    color: #7a00f9;
+    max-width: 1190px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#tarotist .title-bg h4{
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#tarotist .select-tarotist{
+    max-width: 1190px;
+    display: block;
+    margin: auto;
+}
+
+#tarotist label{
+    cursor: pointer;
+    border: 6px transparent solid;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+#tarotist label:hover{
+    border: 6px #7a00f9 solid;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+#tarotist .file-tarotist{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 55px;
+}
+
+#tarotist .file-tarotist .name-content h3{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 30px 0;
+}
+
+#tarotist .file-tarotist .content-text p{
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: -1px;
+    text-align: justify;
+}
+
+#tarotist .title h2{
+    font-size: 60px;
+    line-height: 55px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 720px){
+    #tarotist{
+        padding: 0 0 10px 0;
+    }
+    #tarotist .select-tarotist{
+        max-width: 300px;
+        display: block;
+        margin: auto;
+    }
+    #tarotist label{
+        cursor: pointer;
+        border: 2px transparent solid;
+        padding: 5px;
+        border-radius: 10px;
+        transition: all .5s;
+    }
+    #tarotist label:hover{
+        border: 2px #7a00f9 solid;
+        cursor: pointer;
+        transition: all .5s;
+    }
+    #tarotist .title-bg{
+        padding: 4px 5px;
+        max-width: 340px;
+        margin-bottom: 25px;
+    }
+    #tarotist .title-bg h4{
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+    #tarotist .file-tarotist{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    #tarotist .file-tarotist .name-content h3{
+        font-size: 15px;
+        margin: 15px 0;
+    }
+    #tarotist .file-tarotist .content-text p{
+        font-size: 10px;
+        line-height: 13px;
+        letter-spacing: 0px;
+        margin-bottom: 3px;
+    }
+    #tarotist .title h2{
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+}
+
+/* testimonials */
+#testimonials{
+    background: url(../img/bg-testimonials.jpg) center ;
+    background-size: cover;
+    padding: 35px 0;
+}
+
+#testimonials .test{
+    max-width: 1150px;
+    display: block;
+    margin: auto;
+}
+
+#testimonials  .test-box{
+    margin-bottom: 40px;
+}
+
+#testimonials .test .img-test img{
+    width: 100%;
+}
+
+#testimonials .test .content-text{
+    background: #9870fa;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#testimonials .test .content-text h6{
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#testimonials .test .content-text p{
+    font-size: 25px;
+    line-height: 27px;
+    font-style: italic;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 720px){
+    #testimonials{
+        padding: 18px 0;
+    }
+    #testimonials  .test-box{
+        margin-bottom: 20px;
+    }
+    #testimonials .col-2{
+        padding: 0;
+    }
+    #testimonials .col-10{
+        padding: 0 0 0 5px;
+    }
+    #testimonials .test .content-text{
+        padding: 10px;
+        border-radius: 15px;
+    }
+    #testimonials .test .content-text h6{
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    #testimonials .test .content-text p{
+        font-size: 10px;
+        line-height: 14px;
+        margin-bottom: 0;
+    }
+}
