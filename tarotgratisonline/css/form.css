@@ -7,12 +7,14 @@
 }
 
 #msform fieldset {
+    max-width: 1000px;
+    display: block;
     border: 0 none;
     border-radius: 0px;
     padding: 0px;
     box-sizing: border-box;
     width: 100%;
-    margin: 0;
+    margin: auto;
     height: 100%;
 
     /*stacking fieldsets above each other*/
@@ -26,14 +28,15 @@
 
 /*inputs*/
 #msform input, #msform textarea {
-    padding: 15px;
+    padding: 8px;
     border: 5px solid rgb(255, 255, 255);
     border-radius: 0px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 80%;
+    margin-left: -20%;
     box-sizing: border-box;
     color: #7a00f9;
-    font-size: 43px;
+    font-size: 30px;
     font-weight: bold;
     font-style: italic;
     text-align: center;
@@ -44,7 +47,7 @@
 }
 
 #msform input::placeholder{
-    opacity: 10;
+    opacity: ;
 }
 
 #msform input:focus, #msform textarea:focus {
@@ -62,11 +65,24 @@
 #msform .btn-primary{
     background: #7a00f9;
     border: none;
-    font-size: 30px;
-    width: 500px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 20%;
+    height: 72px;
     color: #fff;
-    margin-top: 30px;
+    margin-top: 0px;
     font-style: normal;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#msform .btn-primary img{
+    max-width: 60px;
+    width: 100%;
 }
 
 /*headings*/
@@ -91,7 +107,8 @@
     #msform input, #msform textarea {
         padding: 6px 0;
         border: 2px solid rgb(255, 255, 255);
-        font-size: 15px;
+        font-size: 12px;
+        height: 39px;
         max-width: 1200px;
         -webkit-transition: All 0.5s ease-in;
         -moz-transition: All 0.5s ease-in;
@@ -113,10 +130,17 @@
     #msform .btn-primary{
         background: #7a00f9;
         border: none;
-        font-size: 14px;
-        width: 160px;
+        width: 20%;
+        height: 39px;
         color: #fff;
-        margin-top: 10px;
+        margin-top: 0px;
+        font-size: 12px;
         font-style: normal;
+        line-height: 15px;
+    }
+
+    #msform .btn-primary img{
+        max-width: 30px;
+        width: 100%;
     }
 }

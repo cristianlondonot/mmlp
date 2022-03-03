@@ -1,6 +1,6 @@
 
 //jQuery time
-var current_fs, next_fs, previous_fs; //fieldsets
+var current_fs, next_fs, previous_fs, check_fs; //fieldsets
 var left, opacity, scale; //fieldset properties which we will animate
 var animating; //flag to prevent quick multi-click glitches
 
@@ -15,7 +15,7 @@ $(".next").click(function(){
 	$("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
 	
 	//show the next fieldset
-	next_fs.show(); 
+	next_fs.show();
 	//hide the current fieldset with style
 	current_fs.animate({opacity: 0}, {
 		step: function(now, mx) {
@@ -29,8 +29,46 @@ $(".next").click(function(){
 			current_fs.css({
         'transform': 'scale('+scale+')',
         'position': 'absolute'
-      });
+        });
 			next_fs.css({'left': left, 'opacity': opacity});
+		}, 
+		duration: 400, 
+		complete: function(){
+			current_fs.hide();
+			animating = false;
+		}, 
+		//this comes from the custom easing plugin
+		easing: 'easeInOutBack'
+	});
+});
+
+$(".next-sec").click(function(){
+	if(animating) return false;
+	animating = true;
+	
+	current_fs = $(this).parent();
+	check_fs = $(this).parent().next();
+	
+	//de-activate current step on progressbar
+	$("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+	
+	//show the previous fieldset
+	check_fs.show(); 
+	//hide the current fieldset with style
+	current_fs.animate({opacity: 0}, {
+		step: function(now, mx) {
+			//as the opacity of current_fs reduces to 0 - stored in "now"
+			//1. scale current_fs down to 80%
+			scale = 0 - (1 - now) * 0;
+			//2. bring check_fs from the right(50%)
+			left = (now * 50)+"%";
+			//3. increase opacity of check_fs to 1 as it moves in
+			opacity = 1 - now;
+			current_fs.css({
+        'transform': 'scale('+scale+')',
+        'position': 'absolute'
+        });
+	    check_fs.css({'left': left, 'opacity': opacity});
 		}, 
 		duration: 400, 
 		complete: function(){
