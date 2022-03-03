@@ -380,10 +380,10 @@ img{
 
 @media only screen and (max-width: 720px){
     #testimonials{
-        padding: 18px 0;
+        padding: 10px 0;
     }
     #testimonials  .test-box{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     #testimonials .col-2{
         padding: 0;
