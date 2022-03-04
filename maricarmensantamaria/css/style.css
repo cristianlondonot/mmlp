@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: "title";
+    src: url(../css/fonts/Saling\ Cinta.ttf) format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+body{
+    background: url(../img/bg-escritorio.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'League Spartan', sans-serif;
+}
+
+main{
+    background: linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,0),rgba(0,0,0,0.7));
+}
+
+h1{
+    font-family: "title";
+}
+
+/* header */
+header .title{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.decor{
+    max-width: 300px;
+}
+
+header .title h1{
+    color: #fff;
+    font-size: 180px;
+    text-align: center;
+    line-height: 130px;
+}
+
+header .tarotista img{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: -50px;
+}
+
+@media (max-width:1191px) {
+    .decor{
+        max-width: 250px;
+    }
+    
+    header .title h1{
+        font-size: 130px;
+        line-height: 90px;
+    }
+
+    header .tarotista img{
+        max-width: 400px;
+        margin-top: 0px;
+    }
+}
+@media (max-width:927px){
+    .decor{
+        max-width: 90px;
+        width: 100%;
+    }
+    
+    header .title h1{
+        padding-top: 10px;
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    header .tarotista img{
+        max-width: 160px;
+        margin-top: 0px;
+    }
+}
+
+/* contact */
+#contact{
+    padding: 50px 0;
+}
+
+#contact .title{
+    color: #fff;
+}
+
+#contact .title h2{
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+#contact form{
+    margin-top: 30px;
+}
+
+#contact form input{
+    width: 100%;
+    font-size: 50px;
+    background: transparent;
+    border: 2px #fff solid;
+    font-weight: bold;
+    color: #fff;
+    text-indent: 20px;
+}
+
+#contact form input::placeholder{
+    opacity: 9;
+}
+
+#contact form .form-group{
+    margin-bottom: 40px;
+}
+
+#contact .boton button{
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px #fff solid;
+    background: #c69c6d;
+    color: #fff;
+    height: 120px;
+}
+
+@media (max-width:1191px) {
+    #contact{
+        padding: 30px 0;
+    }
+    
+    #contact .title h2{
+        font-size: 50px;
+    }
+    
+    #contact form{
+        margin-top: 30px;
+    }
+    
+    #contact form input{
+        width: 100%;
+        font-size: 40px;
+        background: transparent;
+        border: 2px #fff solid;
+        font-weight: bold;
+        color: #fff;
+        text-indent: 20px;
+    }
+    
+    #contact form input::placeholder{
+        opacity: 9;
+    }
+    
+    #contact form .form-group{
+        margin-bottom: 30px;
+    }
+    
+    #contact .boton button{
+        width: 100%;
+        font-size: 40px;
+        height: 90px;
+    }
+}
+
+@media (max-width:927px){
+    #contact{
+        padding: 15px 0;
+    }
+    
+    #contact .title h2{
+        font-size: 21px;
+    }
+    
+    #contact form{
+        margin-top: 15px;
+    }
+    
+    #contact form input{
+        width: 100%;
+        font-size: 20px;
+        text-indent: 10px;
+        border: 1px #fff solid;
+    }
+    
+    #contact form input::placeholder{
+        opacity: 9;
+    }
+    
+    #contact form .form-group{
+        margin-bottom: 15px;
+    }
+    
+    #contact .boton button{
+        width: 100%;
+        font-size: 20px;
+        height: 50px;
+        border: 1px #fff solid;
+    }
+}
+
+/* contente-text */
+#content-text{
+    padding: 50px 0;
+}
+
+#content-text p{
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 70px;
+}
+
+.footer-img{
+    justify-content: space-between;
+    margin-top: -90px;
+}
+
+@media (max-width:1191px){
+    #content-text{
+        padding: 30px 0;
+    }
+    
+    #content-text p{
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width:927px){
+    #content-text{
+        padding: 15px 0;
+    }
+    
+    #content-text p{
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+    .footer-img{
+        justify-content: space-between;
+        margin-top: -40px;
+    }
+}
+
