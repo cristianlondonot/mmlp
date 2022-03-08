@@ -135,22 +135,32 @@ h1, h2, h3, h4, h5 {
 }
 #hero h2 {
   color: #eee;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 28px; /* cambio */
   line-height: 38px;
+  text-align: justify;
 }
 #hero h2 span{
   background: #2e3192;
   padding: 2px;
+  text-transform: uppercase;
+  text-align: justify;
 }
 #hero h3{
   font-size: 20px;
   color: #fff;
 }
 #hero h5{
-  font-size: 15px;
-  margin-bottom: 0;
+  font-size: 20px;
+  margin-bottom: 20px;
   color: #fff;
+  text-align: justify;
+}
+#hero h5 span{
+  background: #2e3192;
+  padding: 2px;
+  
 }
 @media (max-width: 768px) {
   #hero {
@@ -623,6 +633,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #about hr{
   border: 10px #101369 solid;
+}
+
+#about .icon-l2{
+  margin-top: 40px;
+}
+
+@media (max-width:991px) {
+  #about .icon-l1{
+    margin-top: 40px;
+  }
+  
 }
 
 /* Contact Section
