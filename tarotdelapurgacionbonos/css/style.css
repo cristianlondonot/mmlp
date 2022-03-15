@@ -112,7 +112,9 @@ p{
     font-weight: lighter;
     letter-spacing: 5px;
     font-size: 40px;
+    color: #534034;
 }
+
 @media (max-width:767px) {
     #header .tittle-bg{
         padding: 10px 0 5px 0;
@@ -354,8 +356,8 @@ p{
     }
 }
 
-/* presentacion */
-#presentacion .presentacion-bg{
+/* presentacion */    
+.presentacion-bg{
     background: #fff;
     border-radius: 0px;
     padding: 30px 50px 10px 50px;
@@ -363,20 +365,20 @@ p{
     display: block;
     margin: auto;
     margin-bottom: 50px;
-}
-#presentacion .presentacion-bg-aling{
+}    
+.presentacion-bg-aling{
     align-items: center;
-}
-#presentacion .content-text p{
+}    
+.content-text p{
     text-align: center;
-}
-#presentacion .presentacion-bg .col-md-8{
+}    
+.presentacion-bg .col-md-8{
     text-align: center;
-}
-#presentacion .presentacion-bg .tittle{
+}    
+.presentacion-bg .tittle{
     margin-bottom: 20px;
-}
-#presentacion .presentacion-bg .img-presentation-tarotist img{
+}    
+.presentacion-bg .img-presentation-tarotist img{
     max-width: 230px;
     width: 100%;
     margin-top: 0px;
@@ -387,7 +389,7 @@ p{
     #presentacion .content-text p{
         text-align: center;
     }
-    #presentacion .presentacion-bg{
+    .presentacion-bg{
         padding: 30px 50px 10px 50px;
         box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
         max-width: 670px;
@@ -398,14 +400,14 @@ p{
     #presentacion{
         padding: 0;
     }
-    #presentacion .presentacion-bg{
+    .presentacion-bg{
         border-radius: 0px;
         padding: 20px;
     }
-    #presentacion .content-text p{
+    .content-text p{
         text-align: center;
     }
-    #presentacion .presentacion-bg .img-presentation-tarotist img{
+    .presentacion-bg .img-presentation-tarotist img{
         max-width: 200px;
         width: 100%;
         display: block;
