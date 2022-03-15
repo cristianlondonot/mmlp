@@ -106,12 +106,13 @@ p{
     font-weight: normal;
 }
 #header .sub-tittle{
-    padding: 20px 0 10px 0;
+    padding: 40px 0 40px 0;
 }
 #header .sub-tittle h4{
     font-weight: lighter;
     letter-spacing: 5px;
     font-size: 40px;
+    line-height: 60px;
     color: #534034;
 }
 
