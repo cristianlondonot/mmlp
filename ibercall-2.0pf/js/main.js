@@ -1,6 +1,15 @@
+
+
 (function() {
   "use strict";
 
+
+  $(window).on('load', function() { // makes sure the whole site is loaded 
+    $('#status').fadeOut(); // will first fade out the loading animation 
+    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+    $('body').delay(350).css({'overflow':'visible'});
+  })
+  
   /**
    * Easy selector helper function
    */
@@ -364,3 +373,5 @@ $("a.showsearchline").click(function () {
 $("a.hidesearchline").click(function () {
   $('form.search').addClass('slideOutUp').removeClass('act animated slideInDown');
 });
+
+
