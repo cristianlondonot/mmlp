@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'gn';
+    src: url(../css/fonts/GOTHIC.TTF) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'gb';
+    src: url(../css/fonts/GOTHICB.TTF) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    background: url(../img/bg.jpg) center;
+    background-size: cover;
+}
+/* header */
+#header{
+    padding: 50px 0;
+}
+#header .title img{
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+@media (max-width: 900px){
+    #header{
+        padding: 30px 0 10px 0;
+    }
+    #header .title img{
+        width: 300px;
+        display: block;
+        margin: auto;
+    }
+}
+/* contact */
+#contact{
+    padding: 0px 0 50px 0;
+    background: #fff;
+    width: 900px;
+    display: block;
+    margin: auto;
+    margin-bottom: 300px;
+}
+#contact .title h1{
+    font-family: 'gb';
+    text-align: center;
+    font-size: 50px;
+    color: #1b4f50;
+}
+#contact .img-book img{
+    max-width: 600px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#contact .form{
+    padding: 50px 150px;
+}
+#contact form .form-group input{
+    width: 100%;
+    font-size: 30px;
+    border-style: none;
+    border: 4px #1b4f50 solid;
+    text-indent: 15px;
+    font-family: 'gn';
+}
+#contact form .form-group-check label{
+    font-size: 20px;
+    font-family: 'gn';
+}
+#contact form .form-group-check input{
+    width: 18px;
+    height: 18px;
+}
+#contact form .boton{
+    margin-top: 50px;
+}
+#contact form .boton button{
+    font-size: 50px;
+    font-family: 'gn';
+    background: #1b4f50;
+    border-style: none;
+    color: #fff;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+@media (max-width: 900px) {
+    #contact{
+        padding: 0px 0 50px 0;
+        background: #fff;
+        width: 300px;
+        display: block;
+        margin: auto;
+        margin-bottom: 150px;
+    }
+    #contact .title br{
+        display: none;
+    }
+    #contact .title h1{
+        font-family: 'gb';
+        text-align: center;
+        font-size: 20px;
+        color: #1b4f50;
+    }
+    #contact .img-book img{
+        max-width: 200px;
+        width: 100%;
+    }
+    #contact .form{
+        padding: 30px 10px;
+    }
+    #contact form .form-group input{
+        width: 100%;
+        font-size: 20px;
+        border-style: none;
+        border: 2px #1b4f50 solid;
+        text-indent: 10px;
+        font-family: 'gn';
+    }
+    #contact form .form-group-check label{
+        font-size: 12px;
+        font-family: 'gn';
+    }
+    #contact form .form-group-check input{
+        width: 12px;
+        height: 12px;
+    }
+    #contact form .boton{
+        margin-top: 20px;
+    }
+    #contact form .boton button{
+        font-size: 26px;
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+}
