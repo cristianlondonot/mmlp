@@ -54,8 +54,9 @@
     font-weight: normal;
 }
 body{
-    background: url(../img/bg-completo.png) top;
+    background: url(../img/bg-completo.jpg) top;
     background-size: 100%;
+    background-repeat: repeat;
 }
 img{
     width: 100%;
