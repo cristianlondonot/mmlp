@@ -1,0 +1,691 @@
+@import url('https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap');
+@font-face {
+    font-family: 'title-chat';
+    src: url(../css/fonts/AkzidenzGrotesk-Light.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'content-chat';
+    src: url(../css/fonts/AkzidenzGrotesk-Extended.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'h2';
+    src: url(../css/fonts/hellohoney.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'title-l-option-2';
+    src: url(../css/fonts/AnandaPersonalUse.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'title-b-option-2';
+    src: url(../css/fonts/AnandaBlackPersonalUse.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'hierbasp';
+    src: url(../css/fonts/calibrili.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'hierbaspb';
+    src: url(../css/fonts/calibrii.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'posimasp';
+    src: url(../css/fonts/Ribbons-and-banners.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'ritualesp';
+    src: url(../css/fonts/WildySans.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    background: url(../img/bg-completo.png) top;
+    background-size: 100%;
+}
+img{
+    width: 100%;
+}
+h2{
+    font-family: 'h2';
+    font-size: 150px;
+    line-height: 100px;
+    text-align: center;
+}
+.sub-text h5{
+    font-family: 'h2';
+    text-align: center;
+    font-size: 80px;
+    line-height: 80px;
+    color: #3e5e13;
+}
+.movil{
+    display: none;
+}
+@media (max-width:930px) {
+    .movil{
+        display: block;
+    }
+    .escritorio{
+        display: none;
+    }
+
+}
+@media (max-width:767px){
+    .escritorio{
+        display: none !important;
+    }
+}
+/* header */
+#header{
+    background: url(../img/bg-header.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#header .tarotista{
+    max-width: 350px;
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:930px) {
+    #header .tarotista{
+        max-width: 250px;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width:767px){
+    #header .logo img{
+        max-width: 300px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
+
+/* chat */
+#chat .movil {
+    margin-top: -30px;
+}
+#chat .movil img{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+@media (max-width:767px){
+    #chat .movil img{
+        max-width: 200px;
+        display: block;
+        margin: auto;
+    }
+}
+
+/* aboutus */
+#aboutus{
+    padding: 100px 0 0 0;
+    background: url(../img/bg-aboutus.png)top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#aboutus .content{
+    max-width: 900px;
+    display: block;
+    margin: auto;
+}
+@media (max-width:930px){
+    #aboutus .content{
+        max-width: 500px;
+        display: block;
+        margin: auto;
+    }
+}
+@media (max-width:767px){
+    #aboutus{
+        padding: 20px 0 0 0;
+    }
+    #aboutus .content{
+        max-width: 300px;
+        display: block;
+        margin: auto;
+    }
+}
+/* hierbas */
+.hierbas{
+    padding: 0 0 90px 0;
+}
+.hierbas h2{
+    color: #3e5e13;
+}
+.hierbas .title{
+    margin: 40px 0 0 0;
+}
+.hierbas .title img{
+    max-width: 550px;
+    display: block;
+    margin: auto;
+}
+.hierbas .content-text p{
+    font-family: 'hierbasp';
+    font-size: 45px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: lighter;
+}
+.hierbas .flores{
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+.hierbas .flor-1 img{
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+.hierbas .description h5{
+    font-family: 'h2';
+    font-size: 70px;
+    line-height: 50px;
+    text-align: center;
+    color: #0b2800;
+}
+@media (max-width:930px){
+    .hierbas .title{
+        margin: 10px 0 0 0;
+    }
+    .hierbas .title img{
+        max-width: 300px;
+        display: block;
+        margin: auto;
+    }
+    .hierbas .content-text p{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .hierbas .flores{
+        margin-bottom: 30px;
+    }
+    .hierbas .flor-1 img{
+        width: 130px;
+    }
+    .hierbas .description h5{
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+@media (max-width:767px){
+    .hierbas{
+        padding: 0 0 40px 0;
+    }
+    .hierbas .title{
+        margin: 10px 0 0 0;
+    }
+    .hierbas .title img{
+        max-width: 150px;
+    }
+    .hierbas .content-text p{
+        font-size: 15.5px;
+        line-height: 20px;
+    }
+    .hierbas .flores{
+        margin-bottom: 30px;
+    }
+    .hierbas .flor-1 img{
+        width: 70px;
+    }
+    .hierbas .description h5{
+        font-size: 21px;
+        line-height: 20px;
+    }
+}
+/* posimas */
+#aboutus .posimas{
+    padding: 0 0 90px 0;
+    background: url(../img/mancha.png)center;
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+}
+.posimas .title{
+    margin: 40px 0 40px 0;
+    color: #410a51;
+}
+.posimas .title img{
+    max-width: 550px;
+    display: block;
+    margin: auto;
+}
+.posimas .content-text p{
+    font-family: 'posimasp';
+    font-size: 45px;
+    line-height: 50px;
+    text-align: center;
+}
+@media (max-width:930px){
+    .posimas .title{
+        margin: 0;
+    }
+    .posimas .title img{
+        max-width: 300px;
+    }
+    .posimas .content-text p{
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+@media (max-width:767px){
+    .posimas{
+        padding: 0 0 30px 0 ;
+    }
+    .posimas .title{
+        margin: 0;
+    }
+    .posimas .title img{
+        max-width: 150px;
+    }
+    .posimas .content-text p{
+        font-size: 15.5px;
+        line-height: 20px;
+    }
+}
+/* rituales */
+.rituales{
+    padding: 0 0 90px 0;
+    position: relative;
+}
+.rituales .luna1{
+    position: absolute;
+    top: -70px;
+    right: 90px;
+    width: 250px;
+}
+.rituales .luna2{
+    position: absolute;
+    top: 370px;
+    left: 150px;
+    width: 200px;
+}
+.rituales .title{
+    margin: 40px 0 0px 0;
+}
+.rituales .title img{
+    max-width: 550px;
+    display: block;
+    margin: auto;
+}
+.rituales .content-text p{
+    font-family: 'ritualesp';
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+.rituales .img-rituales{
+    margin-top: -20px;
+}
+.rituales .sub-text{
+    margin-top: -100px;
+}
+.rituales .sub-text h5{
+    font-family: 'ritualesp';
+    font-size: 50px;
+    color: #000;
+}
+@media (max-width:930px){
+    .rituales{
+        padding: 0;
+        position: relative;
+    }
+    .rituales .luna1{
+        position: absolute;
+        top: -40px;
+        right: 70px;
+        width: 130px;
+    }
+    .rituales .luna2{
+        position: absolute;
+        top: 200px;
+        left: 100px;
+        width: 100px;
+    }
+    .rituales .title{
+        margin: 0;
+    }
+    .rituales .title img{
+        max-width: 300px;
+    }
+    .rituales .content-text p{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .rituales .sub-text{
+        margin-top: -60px;
+    }
+    .rituales .sub-text h5{
+        font-family: 'ritualesp';
+        font-size: 28px;
+        line-height: 45px;
+        color: #000;
+    }
+}
+@media (max-width:767px){
+    .rituales .luna1{
+        position: absolute;
+        top: -20px;
+        right: 10px;
+        width: 70px;
+    }
+    .rituales .luna2{
+        position: absolute;
+        top: 140px;
+        left: 20px;
+        width: 50px;
+    }
+    .rituales .title{
+        margin: 0;
+    }
+    .rituales .title img{
+        max-width: 150px;
+    }
+    .rituales .content-text p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .rituales .sub-text{
+        margin-top: -40px;
+    }
+    .rituales .sub-text h5{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+/* hechizos */
+.hechizos{
+    padding: 0 0 90px 0;
+    background: url(../img/manchafinal.png)bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.hechizos .title{
+    margin: 40px 0 0 0;
+    color: #000;
+}
+.hechizos .title img{
+    max-width: 550px;
+    display: block;
+    margin: auto;
+}
+.hechizos .content-text p{
+    font-family: 'ritualesp';
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+.hechizos .text-center p{
+    font-family: 'ritualesp';
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 50px;
+}
+.hechizos .img-hechizos{
+    margin-top: -200px;
+}
+.hechizos .sub-text h5{
+    color: #000;
+}
+@media (max-width:930px){
+    .hechizos{
+        padding: 50px 0 0 0;
+        background: url(../img/manchafinal.png)bottom;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .hechizos .title{
+        margin: 0;
+        color: #000;
+    }
+    .hechizos .title img{
+        max-width: 300px;
+        display: block;
+        margin: auto;
+    }
+    .hechizos .content-text p{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .hechizos .text-center p{
+        font-size: 29px;
+        line-height: 45px;
+        margin-top: 50px;
+    }
+    .hechizos .img-hechizos{
+        margin-top: -140px;
+    }
+}
+@media (max-width:767px){
+    .hechizos{
+        padding: 20px 0 0 0;
+    }
+    .hechizos .title{
+        margin: 0;
+    }
+    .hechizos .title img{
+        max-width: 150px;
+    }
+    .hechizos .content-text p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .hechizos .text-center p{
+        font-size: 19px;
+        line-height: 25px;
+        margin-top: 30px;
+        position: relative;
+        z-index: 1;
+    }
+    .hechizos .img-hechizos{
+        margin-top: -100px;
+        position: relative;
+        z-index: -0;
+    }
+}
+/* cristales */
+.cristales{
+    padding: 0 0 90px 0;
+    background: url(../img/manchacristales.png)top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.cristales .title{
+    margin: 40px 0 0 0;
+    color: #3e5e13;
+}
+.cristales .title img{
+    max-width: 550px;
+    display: block;
+    margin: auto;
+}
+.cristales .content-text p{
+    font-family: 'hierbasp';
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+.cristales .content-text .bold_letter{
+    font-family: 'hierbaspb';
+    margin-bottom: -5px;
+    margin-top: 50px;
+    color: #004b45;
+}
+.cristales .sub-text h6{
+    font-family: 'h2';
+    text-align: center;
+    font-size: 70px;
+    color: #3e5e13;
+}
+@media (max-width:930px){
+    .cristales{
+        padding: 50px 0 0 0 ;
+        background: url(../img/manchacristales.png)top;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .cristales .title{
+        margin: 0;
+        color: #3e5e13;
+    }
+    .cristales .title img{
+        max-width: 300px;
+        display: block;
+        margin: auto;
+    }
+    .cristales .content-text p{
+        font-family: 'hierbasp';
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .cristales .content-text .bold_letter{
+        margin-bottom: -5px;
+        margin-top: 30px;
+    }
+}
+@media (max-width:767px){
+    .cristales{
+        padding: 20px 0 0 0 ;
+    }
+    .cristales .title{
+        margin: 0;
+        color: #3e5e13;
+    }
+    .cristales .title img{
+        max-width: 150px;
+    }
+    .cristales .content-text p{
+        font-size: 15.5px;
+        line-height: 20px;
+    }
+    .cristales .content-text .bold_letter{
+        margin-bottom: -5px;
+        margin-top: 15px;
+    }
+    .cristales .sub-text h6{
+        font-size: 30px;
+    }
+}
+/* call-to-action */
+#call-to-action{
+    padding: 20px 0;
+}
+#call-to-action .img-tarotist{
+    margin-top: -150px;
+    margin-left: -100px;
+}
+#call-to-action .btn-call{
+    background: url(../img/img-28.png) center;
+    background-size: 100% 100%;
+    padding: 20px 40px 20px 20px;
+    width: 700px;
+    display: block;
+    margin: auto;
+    margin-top: -100px;
+}
+#call-to-action .btn-call .btn-primary{
+    background: transparent;
+    border-style: none;
+    color: #3e5e13;
+    font-family: 'Purple Purse', cursive;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+#call-to-action .btn-call p{
+    font-family: 'hierbasp';
+    color: #3e5e13;
+    text-align: center;
+}
+#call-to-action .sub-text {
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    font-family: 'h2';
+    color: #723826;
+    text-align: center;
+}
+#call-to-action .sub-text .eva-name{
+    max-width: 300px;
+    margin-top: -70px;
+}
+@media (max-width:930px){
+    #call-to-action .img-tarotist{
+        margin-top: -60px;
+        margin-left: -100px;
+    }
+    #call-to-action .btn-call{
+        background: url(../img/img-28.png) center;
+        background-size: 100% 100%;
+        padding: 20px 40px 20px 20px;
+        width: 500px;
+        margin-top: -70px;
+    }
+    #call-to-action .btn-call .btn-primary{
+        font-size: 30px;
+    }
+    #call-to-action .btn-call p{
+        font-size: 12px;
+    }
+    #call-to-action .sub-text .eva-name{
+        max-width: 200px;
+        margin-top: -40px;
+    }
+}
+@media (max-width:767px){
+    #call-to-action .img-tarotist{
+        margin-top: -10px;
+        margin-left: -50px;
+    }
+    #call-to-action .btn-call{
+        padding: 10px 40px 20px 20px;
+        width: 290px;
+        margin-top: -30px;
+    }
+    #call-to-action .btn-call .btn-primary{
+        font-size: 18px;
+    }
+    #call-to-action .btn-call p{
+        font-size: 9px;
+    }
+    #call-to-action .sub-text .eva-name{
+        max-width: 100px;
+        margin-top: -20px;
+    }
+}
+/* footer */
+#footer{
+    background: #f1b7aa;
+    color: #fff;
+    text-align: center;
+}
+#footer p{
+    margin: 0;
+    font-size: 20px;
+}
+@media (max-width:767px){
+    #footer p{
+        margin: 0;
+        font-size: 10px;
+    }
+}

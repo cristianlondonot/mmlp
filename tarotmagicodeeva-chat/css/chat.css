@@ -1,0 +1,378 @@
+/* chat title */
+#chat .title{
+    padding: 50px 50px 80px 50px;
+}
+#chat .title .sub-title img{
+    width: 60px;
+}
+#chat .title h4{
+    margin: 0 0 -6px 0;
+    font-family: 'title-chat';
+    font-weight: bold;
+    font-size: 30px;
+}
+#chat .title h5{
+    margin: 0;
+    color: #692d03;
+    font-family: 'title-chat';
+    font-size: 28px;
+    font-weight: lighter;
+}
+/* chat box */
+#chat .chat-bg{
+    position: relative;
+}
+#chat .chat-section-content{
+    max-width: 1000px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#chat .chat-section-content .chat-box{
+    background: #d8ab79;
+    border-radius: 20px;
+    padding: 5px 20px 20px 20px;
+}
+/* header */
+#chat .chat-header {
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+#chat .chat-header h3, #chat .chat-header h5{
+    font-family: 'title-chat';
+    margin: 0;
+}
+#chat .chat-header h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#chat .chat-header h5{
+    font-size: 25px;
+}
+#chat .chat-header .tarotist img{
+    width: 150px;
+}
+#chat .chat-header .phone-call{
+    width: 150px;
+    text-align: right;
+}
+#chat .chat-header i{
+    font-size: 90px;
+}
+/* chat-content */
+#chat .chat-content{
+    background: #fff9f8;
+    border-radius: 0 0 30px 30px;
+}
+#chat .chat-content-bg{
+    background: url(../img/bg-chat.png) center;
+    background-size: 100%;
+    min-height: 480px;
+    max-height: 480px;
+    border-radius: 0 0 30px 30px;
+    overflow-x: hidden;
+}
+/* msg tarotista */
+#chat .msg-tarotist{
+    max-width: 500px;
+    width: 100%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: start;
+}
+#chat .msg-tarotist .img-tarotist img{
+    max-width: 130px;
+    width: 100%;
+}
+#chat .msg-tarotist .content-msg{
+    align-items: flex-end;
+}
+#chat .msg-tarotist .msg-content{
+    max-width: 315px;
+    background: #d8ab79;
+    color: #fff;
+    padding: 20px;
+    font-family: 'title-chat';
+    font-weight: lighter;
+    
+}
+#chat .msg-tarotist .msg-bg{
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: 23px;
+}
+#chat .msg-tarotist .msg-bg span{
+    line-height: 20px;
+    font-size: 23px;
+    letter-spacing: .5px;
+}
+#chat .msg-tarotist .msg-bg .decor{
+    position: absolute;
+    bottom: -11px;
+    left: -11px;
+    height: 20px;
+    border-top: 20px solid transparent;
+    border-right: 20px solid #d8ab79;
+    border-bottom: 22px solid transparent;
+    transform: rotate(90deg);
+}
+/* msg user */
+#chat .msg-user{
+    margin-right: 30px;
+    display: flex;
+    justify-content: end;
+}
+#chat .msg-user .content-msg{
+    align-items: flex-end;
+}
+#chat .msg-user .msg-content{
+    max-width: 315px;
+    background: #f1b7aa;
+    color: #692d03;
+    padding: 20px;
+    text-align: right;
+    font-family: 'title-chat';
+    font-weight: lighter;
+    
+}
+#chat .msg-user .msg-bg{
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: 23px;
+}
+#chat .msg-user .msg-bg span{
+    line-height: 20px;
+    font-size: 23px;
+    letter-spacing: .5px;
+}
+#chat .msg-user .msg-bg .decor{
+    position: absolute;
+    bottom: -11px;
+    right: -9px;
+    height: 20px;
+    border-top: 20px solid transparent;
+    border-right: 20px solid #f1b7aa;
+    border-bottom: 22px solid transparent;
+    transform: rotate(90deg);
+}
+/* text-composed */
+#chat .text-composed{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+#chat .text-composed .bg-text-composed{
+    border: 2px #d8ab79 solid;
+    border-radius: 30px;
+    position: relative;
+}
+#chat .text-composed .bg-text-composed textarea{
+    width: 100%;
+    min-height: 60px;
+    max-height: 60px;
+    font-size: 25px;
+    padding: 12px;
+    border-style: none;
+    border-radius: 30px;
+    text-indent: 20px;
+    font-family: 'title-chat';
+    color: #d8ab79;
+}
+#chat .text-composed .bg-text-composed .btn-send{
+    position: absolute;
+    background: #d8ab79;
+    padding: 8px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chat .text-composed .bg-text-composed .btn-send i{
+    color: #fff;
+    font-size: 30px;
+}
+@media (max-width:930px){
+    #chat .title{
+        padding: 0px 50px 40px 50px;
+    }
+    #chat .title .sub-title img{
+        width: 30px;
+    }
+    #chat .title h4{
+        margin: 0;
+        font-family: 'title-chat';
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #chat .title h5{
+        margin: 0;
+        color: #692d03;
+        font-family: 'title-chat';
+        font-size: 18px;
+        font-weight: lighter;
+    }
+}
+@media (max-width:767px){
+    #chat .container{
+        padding: 0;
+        margin: 0;
+    }
+    #chat .title{
+        padding: 0px 50px 40px 50px;
+    }
+    #chat .title .sub-title img{
+        width: 20px;
+    }
+    #chat .title h4{
+        margin: 0;
+        font-family: 'title-chat';
+        font-weight: bold;
+        font-size: 13px;
+    }
+    #chat .title h5{
+        margin: 5px 0 0 0;
+        color: #692d03;
+        font-family: 'title-chat';
+        font-size: 10px;
+        font-weight: lighter;
+    }
+    #chat .chat-section-content .chat-box{
+        background: #d8ab79;
+        border-radius: 0px;
+        padding: 5px 0 10px 0;
+    }
+    /* header */
+    #chat .chat-header {
+        margin-bottom: 2px;
+        padding: 0 20px;
+    }
+    #chat .chat-header h3{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    #chat .chat-header h5{
+        font-size: 12px;
+    }
+    #chat .chat-header .tarotist img{
+        width: 70px;
+    }
+    #chat .chat-header .phone-call{
+        width: 70px;
+    }
+    #chat .chat-header i{
+        font-size: 45px;
+    }
+    /* chat-content */
+    #chat .chat-content{
+        border-radius: 0;
+    }
+    #chat .chat-content-bg{
+        min-height: 380px;
+        max-height: 380px;
+        border-radius: 0;
+        padding: 15px 0 40px 0;
+    }
+    /* msg tarotista */
+    #chat .msg-tarotist{
+        max-width: 300px;
+        width: 100%;
+        margin-left: 10px;
+    }
+    #chat .msg-tarotist .img-tarotist img{
+        max-width: 80px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    #chat .msg-tarotist .msg-content{
+        max-width: 315px;
+        background: #d8ab79;
+        color: #fff;
+        padding: 10px;
+    }
+    #chat .msg-tarotist .msg-bg{
+        position: relative;
+        margin-bottom: 15px;
+        margin-left: 23px;
+    }
+    #chat .msg-tarotist .msg-bg span{
+        line-height: 0px;
+        font-size: 15px;
+        letter-spacing: .3px;
+    }
+    #chat .msg-tarotist .msg-bg .decor{
+        position: absolute;
+        bottom: -13.5px;
+        left: -9px;
+        height: 20px;
+        border-top: 20px solid transparent;
+        border-right: 15px solid #d8ab79;
+        border-bottom: 22px solid transparent;
+        transform: rotate(90deg);
+    }
+    /* msg user */
+    #chat .msg-user .msg-content{
+        max-width: 220px;
+        padding: 10px;
+    }
+    #chat .msg-user .msg-bg{
+        position: relative;
+        margin-bottom: 15px;
+        margin-left: 23px;
+    }
+    #chat .msg-user .msg-bg span{
+        line-height: 0px;
+        font-size: 15px;
+        letter-spacing: .3px;
+    }
+    #chat .msg-user .msg-bg .decor{
+        position: absolute;
+        bottom: -14px;
+        right: -7px;
+        height: 20px;
+        border-top: 20px solid transparent;
+        border-right: 15px solid #f1b7aa;
+        border-bottom: 22px solid transparent;
+        transform: rotate(90deg);
+    }
+    /* text-composed */
+    #chat .text-composed{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+    #chat .text-composed .bg-text-composed{
+        border: 2px #d8ab79 solid;
+        border-radius: 0px;
+        position: relative;
+    }
+    #chat .text-composed .bg-text-composed textarea{
+        width: 100%;
+        min-height: 40px;
+        max-height: 40px;
+        font-size: 13px;
+        padding: 12px;
+        border-radius: 0px;
+        text-indent: 20px;
+    }
+    #chat .text-composed .bg-text-composed .btn-send{
+        position: absolute;
+        background: #d8ab79;
+        padding: 8px;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        top: 5px;
+        right: 7px;
+    }
+    #chat .text-composed .bg-text-composed .btn-send i{
+        color: #fff;
+        font-size: 20px;
+    }
+}
