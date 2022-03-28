@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap');
+@font-face {
+    font-family: 'title-chat';
+    src: url(../css/fonts/AkzidenzGrotesk-Light.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'content-chat';
+    src: url(../css/fonts/AkzidenzGrotesk-Extended.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'h2';
+    src: url(../css/fonts/hellohoney.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'title-l-option-2';
+    src: url(../css/fonts/AnandaPersonalUse.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'title-b-option-2';
+    src: url(../css/fonts/AnandaBlackPersonalUse.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'hierbasp';
+    src: url(../css/fonts/calibrili.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'hierbaspb';
+    src: url(../css/fonts/calibrii.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'posimasp';
+    src: url(../css/fonts/Ribbons-and-banners.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'ritualesp';
+    src: url(../css/fonts/WildySans.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    background: url(../img/bg-completo.jpg) top;
+    background-size: 100%;
+    background-repeat: repeat;
+}
+img{
+    width: 100%;
+}
+h2{
+    font-family: 'h2';
+    font-size: 120px;
+    line-height: 100px;
+    text-align: center;
+}
+.sub-text h5{
+    font-family: 'h2';
+    text-align: center;
+    font-size: 80px;
+    line-height: 80px;
+    color: #3e5e13;
+}
+.movil{
+    display: none;
+}
+@media (max-width:930px) {
+    .movil{
+        display: block;
+    }
+    .escritorio{
+        display: none;
+    }
+
+}
+@media (max-width:767px){
+    .escritorio{
+        display: none !important;
+    }
+    h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+/* header */
+#header{
+    background: url(../img/bg-header.png) bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+#header .tarotista{
+    max-width: 350px;
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:930px) {
+    #header .tarotista{
+        max-width: 250px;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width:767px){
+    #header{
+        background: url(../img/bg-header.png) bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 15px;
+    }
+    #header .logo img{
+        max-width: 300px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+}
+
+/* contact */
+#contact{
+    padding: 0px 0 60px 0;
+}
+#contact .title{
+    padding: 50px 50px 30px 50px;
+}
+#contact .title .sub-title img{
+    width: 60px;
+}
+#contact .title h3{
+    font-size: 48px;
+    margin: 30px 0;
+    font-weight: 400;
+    color: #692d03;
+}
+#contact .title h4{
+    margin: 0 0 -6px 0;
+    font-family: 'title-chat';
+    font-weight: normal;
+    font-size: 45px;
+    color: #692d03;
+}
+#contact .title h5{
+    margin: 0;
+    color: #692d03;
+    font-family: 'title-chat';
+    font-size: 28px;
+    font-weight: lighter;
+}
+#contact .form-group{
+    background: url(../img/img-03.png)center;
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -5px;
+}
+#contact .form-group input{
+    margin: 0;
+    width: 90%;
+    background: transparent;
+    border-style: none;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -25px;
+    font-weight: 200;
+}
+#contact .form-group input:focus{
+    border: transparent;
+}
+#contact .boton button{
+    background: url(../img/boton.png)center;
+    background-size: 100% 100%;
+    background-color: transparent;
+    border-style: none;
+    padding: 30px 90px;
+    font-size: 25px;
+    width: 400px;
+    text-transform: uppercase;
+    font-weight: 200;
+    display: block;
+    margin: auto;
+    color: #692d03;
+}
+#contact .movil img{
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+@media (max-width:767px){
+    #contact{
+        padding: 0px 0 20px 0;
+    }
+    #contact .movil img{
+        max-width: 200px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    #contact .title{
+        padding:10px 0px 30px 0px;
+    }
+    #contact .title h3{
+        font-size: 20px;
+        margin: 12px 0;
+    }
+    #contact .title h4{
+        margin: 0 0 -6px 0;
+        font-size: 19px;
+    }
+    #contact .title h5{
+        margin: 0;
+        font-size: 12px;
+    }
+    #contact .title h5 br{
+        display: none;
+    }
+    #contact .title .sub-title img{
+        width: 30px;
+    }
+    #contact .form-group{
+        padding: 30px 20px;
+        margin-bottom: -3px;
+    }
+    #contact .form-group input{
+        margin: 0;
+        width: 90%;
+        font-size: 15px;
+        margin-top: -23px;
+        font-weight: 300;
+    }
+    #contact .boton button{
+        padding: 30px 90px;
+        font-size: 15px;
+        width: 300px;
+        font-weight: 300;
+        display: block;
+        margin: auto;
+        color: #692d03;
+    }
+}
+
+/* primeratirada */
+#primeratirada{
+    background: url(../img/img-04.png)top;
+    background-size: 100% 28%;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+}
+#primeratirada .content{
+    max-width: 900px;
+    display: block;
+    margin: auto;
+}
+#primeratirada .content-text p{
+    font-family: 'hierbasp';
+    font-size: 45px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: lighter;
+}
+#primeratirada .img-tarotist{
+    position: relative;
+    height: 600px;
+}
+#primeratirada .img-tarotist img{
+    max-width: 1500px;
+    position: absolute;
+    top: -120px;
+    z-index: -1;
+    left: calc(50% - 750px);
+}
+#primeratirada .title h2{
+    margin: 30px 0 50px 0;
+}
+#primeratirada .title .green{
+    color: #3e5e13;
+}
+#primeratirada .title .morado{
+    color: #41084f;
+}
+@media (max-width:1500px) {
+    #primeratirada .img-tarotist{
+        position: relative;
+        height: 450px;
+    }
+    #primeratirada .img-tarotist img{
+        max-width: 1000px;
+        position: absolute;
+        top: -60px;
+        z-index: -1;
+        left: calc(50% - 500px);
+    }
+}
+@media (max-width:1000px) {
+    #primeratirada .img-tarotist{
+        position: relative;
+        height: 300px;
+    }
+    #primeratirada .img-tarotist img{
+        max-width: 767px;
+        position: absolute;
+        top: -60px;
+        z-index: -1;
+        left: calc(50% - 350px);
+    }
+}
+@media (max-width:767px){
+    #primeratirada{
+        background: url(../img/img-04.png)top;
+        background-size: 100% 21%;
+        background-repeat: no-repeat;
+        padding: 20px 0;
+    }
+    #primeratirada .content{
+        max-width: 300px;
+        display: block;
+        margin: auto;
+    }
+    #primeratirada .content-text p{
+        font-size: 15.5px;
+        line-height: 20px;
+    }
+    #primeratirada .title h2{
+        margin: 0px 0 15px 0;
+    }
+    #primeratirada .img-tarotist{
+        position: relative;
+        height: 150px;
+    }
+    #primeratirada .img-tarotist img{
+        max-width: 350px;
+        position: absolute;
+        top: -40px;
+        z-index: -1;
+        left: calc(50% - 175px);
+    }
+}
+/* testimonials */
+#testimonials{
+    padding: 0;
+}
+#testimonials .title{
+    color: #3e5e13;
+    padding: 0 0 50px 0;
+}
+#testimonials .test-bg{
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 40px;
+    padding: 10px 40px;
+}
+#testimonials .test-box .test-user img{
+    max-width: 250px;
+    width: 100%;
+}
+#testimonials .test-box .content{
+    align-items: flex-end;
+}
+#testimonials .calification p{
+    text-align: right;
+    color: #3e5e13;
+    font-size: 25px;
+}
+#testimonials .name h5{
+    color: #3e5e13;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+#testimonials .content-text p{
+    color: #3e5e13;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+@media (max-width:767px){
+    #testimonials .test-box .test-user img{
+        max-width: 180px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    #testimonials .calification p{
+        font-size: 15px;
+        text-align: center;
+    }
+    #testimonials .name h5{
+        font-size: 20px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    #testimonials .content-text p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 20px;
+        text-align: justify;
+    }
+}
+/* add-section */
+#add-section{
+    padding: 50px 0;
+}
+#add-section .img-tarotist img{
+    max-width: 700px;
+    display: block;
+    margin: auto;
+}
+#add-section .title h3{
+    font-family: 'h2';
+    font-size: 70px;
+    text-align: center;
+    color: #692d03;
+    line-height: 70px;
+}
+#add-section .title img{
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: -50px;
+    margin-bottom: -80px;
+}
+@media (max-width:767px){
+    #add-section{
+        padding: 20px 0;
+    }
+    #add-section .img-tarotist img{
+        max-width: 300px;
+    }
+    #add-section .title h3{
+        font-size: 33px;
+        line-height: 30px;
+    }
+    #add-section .title img{
+        max-width: 150px;
+        width: 100%;
+        margin-top: -20px;
+        margin-bottom: -40px;
+    }
+}
+/* footer */
+#footer{
+    background: #f1b7aa;
+    color: #fff;
+    text-align: center;
+}
+#footer p{
+    margin: 0;
+    font-size: 20px;
+}
+@media (max-width:767px){
+    #footer p{
+        margin: 0;
+        font-size: 10px;
+    }
+}
