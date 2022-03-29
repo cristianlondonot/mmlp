@@ -1,0 +1,521 @@
+@font-face {
+    font-family: 'gn';
+    src: url(../css/fonts/GOTHIC.TTF) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'gb';
+    src: url(../css/fonts/GOTHICB.TTF) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    background: url(../img/bg.jpg)center;
+    background-size: cover;
+}
+img{
+    width: 100%;
+}
+h2{
+    font-family: 'gb';
+    font-size: 64px;
+}
+.title img{
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+p{
+    font-family: 'gn';
+    font-size: 29px;
+    text-align: justify;
+    margin-bottom: 35px;
+    line-height: 35px;
+}
+@media (max-width:767px) {
+    h2{
+        font-size: 34px;
+    }
+    .title img{
+        max-width: 250px;
+        width: 100%;
+    }
+    p{
+        font-size: 14px;
+        margin-bottom: 20px;
+        line-height: 20px;
+    }
+}
+/* header */
+#header{
+    padding: 30px 0 80px 0;
+}
+#header .logo img{
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+#header .title{
+    margin: 70px 0;
+}
+#header .title h1{
+    font-family: 'gb';
+    font-size: 80px;
+}
+#header .btn-call {
+    display: flex;
+    justify-content: center;
+}
+#header .btn-call .btn-primary img{
+    max-width: 70px;
+    margin-right: 10px;
+    margin-top: -15px;
+}
+#header .btn-call .btn-primary{
+    background: #00ff00;
+    border-radius: 0;
+    border: 5px #fff solid;
+    color: #000;
+    font-family: 'gn';
+    font-size: 75px;
+    padding: 0px 30px;
+    width: 800px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.4);
+}
+#header .tarifa p{
+    font-family: 'gn';
+    text-align: center;
+    font-size: 33px;
+}
+@media (max-width:767px){
+    #header{
+        padding: 30px 0 20px 0;
+    }
+    #header .logo img{
+        max-width: 250px;
+    }
+    #header .title{
+        margin: 20px 0;
+    }
+    #header .title h1{
+        font-size: 30px;
+    }
+    #header .btn-call .btn-primary img{
+        max-width: 30px;
+        margin-right: 0px;
+        margin-top: -5px;
+    }
+    #header .btn-call .btn-primary{
+        border: 3px #fff solid;
+        font-size: 30px;
+        padding: 0px 20px;
+        width: 800px;
+        box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.4);
+    }
+    #header .tarifa p{
+        font-size: 13px;
+    }
+}
+/* select */
+#select{
+    padding: 60px 0;
+    background: linear-gradient(to top, #558383, #164f50 );
+}
+#select .title{
+    color: #fff;
+}
+#select .icons{
+    max-width: 700px;
+    display: block;
+    margin: auto;
+}
+#select .iconos-g{
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 80px;
+}
+#select .icons label{
+    width: 100%;
+    transition: all .5s;
+}
+#select .icons img{
+    max-width: 140px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#select .icons h3{
+    font-family: 'gb';
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+#select .tarotist{
+    margin-bottom: 50px;
+}
+#select .tarotist-agend{
+    padding-top: 80px;
+    max-width: 700px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#select .tarotist-dir{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#select .tarotist-dir .tarotist .tarotista-img{
+    max-width: 190px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#select .tarotist-dir .tarotist h5{
+    font-family: 'gn';
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+#select .tarotist-dir .tarotist .btn-call {
+    display: flex;
+    justify-content: center;
+}
+#select .tarotist-dir .tarotist .btn-call .disponible{
+    background: #00ff00;
+    border: 4px #fff solid;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    width: 160px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+#select .tarotist-dir .tarotist .btn-call .disponible img{
+    max-width: 23px;
+    height: 23px;
+    width: 100%;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+#select .tarotist-dir .tarotist .btn-call .ocupado{
+    background: red;
+    border: 4px #fff solid;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    width: 160px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+/*  */
+#select{
+    position: relative;
+    z-index: 1;
+}
+#select input{
+    display:  none;
+}
+input[type=checkbox]:checked + label{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+@media (max-width:767px){
+    #select{
+        padding: 40px 0;
+    }
+    #select .iconos-g{
+        margin-top: 40px;
+    }
+    #select .icons img{
+        max-width: 80px;
+        width: 100%;
+    }
+    #select .icons h3{
+        font-size: 20px;
+    }
+    #select .tarotist{
+        margin-bottom: 50px;
+    }
+    #select .tarotist-agend{
+        padding-top: 40px;
+    }
+    #select .tarotist-dir .tarotist .tarotista-img{
+        max-width: 100px;
+    }
+    #select .tarotist-dir .tarotist h5{
+        font-size: 25px;
+    }
+    #select .tarotist-dir .tarotist .btn-call .disponible{
+        border: 2px #fff solid;
+        padding: 3px 5px;
+        width: 100px;
+        font-size: 13px;
+    }
+    #select .tarotist-dir .tarotist .btn-call .disponible img{
+        width: 7px;
+        height: 13px;
+        width: 100%;
+        margin-top: 3px;
+        margin-right: 5px;
+    }
+    #select .tarotist-dir .tarotist .btn-call .ocupado{
+        border: 2px #fff solid;
+        padding: 3px 10px;
+        width: 100px;
+        font-size: 13px;
+    }
+}
+
+/* about-us */
+#about-us{
+    padding: 60px 0;
+}
+#about-us .title{
+    margin-bottom: 50px;
+}
+#about-us .title img{
+    margin-bottom: 10px;
+}
+@media (max-width:767px){
+    #about-us{
+        padding: 30px 0;
+    }
+    #about-us .title{
+        margin-bottom: 20px;
+    }
+    #about-us .title img{
+        margin-bottom: 5px;
+    }
+}
+
+/* tarot */
+#tarot {
+    background: url(../img/bg-cards.png)left;
+    background-size: 250px 90%;
+    background-repeat: no-repeat;
+}
+#tarot .title{
+    margin-top: -50px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+#tarot .content-text{
+    padding-left: 200px;
+}
+@media (max-width:767px){
+    #tarot {
+        background: url(../img/bg-cards.png)left;
+        background-size: 100px 50%;
+        background-repeat: no-repeat;
+    }
+    #tarot .title{
+        margin-top: -20px;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    #tarot .content-text{
+        padding-left: 100px;
+    }
+}
+
+/* testimonials */
+#testimonials{
+    padding: 30px 0 80px 0;
+}
+#testimonials .title{
+    margin-bottom: 110px;
+}
+#testimonials .title img{
+    margin-bottom: 10px;
+}
+#testimonials  .box-complete{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 100px;
+    column-gap: 40px;
+}
+#testimonials .test-box .content-bg{
+    background: #fff;
+    border-radius: 20px;
+    padding: 60px 30px 30px 30px;
+    position: relative;
+}
+#testimonials .test-box .img-test img{
+    max-width: 120px;
+    width: 100%;
+    position: absolute;
+    top: -65px;
+}
+#testimonials .test-box .name span{
+    font-family: 'gb';
+    font-size: 20px;
+}
+#testimonials .test-box .name img{
+    max-width: 20px;
+    margin-left: 7px;
+}
+#testimonials .test-box .calification img{
+    max-width: 150px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+#testimonials .test-box .content-text p{
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+}
+@media (max-width:767px){
+    #testimonials{
+        padding: 15px 0 40px 0;
+    }
+    #testimonials .title{
+        margin-bottom: 90px;
+    }
+    #testimonials .title img{
+        margin-bottom: 5px;
+    }
+    #testimonials  .box-complete{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 60px;
+        column-gap: 10px;
+    }
+    #testimonials .test-box .content-bg{
+        border-radius: 10px;
+        padding: 50px 30px 30px 30px;
+        position: relative;
+    }
+    #testimonials .test-box .img-test img{
+        max-width: 90px;
+        top: -45px;
+    }
+    #testimonials .test-box .name span{
+        font-size: 14px;
+    }
+    #testimonials .test-box .name img{
+        max-width: 13px;
+        margin-left: 4px;
+    }
+    #testimonials .test-box .calification img{
+        max-width: 100px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    #testimonials .test-box .content-text p{
+        font-size: 13px;
+        line-height: 18px;
+        margin: 0;
+    }
+}
+
+/* faq */
+#faq{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#faq .title{
+    padding-bottom: 60px;
+}
+.parent-container {
+    padding: 0 20px 0 20px;
+    width: 100%;
+}
+.faq {
+    list-style: none;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.faq li {
+    margin-bottom: 15px;
+}
+.faq li.active .answer {
+    max-height: 275px !important;
+    padding-bottom: 25px;
+    transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+}
+.faq li.active .question {
+    color: #090909;
+    transition: color 0.5s ease;
+    font-family: 'gb';
+}
+.faq .answer {
+    color: #090909;
+    font-family: 'gn';
+    font-size: 29px;
+    line-height: 35px;
+    text-align: justify;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+}
+.faq .plus-minus-toggle {
+    cursor: pointer;
+    height: 21px;
+    position: absolute;
+    width: 21px;
+    left: -40px;
+    top: 50%;
+    z-index: 2;
+}
+.faq .plus-minus-toggle:before, .faq .plus-minus-toggle:after {
+    background: #d5ad74;
+    content: '';
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 21px;
+    transition: transform 500ms ease;
+}
+.faq .plus-minus-toggle:after {
+    transform-origin: center;
+}
+.faq .plus-minus-toggle.collapsed:after {
+    transform: rotate(90deg);
+}
+.faq .plus-minus-toggle.collapsed:before {
+    transform: rotate(180deg);
+}
+.faq .question {
+    color: #090909;
+    font-family: 'gb';
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    padding: 20px 0;
+    transition: color 0.5s ease;
+}
+@media screen and (max-width: 767px) {
+    .faq .question {
+        font-size: 18px;
+    }
+    .faq .answer {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+/* footer */
+#footer{
+    padding: 80px 0;
+    background: linear-gradient(to top, #558383, #164f50 );
+}
+#footer .content{
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+}
+#footer .content img{
+    max-width: 50px;
+    margin-right: 20px;
+}
