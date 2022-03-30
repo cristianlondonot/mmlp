@@ -27,15 +27,20 @@ body{
 }
 
 #status {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    left: calc(50% - 100px);
-    top: calc(50% - 100px);
+    left: calc(50% - 50px);
+    /* centers the loading animation horizontally one the screen */
+    top: calc(50% - 50px) ;
+    /* centers the loading animation vertically one the screen */
     background-image: url(https://cristianlondonot.github.io/mmlp/ibercall-2.0pf/img/LogoAnimado.gif);
+    /* path to your loading animation */
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    
+    /* is width and height divided by two */
 }
 /*--------------------------------------------------------------
 # predeterminado title
@@ -521,7 +526,7 @@ h2::after {
     padding: 2px;
     border-top: 0px rgba(68,221,97,1) solid;
     width: 60px;
-    color: #fff;
+    color: #666;
     margin: 30px 0;
 }
 .ctaction1 h2{
@@ -724,7 +729,10 @@ h2::after {
     padding-bottom: 80px !important;
 }
 #testimonials h1{
-    color: #fff;
+    color: #252a2c;
+}
+#testimonials .title .subtitle h5 {
+    color: #252a2c !important;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
   color: #00cc95;
