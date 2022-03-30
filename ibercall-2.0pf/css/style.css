@@ -27,16 +27,15 @@ body{
 }
 
 #status {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     position: absolute;
-    left: calc(50% - 50px);
-    top: calc(50% - 50px);
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
     background-image: url(https://cristianlondonot.github.io/mmlp/ibercall-2.0pf/img/LogoAnimado.gif);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    margin: -100px 0 0 -100px;
 }
 /*--------------------------------------------------------------
 # predeterminado title
