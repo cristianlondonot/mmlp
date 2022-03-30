@@ -53,7 +53,6 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
 }
 #und-sec .content-info .icon-sec .icon{
     max-width: 130px;
@@ -74,7 +73,7 @@ img{
     letter-spacing: 1px;
 }
 #und-sec .content-info .icon-sec .icon-price {
-    max-width: 170px;
+    max-width: 150px;
     width: 100%;
 }
 #und-sec .content-info .icon-sec .icon-price img{
@@ -102,6 +101,13 @@ img{
         letter-spacing: 1px;
     }
 
+    #und-sec .content-info .icon-sec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+
     #und-sec .content-info .icon-sec .icon{
         max-width: 120px;
         width: 100%;
@@ -123,7 +129,5 @@ img{
     }
     #und-sec .content-info .icon-sec .icon-price img{
         width: 150px;
-        display: block;
-        margin: auto;
     }
 }
