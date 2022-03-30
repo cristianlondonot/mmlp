@@ -30,8 +30,8 @@ body{
     width: 100px;
     height: 100px;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
     background-image: url(https://cristianlondonot.github.io/mmlp/ibercall-2.0pf/img/LogoAnimado.gif);
     background-size: 100%;
     background-repeat: no-repeat;
