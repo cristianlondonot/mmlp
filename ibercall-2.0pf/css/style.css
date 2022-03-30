@@ -333,8 +333,8 @@ h2{
   }
 }
 #hero h2 {
-    color: rgb(101, 236, 149);
-    margin-top: 20px;
+    color: rgba(38,183,231,1);
+    margin-top: 0px;
     font-size: 44px;
     letter-spacing: 3px;
     font-weight: bold;

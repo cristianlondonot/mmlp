@@ -159,7 +159,7 @@
     
 100% {
     transform: translate(0, 0);
-    color: rgb(101, 236, 149);
+    color: rgba(38,183,231,1);
   }
   0% {
     transform: translate(0, 0);
