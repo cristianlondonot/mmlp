@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
-    background: url(../img/bg.png)center;
+    background: url(../img/bg.png)top;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
     font-family: 'Nunito', sans-serif;
     /* height: 100vh; */
 }
@@ -12,12 +14,14 @@ img{
     margin: 0;
 }
 /* und-sec */
-#und-sec{
-    padding: 100px 80px;
-}
+
 #und-sec .bg-content{
     background: rgba(255, 255, 255, 0.6);
     border: 7px #fff solid;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    margin-top: 50PX;
 }
 #und-sec .tarotist{
     background: url(../img/tarotista.jpg) center;
@@ -25,29 +29,24 @@ img{
     padding: 0;
     margin: 0;
 }
-/* #und-sec .tarotist img{
-    max-width: 400px;
-    width: 100%;
-} */
 #und-sec .content-info{
     padding: 0px 40px 0px 40px;
-    max-width: 800px;
     width: 100%;
     display: block;
     margin: auto;
 }
 #und-sec .content-info .title img{
-    max-width: 550px;
+    max-width: 350px;
     width: 100%;
     display: block;
     margin: auto;
 }
 #und-sec .content-info .sub-text p{
-    font-size: 23px;
+    font-size: 13px;
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 #und-sec .content-info .icon-sec{
     display: flex;
@@ -59,40 +58,39 @@ img{
     width: 100%;
 }
 #und-sec .content-info .icon-sec .icon .icono{
-    height: 80px;
+    height: 35px;
 }
 #und-sec .content-info .icon-sec .icon img{
     width: auto;
     display: block;
     margin: auto;
-    height: 60px;
+    height: 30px;
 }
 #und-sec .content-info .icon-sec .icon p{
     text-align: center;
-    font-size: 20px;
-    letter-spacing: 1px;
+    font-size: 12px;
+    letter-spacing: .5px;
 }
 #und-sec .content-info .icon-sec .icon-price {
-    max-width: 150px;
+    max-width: 80px;
     width: 100%;
 }
 #und-sec .content-info .icon-sec .icon-price img{
-    width: 170px;
+    width: 80px;
     margin-top: -25px;
 }
-@media (max-width:1140px) {
+@media (max-width:700px) {
     #und-sec{
         padding: 20px 10px;
     }
-    #und-sec .tarotist{
-        height: 380px;
+    #und-sec .bg-content{
+        margin-top: 0PX;
     }
     #und-sec .content-info{
         padding: 20px;
         max-width: 800px;
         width: 100%;
     }
-
     #und-sec .content-info .sub-text p{
         font-size: 16px;
         text-align: center;
@@ -100,8 +98,8 @@ img{
         font-weight: 500;
         letter-spacing: 1px;
     }
-
     #und-sec .content-info .icon-sec{
+        padding: 0 50px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -127,7 +125,20 @@ img{
         letter-spacing: 1px;
         margin-bottom: 20px;
     }
+    #und-sec .content-info .icon-sec .icon-price {
+        max-width: 150px;
+        width: 100%;
+    }
     #und-sec .content-info .icon-sec .icon-price img{
         width: 150px;
+        display: block;
+        margin: auto;
     }
+}
+@media (max-width:575px) {
+    #und-sec .tarotist{
+        height: 400px;
+        background: url(../img/tarotista.jpg) center;
+        background-size: cover;
+    }    
 }
