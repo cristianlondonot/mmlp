@@ -10,12 +10,20 @@ main{
     background-size: 100%;
     background-repeat: no-repeat;
 }
+.container{
+    max-width: 800px;
+}
+@media (max-width:800px) {
+    .container{
+        max-width: 500px;
+    }
+}
 /* header */
 #header .logo{
-    padding: 50px 0 50px 0;
+    padding: 20px 0 10px 0;
 }
 #header .logo img{
-    max-width: 500px;
+    max-width: 270px;
     width: 100%;
     display: block;
     margin: auto;
@@ -23,12 +31,12 @@ main{
 #header .sub-title img{
     width: 100%;
 }
-@media (max-width:767px) {
+@media (max-width:800px) {
     #header .logo{
-        padding: 20px 0 20px 0;
+        padding: 20px 0 15px 0;
     }
     #header .logo img{
-        max-width: 200px;
+        max-width: 170px;
         width: 100%;
     }
 }
@@ -44,14 +52,14 @@ main{
 
 /* cards */
 #cards{
-    padding: 50px 0;
+    padding: 30px 0;
 }
 #cards .content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-width: 300px;
-    column-gap: 50px;
-    max-width: 900px;
+    column-gap: 20px;
+    max-width: 650px;
     width: 100%;
     margin: auto;
 }
@@ -60,12 +68,12 @@ main{
     width: 100%;
 }
 #cards .palomas img{
-    max-width: 600px;
+    max-width: 450px;
     width: 100%;
     display: block;
     margin: auto;
 }
-@media (max-width:767px){
+@media (max-width:800px){
     #cards{
         padding: 20px 0;
     }
@@ -74,7 +82,7 @@ main{
         grid-template-columns: repeat(3, 1fr);
         column-width: 300px;
         column-gap: 20px;
-        max-width: 450px;
+        max-width: 500px;
         width: 100%;
         margin: auto;
     }
@@ -131,16 +139,16 @@ main{
     text-align: center;
 }
 #descriotion .boxes p{
-    font-size: 35px;
+    font-size: 25px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
 #descriotion .boxes h4{
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 35px;
 }
-@media (max-width:767px){
+@media (max-width:800px){
     #descriotion{
         padding: 10px 0 20px 0;
     }
@@ -151,11 +159,11 @@ main{
         text-align: center;
     }
     #descriotion .boxes p{
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 300;
     }
     #descriotion .boxes h4{
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 @media (max-width:575px){
@@ -187,16 +195,16 @@ main{
     width: 100%;
 }
 #call-to-action-2 .sub-text{
-    padding: 80px 0;
+    padding: 40px 0;
 }
 #call-to-action-2 h4{
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
     text-align: center;
     margin: 0;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 #call-to-action-2 .btn-call{
     padding: 0 0 80px 0;
@@ -204,19 +212,22 @@ main{
     justify-content: center;
 }
 #call-to-action-2 .btn-call img{
-    max-width: 700px;
+    max-width: 500px;
 }
-@media (max-width:767px){
+@media (max-width:800px){
     #call-to-action-2 .sub-text{
-        padding: 40px 0;
+        padding: 20px 0;
     }
     #call-to-action-2 h4{
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 800;
         letter-spacing: 2px;
     }
+    #call-to-action-2 .btn-call{
+        padding: 0 0 40px 0;
+    }
     #call-to-action-2 .btn-call img{
-        max-width: 350px;
+        max-width: 300px;
     }
 }
 @media (max-width:575px){
@@ -238,18 +249,19 @@ main{
 
 /* footer */
 #footer{
-    padding: 100px 0 300px 0;
+    padding: 50px 0 150px 0;
 }
 #footer img{
+    max-width: 500px;
     display: block;
     margin: auto;
 }
-@media (max-width:767px){
+@media (max-width:800px){
     #footer{
         padding: 10px 0 100px 0;
     }
     #footer img{
-        max-width: 400px;
+        max-width: 300px;
         display: block;
         margin: auto;
     }
