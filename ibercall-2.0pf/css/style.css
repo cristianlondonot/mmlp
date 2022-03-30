@@ -524,6 +524,12 @@ h2::after {
     color: #fff;
     margin: 30px 0;
 }
+.ctaction1 h2{
+    color: #252a2c !important;
+}
+.ctaction1 p{
+    color: #252a2c !important;
+}
 @media (max-width: 1200px) {
     .calltoactionblock .marginleft{
         margin: 10px 0 0 0;
