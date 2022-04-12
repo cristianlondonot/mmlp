@@ -147,7 +147,7 @@ h2, h4, h3{
 }
 /* modal */
 .modal-header {
-    background: #dd758e;
+    background: #d75286;
     display: block;
     position: relative;
 }
@@ -183,12 +183,14 @@ h2, h4, h3{
     background: #fff;
     border: 1px #60606080 solid;
     color: #60606080;
-    padding: 10px 20px;
+    padding: 0px 20px;
+    height: 50px;
     font-size: 25px;
     text-align: center;
     border-radius: 25px;
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
+    appearance: none;
 }
 .modal-body .form-group .icon i{
     position: absolute;
@@ -268,7 +270,7 @@ form .boton{
     padding-bottom: 20px;
 }
 form .boton button{
-    background: #dd758e;
+    background: #d75286;
     color: #fff;
     border-radius: 20px;
     padding: 7px 30px;
@@ -279,7 +281,7 @@ form .boton button{
 @media (max-width:700px){
     /* modal */
     .modal-header {
-        background: #dd758e;
+        background: #d75286;
         display: block;
         position: relative;
     }
@@ -317,6 +319,7 @@ form .boton button{
         color: #60606080;
         padding: 5px 10px;
         font-size: 11px;
+        height: 35px;
         text-align: center;
         border-radius: 25px;
         font-weight: bold;
@@ -325,7 +328,7 @@ form .boton button{
     .modal-body .form-group .icon i{
         position: absolute;
         right: 35px;
-        top: 6px;
+        top: 10px;
         color: #60606080;
         font-size: 12px;
     }
@@ -407,7 +410,7 @@ form .boton button{
         padding-bottom: 10px;
     }
     form .boton button{
-        background: #dd758e;
+        background: #d75286;
         color: #fff;
         border-radius: 10px;
         padding: 7px 30px;
@@ -908,6 +911,17 @@ form .boton button{
     display: grid;
     justify-content: space-between;
 }
+#iconos .content-iconos a{
+    text-decoration: none;
+    color: #000;
+    transition: all .5s;
+}
+#iconos .content-iconos a:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+    color: #dd758e;
+    text-shadow: 2px 2px 2px 0 #dd758e;
+}
 #iconos .icon-box{
     max-width: 600px;
     align-items: center;
@@ -1072,23 +1086,25 @@ form .boton button{
     opacity: 0;
     max-height: 0;
     font-size: 0;
-    transition: .25s ease;
+    transition: .5s ease;
+    display: none;
 }
 
 #testimonials .read-more-statet:checked ~ .read-more-wrapt .read-more-targett {
     opacity: 1;
+    display: block;
     font-size: inherit;
     max-height: 999em;
-
+    transition: .5s ease;
 }
 
 #testimonials .read-more-statet ~ .read-more-triggert::before {
-    content: 'VER MAS COMENTARIOS';
+    content: 'Ver todas las opiniones';
     
 }
 
 #testimonials .read-more-statet:checked ~ .read-more-triggert:before {
-    content: 'MOSTRAR MENOS';
+    content: 'Ver menos';
 }
 
 #testimonials .read-more-triggert {
@@ -1096,58 +1112,20 @@ form .boton button{
     cursor: pointer;
     display: block;
     background: #fff;
-    color: #dd758e;
-    border: 2px #dd758e solid;
+    color: blue;
+    border: 0px #dd758e solid;
     border-radius: 20px;
     text-transform: uppercase;
     padding: 5px 35px;
-    font-size: 11px;
-    width: 200px;
+    font-size: 21px;
+    font-weight: bold;
+    width: 500px;
     margin: auto;
     margin-bottom: 50px;
     position: relative;
     z-index: 1000;
 }
-#agenda .read-more-state {
-    display: none;
-}
 
-#agenda .read-more-target {
-    opacity: 0;
-    max-height: 0;
-    font-size: 0;
-    transition: .25s ease;
-}
-
-#agenda .read-more-state:checked ~ .read-more-wrap .read-more-target {
-    opacity: 1;
-    font-size: inherit;
-    max-height: 999em;
-}
-
-#agenda .read-more-state ~ .read-more-trigger::before {
-    content: 'VER MAS ESPECIALISTAS';
-}
-
-#agenda .read-more-state:checked ~ .read-more-trigger:before {
-    content: 'MOSTRAR MENOS';
-}
-
-#agenda .read-more-trigger {
-    text-align: center;
-    cursor: pointer;
-    display: block;
-    background: #fff;
-    color: #dd758e;
-    border: 2px #dd758e solid;
-    border-radius: 20px;
-    text-transform: uppercase;
-    padding: 5px 35px;
-    font-size: 11px;
-    width: 200px;
-    margin: auto;
-    margin-bottom: 50px;
-}
 @media (max-width:700px){
     #testimonials .title-bg{
         background: #f0f0f0;
@@ -1206,5 +1184,23 @@ form .boton button{
         max-width: 15px;
         margin-right: 2px;
         width: 100%;
+    }
+    #testimonials .read-more-triggert {
+        text-align: center;
+        cursor: pointer;
+        display: block;
+        background: #fff;
+        color: blue;
+        border: 0px #dd758e solid;
+        border-radius: 20px;
+        text-transform: uppercase;
+        padding: 5px 35px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 290px;
+        margin: auto;
+        margin-bottom: 50px;
+        position: relative;
+        z-index: 1000;
     }
 }
