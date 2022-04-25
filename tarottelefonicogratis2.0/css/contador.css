@@ -1,0 +1,92 @@
+.contador-content#clockdiv .und{
+  background: #5c5c5ca1;
+  padding: 5px;
+}
+
+.contador-content{
+  padding: 10px;
+  width: 650px;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.contador #clockdiv{
+  color: black;
+  display: inline-block;
+  text-align: left;
+  font-size: 65px;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+}
+
+.contador #clockdiv .und{
+    background: #A67A51;
+    width: 200px;
+}
+
+.contador #clockdiv div{
+  padding: 50px 0 20px 0;
+  border-radius: 0;
+  display: inline-block;
+  line-height: 120px;
+}
+
+.contador #clockdiv{
+  color: white;
+  text-align: center;
+}
+
+.contador #clockdiv div span{
+    font-family: 'subtitulos';
+  border-radius: 3px;
+  background: none;
+  display: inline-block;
+  padding: 5px;
+  font-size: 105px;
+}
+
+.contador .smalltext{
+  font-size: 35px;
+}
+
+@media (max-width:1052px){
+  .contador-content{
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .contador #clockdiv .und{
+    background: #A67A51;
+    width: 100px;
+  }
+  .contador #clockdiv div span{
+    padding: 5px;
+    font-size: 52px;
+  }
+  .contador #clockdiv div{
+    padding: 20px 0 10px 0;
+    line-height: 50px;
+  }
+}
+@media (max-width:480px){
+  .contador-content{
+    width: 300px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+  }
+  .contador #clockdiv .und{
+    background: #A67A51;
+    width: 60px;
+  }
+  .contador #clockdiv div span{
+    padding: 5px;
+    font-size: 27px;
+  }
+  .contador #clockdiv div{
+    padding: 0;
+    line-height: 40px;
+  }
+}
