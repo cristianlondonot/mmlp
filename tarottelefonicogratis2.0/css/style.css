@@ -98,8 +98,6 @@ p{
 }
 
 /* header */
-#header{
-}
 #header .tittle{
     text-align: center;
     margin-top: 50px;
@@ -118,6 +116,8 @@ p{
     width: 100%;
     display: block;
     margin: auto;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
 #header .content-textimg{
     justify-content: center;
@@ -182,10 +182,12 @@ p{
 }
 @media (max-width:480px){
     #header .bar-fixed img{
-        max-width: 170px;
+        max-width: 220px;
         width: 100%;
         display: block;
         margin: auto;
+        box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
     }
     #header .tittle{
         margin-top: 10px;
@@ -208,9 +210,53 @@ p{
         margin: 0px 0;
     }
 }
+/* img-action */
+#img-action .paso {
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+#img-action .img-presentacion {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+#img-action .img-presentacion input{
+    display: none;
+}
+#img-action .img-presentacion img{
+    max-width: 1240px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+@media (max-width:1052px){
+    #img-action .paso {
+        max-width: 470px;
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+}
+@media (max-width:480px){
+    #img-action .paso {
+        max-width: 350px;
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
 /* contact */
 #contact{
     padding-bottom: 380px;
+    transition: all 1s;
 }
 #contact .paso {
     max-width: 900px;
@@ -219,12 +265,6 @@ p{
     margin: auto;
     margin-bottom: 80px;
     margin-top: 80px;
-}
-#contact .img-presentacion img{
-    max-width: 1240px;
-    width: 100%;
-    display: block;
-    margin: auto;
 }
 #contact .form .tittle-form{
     margin: 50px 0;
