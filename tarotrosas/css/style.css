@@ -126,7 +126,7 @@ header .img-title-tarotista{
     text-align: center;
     color: #ff5757;
     text-align: center;
-    font-size: 70px;
+    font-size: 65px;
 }
 @media (max-width:992px){
     #cards .title{
@@ -156,17 +156,17 @@ header .img-title-tarotista{
 }
 #contact .left-top {
     position: absolute;
-    top: -20px;
+    top: -50px;
     left: 0;
     z-index: 1;
-    max-width: 500px;
+    max-width: 550px;
 }
 #contact .right-bottom {
     position: absolute;
-    bottom: 0;
+    bottom: -30px;
     right: 0;
     z-index: 1;
-    max-width: 500px;
+    max-width: 550px;
 }
 #contact .contact-bg{
     background: #ffe5e5;
@@ -198,6 +198,9 @@ header .img-title-tarotista{
 }
 #contact .form-group input::placeholder{
     opacity: 1;
+}
+#contact .boton{
+    margin-top: 70px;
 }
 #contact .boton button{
     background: linear-gradient(to top, #ff5757, #feedef);
