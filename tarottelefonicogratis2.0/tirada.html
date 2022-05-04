@@ -24,77 +24,15 @@
     <link href="css/contador.css" rel="stylesheet">
 </head>
 <body>
-    <header id="header">
-        <div class="bar-fixed">
-            <a href="tel: +3030303030"><img src="img/btn-call.png" alt=""></a>
-        </div>
-        <div class="container-fluid">
-            <div class="content">
-                <div class="content-header">
-                    <div class="tittle">
-                        <h1>Tarot de la verdad<br><!-- <span class="uppercase">gratis</span> --></h1>
-                    </div>
-                    <div class="content-textimg d-flex ">
-                        <!-- <div class="content-text">
-                            <h4>¡Yo te llamo!</h4>
-                        </div> -->
-                        <div class="img-tarotis">
-                            <img src="img/tarotista.png" alt="">
-                        </div>
-                    </div>
-                    <div class="contador">
-                        <div class="contador-tittle">
-                            <h4 class="text-uppercase">1ªTIRADA DE<br>TAROT GRATIS</h4>
-                        </div>
-                        <div class="contador-content">
-                            <div class="contador-bg">
-                                <div class="contador">
-                                  <div id="clockdiv">
-                                      <div class="und">
-                                        <span class="horas"></span><br>
-                                        <!-- <div class="smalltext">HRS</div> -->
-                                      </div>
-                                      <div class="und">
-                                        <span class="minutos"></span><br>
-                                        <!-- <div class="smalltext">MNS</div> -->
-                                      </div>
-                                      <div class="und">
-                                        <span class="segundos"></span><br>
-                                        <!-- <div class="smalltext">SEC</div> -->
-                                      </div>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
 
-    <section id="img-action">
-        <div class="tittle-cards paso">
-            <h5>1. Concéntrate en lo que  te preocupa y pincha en las cartas para conocer tu tirada</h5>
-        </div>
-        <div class="img-presentacion">
-           <!--  <label for="check" onchange="javascript:showContent()">
-                <input type="checkbox" name="check" id="check">
-                <img src="img/card-table.png" alt="">
-            </label> -->
-            <a href="/tirada.html">
-                <img src="img/card-table.png" alt="">
-            </a>
-        </div>
-    </section>
-
-    <main id="content-hidden" style="display: none;">
+    <main id="content-tirada">
         <section id="contact">
             <div class="container-fluid">
                 <div class="content">
                     <div class="content-cards">
                         <div class="cards-fntn content">
                             <div class="subtittle">
-                                <h4>Esta es tu tirada</h4>
+                                <h4><b>Esta es tu tirada</b></h4>
                             </div>
                             <script>
                                 var randomCartas = [7,4,16];
@@ -105,15 +43,15 @@
                                     <div class="cards">
                                         <div class="card">
                                             <div class="cara_carta"><!--<img src="img/cartas1.png" alt=""/>--></div>
-                                            <div class="atras_carta" style="position: relative;"><img src="img/card-back.png" alt="" id="0" class="carta" /></div>
+                                            <div class="atras_carta" style="position: relative;"><img src="img/cartas/07.jpg" alt="" id="0" class="carta" /></div>
                                         </div>
                                         <div class="card">
                                             <div class="cara_carta"><!--<img src="img/cartas2.png" alt=""/>--></div>
-                                            <div class="atras_carta" style="position: relative;"><img src="img/card-back.png" alt="" id="1" class="carta" /></div>
+                                            <div class="atras_carta" style="position: relative;"><img src="img/cartas/04.jpg" alt="" id="1" class="carta" /></div>
                                         </div>
                                         <div class="card">
                                             <div class="cara_carta"><!--<img src="img/cartas3.png" alt=""/>--></div>
-                                            <div class="atras_carta" style="position: relative;"><img src="img/card-back.png" alt="" id="2" class="carta" /></div>
+                                            <div class="atras_carta" style="position: relative;"><img src="img/cartas/16.jpg" alt="" id="2" class="carta" /></div>
                                         </div>
                                     </div>
                                 </div>

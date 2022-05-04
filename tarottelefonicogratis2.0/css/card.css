@@ -17,6 +17,7 @@
 
 #contact .subtittle h4{
   font-size: 65px;
+  margin-bottom: 30px;
 }
 
 .spc_cards {
@@ -44,7 +45,7 @@
 .spc_cards .cards .card .cara_carta {
   position: relative;
   z-index: 1;
-  transform: rotateY(180deg);
+  transform: rotateY(0deg);
 }
 .spc_cards .cards .card .cara_carta img {
   width: 100%;
@@ -67,7 +68,7 @@
 }
 .spc_cards .cards .active .atras_carta {
   z-index: 1;
-  transform: rotateY(180deg);
+  transform: rotateY(0deg);
 }
 
 @media (max-width:1052px){

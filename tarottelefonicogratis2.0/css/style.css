@@ -257,6 +257,7 @@ p{
 #contact{
     padding-bottom: 380px;
     transition: all 1s;
+    padding-top: 50px;
 }
 #contact .paso {
     max-width: 900px;
