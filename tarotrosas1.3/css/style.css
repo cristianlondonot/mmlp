@@ -364,7 +364,7 @@ header .img-title-tarotista{
     }
     #contact .form{
         margin-top: 20px;
-        max-width: 200px !important;
+        max-width: 230px !important;
         width: 100% !important;
     }
     #contact .form-group{
@@ -375,7 +375,7 @@ header .img-title-tarotista{
         border-style: none;
         border: 2px #006837 solid;
         color: #006837;
-        font-size: 10px;
+        font-size: 12px;
         text-align: center;
         border-radius: 50px;
         max-width: 900px;
