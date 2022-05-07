@@ -74,17 +74,18 @@ header .bar-top{
     position: relative;
 }
 header .bar-top .img-decor img{
-    max-width: 190px;
+    max-width: 147px;
     position: absolute;
 }
 header .bar-top .title h1{
     text-align: center;
     color: #fff;
-    font-size: 160px;
+    font-size: 140px;
+    padding: -20 0 0 0;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
 header .img-title-tarotista{
-    padding: 200px 0 100px 0;
+    padding: 100px 0 0px 0;
 }
 @media (max-width:1200px) {
     header .bar-top .img-decor img{
@@ -171,17 +172,17 @@ header .img-title-tarotista{
 }
 #contact .left-top {
     position: absolute;
-    top: -50px;
-    left: 0;
+    top: -70px;
+    left: 80px;
     z-index: 1;
-    max-width: 550px;
+    max-width: 470px;
 }
 #contact .right-bottom {
     position: absolute;
     bottom: -50px;
-    right: 30px;
+    right: 70px;
     z-index: 1;
-    max-width: 500px;
+    max-width: 470px;
 }
 #contact .contact-bg{
     background: #ffe5e5;
