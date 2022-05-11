@@ -88,7 +88,7 @@ header .bar-top .title h1{
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
 header .img-title-tarotista{
-    padding: 100px 0 0px 0;
+    padding: 50px 0 0px 0;
 }
 header .subtitle{
     padding-top: 50px;
@@ -175,19 +175,19 @@ header .subtitle h4{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 900px;
-    height: 900px;
+    max-width: 850px;
+    height: 850px;
     margin: auto;
     border:3px #009245 solid;
     position: relative;
 }
 #contact .form{
     margin-top: 50px;
-    max-width: 550px !important;
+    max-width: 600px !important;
     width: 100% !important;
 }
 #contact .form-group{
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 #contact .form-group input{
     background: #fff;
@@ -402,31 +402,6 @@ header .subtitle h4{
 }
 
 /* about-us */
-/* #about-us{
-    background: url(../img/bg-2.png) top;
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 0px;
-}
-#about-us {
-    position: relative;
-}
-#about-us::before {
-    content: "";
-    background: linear-gradient(to bottom, #eee8e5, #eee8e500, #eee8e500,#eee8e500,#eee8e500, #eee8e5);
-    position: absolute;
-    bottom: 0;
-    top: 0px;
-    left: 0;
-    right: 0;
-    z-index: -0;
-} */
-
 #about-us .block-bg-1{
     background: url(../img/bg-2.png) top;
     background-repeat: no-repeat;
@@ -451,7 +426,6 @@ header .subtitle h4{
     right: 0;
     z-index: -0;
 }
-
 #about-us .block-bg-2{
     background: url(../img/bg-3.png) top;
     background-repeat: no-repeat;
@@ -476,8 +450,6 @@ header .subtitle h4{
     right: 0;
     z-index: -0;
 }
-
-
 
 /* block-white */
 #about-us .block-white{
@@ -536,7 +508,6 @@ header .subtitle h4{
 
 
 /* block-rose */
-
 #about-us .block-rose{
     background: #df7884;
     border-radius: 0px;
@@ -572,6 +543,19 @@ header .subtitle h4{
     text-align: center;
     font-size: 70px;
     margin-bottom: 0;
+}
+#about-us .block-rose .title-1{
+    font-size: 80px !important;
+    margin-top: 70px;
+}
+#about-us .block-rose .title-2{
+    font-size: 90px !important;
+}
+#about-us .block-rose .title-3{
+    font-size: 90px !important;
+}
+#about-us .block-rose .title-4{
+    font-size: 130px !important;
 }
 #about-us .block-rose .boton{
     display: flex;
@@ -630,6 +614,19 @@ header .subtitle h4{
         top: -350px;
         left: calc(50% - 500px);
         z-index: 10;
+    }
+    #about-us .block-rose .title-1{
+        font-size: 80px !important;
+        margin-top: 70px;
+    }
+    #about-us .block-rose .title-2{
+        font-size: 90px !important;
+    }
+    #about-us .block-rose .title-3{
+        font-size: 90px !important;
+    }
+    #about-us .block-rose .title-4{
+        font-size: 130px !important;
     }
 }
 @media (max-width:992px){
@@ -721,6 +718,19 @@ header .subtitle h4{
         text-align: justify;
         margin-top: 40px;
         color: #fff;
+    }
+    #about-us .block-rose .title-1{
+        font-size: 30px !important;
+        margin-top: 70px;
+    }
+    #about-us .block-rose .title-2{
+        font-size: 50px !important;
+    }
+    #about-us .block-rose .title-3{
+        font-size: 55px !important;
+    }
+    #about-us .block-rose .title-4{
+        font-size: 80px !important;
     }
     #about-us .block-rose .content-text h4{
         font-family: 'h1';
@@ -829,6 +839,19 @@ header .subtitle h4{
         text-align: center;
         margin-top: 20px;
         color: #fff;
+    }
+    #about-us .block-rose .title-1{
+        font-size: 20px !important;
+        margin-top: 30px;
+    }
+    #about-us .block-rose .title-2{
+        font-size: 25px !important;
+    }
+    #about-us .block-rose .title-3{
+        font-size: 25px !important;
+    }
+    #about-us .block-rose .title-4{
+        font-size: 35px !important;
     }
     #about-us .block-rose .content-text h4{
         font-family: 'h1';
