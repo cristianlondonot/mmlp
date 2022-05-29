@@ -1,0 +1,73 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?71f4dfff9e6e2d8df42496b94b9a8d24") format("truetype"),
+url("./flaticon.woff?71f4dfff9e6e2d8df42496b94b9a8d24") format("woff"),
+url("./flaticon.woff2?71f4dfff9e6e2d8df42496b94b9a8d24") format("woff2"),
+url("./flaticon.eot?71f4dfff9e6e2d8df42496b94b9a8d24#iefix") format("embedded-opentype"),
+url("./flaticon.svg?71f4dfff9e6e2d8df42496b94b9a8d24#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "simbolo-de-signo-astrologico-de-tauro": "\f101",
+    "signo-de-aries": "\f102",
+    "signo-de-leo": "\f103",
+    "signo-de-simbolo-astrologico-de-virgo": "\f104",
+    "signo-astrologico-de-piscis": "\f105",
+    "signo-astrologico-de-escorpion": "\f106",
+    "signo-de-libra": "\f107",
+    "simbolo-de-signo-del-zodiaco-geminis": "\f108",
+    "simbolo-de-signo-del-zodiaco-acuario": "\f109",
+    "signo-de-capricornio": "\f10a",
+    "simbolo-de-signo-del-zodiaco-cancer": "\f10b",
+    "signo-de-flecha-de-sagitario": "\f10c",
+);
+
+.flaticon-simbolo-de-signo-astrologico-de-tauro:before {
+    content: map-get($flaticon-map, "simbolo-de-signo-astrologico-de-tauro");
+}
+.flaticon-signo-de-aries:before {
+    content: map-get($flaticon-map, "signo-de-aries");
+}
+.flaticon-signo-de-leo:before {
+    content: map-get($flaticon-map, "signo-de-leo");
+}
+.flaticon-signo-de-simbolo-astrologico-de-virgo:before {
+    content: map-get($flaticon-map, "signo-de-simbolo-astrologico-de-virgo");
+}
+.flaticon-signo-astrologico-de-piscis:before {
+    content: map-get($flaticon-map, "signo-astrologico-de-piscis");
+}
+.flaticon-signo-astrologico-de-escorpion:before {
+    content: map-get($flaticon-map, "signo-astrologico-de-escorpion");
+}
+.flaticon-signo-de-libra:before {
+    content: map-get($flaticon-map, "signo-de-libra");
+}
+.flaticon-simbolo-de-signo-del-zodiaco-geminis:before {
+    content: map-get($flaticon-map, "simbolo-de-signo-del-zodiaco-geminis");
+}
+.flaticon-simbolo-de-signo-del-zodiaco-acuario:before {
+    content: map-get($flaticon-map, "simbolo-de-signo-del-zodiaco-acuario");
+}
+.flaticon-signo-de-capricornio:before {
+    content: map-get($flaticon-map, "signo-de-capricornio");
+}
+.flaticon-simbolo-de-signo-del-zodiaco-cancer:before {
+    content: map-get($flaticon-map, "simbolo-de-signo-del-zodiaco-cancer");
+}
+.flaticon-signo-de-flecha-de-sagitario:before {
+    content: map-get($flaticon-map, "signo-de-flecha-de-sagitario");
+}

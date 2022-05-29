@@ -1,0 +1,113 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?3cb97c96a193a9b26b8295dd67b8d0d2") format("truetype"),
+url("./flaticon.woff?3cb97c96a193a9b26b8295dd67b8d0d2") format("woff"),
+url("./flaticon.woff2?3cb97c96a193a9b26b8295dd67b8d0d2") format("woff2"),
+url("./flaticon.eot?3cb97c96a193a9b26b8295dd67b8d0d2#iefix") format("embedded-opentype"),
+url("./flaticon.svg?3cb97c96a193a9b26b8295dd67b8d0d2#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "gemini": "\f101",
+    "cancer": "\f102",
+    "taurus": "\f103",
+    "aquarius": "\f104",
+    "aries": "\f105",
+    "virgo": "\f106",
+    "scorpio": "\f107",
+    "sagittarius": "\f108",
+    "leo": "\f109",
+    "libra": "\f10a",
+    "venus": "\f10b",
+    "pisces": "\f10c",
+    "mars": "\f10d",
+    "email": "\f10e",
+    "usuario": "\f10f",
+    "phone-call": "\f110",
+    "calendar": "\f111",
+    "clock": "\f112",
+    "regalo": "\f113",
+    "broken-heart": "\f114",
+    "lover": "\f115",
+    "cheers": "\f116",
+);
+
+.flaticon-gemini:before {
+    content: map-get($flaticon-map, "gemini");
+}
+.flaticon-cancer:before {
+    content: map-get($flaticon-map, "cancer");
+}
+.flaticon-taurus:before {
+    content: map-get($flaticon-map, "taurus");
+}
+.flaticon-aquarius:before {
+    content: map-get($flaticon-map, "aquarius");
+}
+.flaticon-aries:before {
+    content: map-get($flaticon-map, "aries");
+}
+.flaticon-virgo:before {
+    content: map-get($flaticon-map, "virgo");
+}
+.flaticon-scorpio:before {
+    content: map-get($flaticon-map, "scorpio");
+}
+.flaticon-sagittarius:before {
+    content: map-get($flaticon-map, "sagittarius");
+}
+.flaticon-leo:before {
+    content: map-get($flaticon-map, "leo");
+}
+.flaticon-libra:before {
+    content: map-get($flaticon-map, "libra");
+}
+.flaticon-venus:before {
+    content: map-get($flaticon-map, "venus");
+}
+.flaticon-pisces:before {
+    content: map-get($flaticon-map, "pisces");
+}
+.flaticon-mars:before {
+    content: map-get($flaticon-map, "mars");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-usuario:before {
+    content: map-get($flaticon-map, "usuario");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-regalo:before {
+    content: map-get($flaticon-map, "regalo");
+}
+.flaticon-broken-heart:before {
+    content: map-get($flaticon-map, "broken-heart");
+}
+.flaticon-lover:before {
+    content: map-get($flaticon-map, "lover");
+}
+.flaticon-cheers:before {
+    content: map-get($flaticon-map, "cheers");
+}

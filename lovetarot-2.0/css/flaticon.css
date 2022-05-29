@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?3cb97c96a193a9b26b8295dd67b8d0d2") format("truetype"),
+url("./flaticon.woff?3cb97c96a193a9b26b8295dd67b8d0d2") format("woff"),
+url("./flaticon.woff2?3cb97c96a193a9b26b8295dd67b8d0d2") format("woff2"),
+url("./flaticon.eot?3cb97c96a193a9b26b8295dd67b8d0d2#iefix") format("embedded-opentype"),
+url("./flaticon.svg?3cb97c96a193a9b26b8295dd67b8d0d2#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-gemini:before {
+    content: "\f101";
+}
+.flaticon-cancer:before {
+    content: "\f102";
+}
+.flaticon-taurus:before {
+    content: "\f103";
+}
+.flaticon-aquarius:before {
+    content: "\f104";
+}
+.flaticon-aries:before {
+    content: "\f105";
+}
+.flaticon-virgo:before {
+    content: "\f106";
+}
+.flaticon-scorpio:before {
+    content: "\f107";
+}
+.flaticon-sagittarius:before {
+    content: "\f108";
+}
+.flaticon-leo:before {
+    content: "\f109";
+}
+.flaticon-libra:before {
+    content: "\f10a";
+}
+.flaticon-venus:before {
+    content: "\f10b";
+}
+.flaticon-pisces:before {
+    content: "\f10c";
+}
+.flaticon-mars:before {
+    content: "\f10d";
+}
+.flaticon-email:before {
+    content: "\f10e";
+}
+.flaticon-usuario:before {
+    content: "\f10f";
+}
+.flaticon-phone-call:before {
+    content: "\f110";
+}
+.flaticon-calendar:before {
+    content: "\f111";
+}
+.flaticon-clock:before {
+    content: "\f112";
+}
+.flaticon-regalo:before {
+    content: "\f113";
+}
+.flaticon-broken-heart:before {
+    content: "\f114";
+}
+.flaticon-lover:before {
+    content: "\f115";
+}
+.flaticon-cheers:before {
+    content: "\f116";
+}

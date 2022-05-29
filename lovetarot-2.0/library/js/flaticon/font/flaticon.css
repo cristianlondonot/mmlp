@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?71f4dfff9e6e2d8df42496b94b9a8d24") format("truetype"),
+url("./flaticon.woff?71f4dfff9e6e2d8df42496b94b9a8d24") format("woff"),
+url("./flaticon.woff2?71f4dfff9e6e2d8df42496b94b9a8d24") format("woff2"),
+url("./flaticon.eot?71f4dfff9e6e2d8df42496b94b9a8d24#iefix") format("embedded-opentype"),
+url("./flaticon.svg?71f4dfff9e6e2d8df42496b94b9a8d24#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-simbolo-de-signo-astrologico-de-tauro:before {
+    content: "\f101";
+}
+.flaticon-signo-de-aries:before {
+    content: "\f102";
+}
+.flaticon-signo-de-leo:before {
+    content: "\f103";
+}
+.flaticon-signo-de-simbolo-astrologico-de-virgo:before {
+    content: "\f104";
+}
+.flaticon-signo-astrologico-de-piscis:before {
+    content: "\f105";
+}
+.flaticon-signo-astrologico-de-escorpion:before {
+    content: "\f106";
+}
+.flaticon-signo-de-libra:before {
+    content: "\f107";
+}
+.flaticon-simbolo-de-signo-del-zodiaco-geminis:before {
+    content: "\f108";
+}
+.flaticon-simbolo-de-signo-del-zodiaco-acuario:before {
+    content: "\f109";
+}
+.flaticon-signo-de-capricornio:before {
+    content: "\f10a";
+}
+.flaticon-simbolo-de-signo-del-zodiaco-cancer:before {
+    content: "\f10b";
+}
+.flaticon-signo-de-flecha-de-sagitario:before {
+    content: "\f10c";
+}
