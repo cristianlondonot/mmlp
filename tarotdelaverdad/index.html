@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="img/cartas.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7f19db1c03.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS File -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/calendar.css">
+</head>
+<body>
+    <header id="header">
+        <div class="bar-title">
+            <div class="bg">
+                <h2>Tarot de la Verdad</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content">
+                
+                <div class="logo-tarotist">
+                    <img src="img/logo-tarotista.png" alt="">
+                </div>
+
+                <div class="sub-title">
+                    <h3 class="text-center">Reserva tu consulta<br>de Tarot Gratis</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="form">
+        <div class="container">
+            <div class="form">
+                <form action="">
+                    <div class="root">
+                        <div class="calendar" id="calendar">
+                
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-6">
+                            <span>Hora</span>
+                            <select name="hour" id="">
+                                <option value="section">Seleccione</option>
+                                <option value="13:00">13:00</option>
+                                <option value="13:00">13:30</option>
+                                <option value="13:00">14:00</option>
+                                <option value="13:00">14:03</option>
+                                <option value="13:00">15:00</option>
+                                <option value="13:00">15:30</option>
+                                <option value="13:00">16:00</option>
+                            </select>
+                        </div>
+                        <div class="col-6"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="name">
+                            <span>Nómbre</span>
+                            <input type="text" name="name" id="name" placeholder="Escriba aquí su nombre">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">
+                            <span>Móvil</span>
+                            <input type="text" name="phone" id="phone" placeholder="Escriba aquí el móvil para recibir la llamada">
+                        </label>
+                    </div>
+                    <div class="form-group-check">
+                        <label for="term">
+                            <input type="checkbox" name="term" id="term"> <span>Confirmo que soy mayor de edad y acepto la Política de Privacidad</span>
+                        </label>
+                    </div>
+                    <div class="send-btn">
+                        <button type="submit" ><a href="/confirmation.html">Reservar</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+    <script type="text/javascript" src="js/calendar.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

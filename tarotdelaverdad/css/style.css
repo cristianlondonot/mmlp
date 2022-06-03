@@ -1,0 +1,342 @@
+@font-face {
+    font-family: 'titulos-h2';
+    src: url(../css/fonts/nouvelle_vague_final.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'titulos-h3';
+    src: url(../css/fonts/palab.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'placeholder-f';
+    src: url(../css/fonts/palai.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'term';
+    src: url(../css/fonts/pala.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    margin: 0;
+    background: #F9EFE5;
+}
+
+h3{
+    font-family: 'titulos-h3';
+    font-size: 80px;
+}
+p{
+    font-family: 'term';
+    font-size: 50px;
+}
+b{
+    font-family: 'titulos-h3';
+}
+@media (max-width:991px) {
+    h3{
+        font-family: 'titulos-h3';
+        font-size: 60px;
+    }
+    p{
+        font-family: 'term';
+        font-size: 30px;
+    }
+}
+@media (max-width:767px){
+    h3{
+        font-family: 'titulos-h3';
+        font-size: 30px;
+    }
+    p{
+        font-family: 'term';
+        font-size: 17px;
+    }
+}
+
+/* header */
+header .bar-title{
+    font-family: 'titulos-h2';
+    padding: 30px 0;
+    background: #C69C6D;
+}
+header .bar-title h2{
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+    color: #F9EFE5;
+}
+header .logo-tarotist{
+    padding: 50px 0;
+}
+header .logo-tarotist img{
+    max-width: 1000px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+@media (max-width:991px){
+    header .bar-title{
+        font-family: 'titulos-h2';
+        padding: 20px 0;
+        background: #C69C6D;
+    }
+    header .bar-title h2{
+        font-size: 65px;
+        margin: 0;
+        text-align: center;
+        color: #F9EFE5;
+    }
+    header .logo-tarotist{
+        padding: 30px 0;
+    }
+}
+@media (max-width:767px){
+    header .bar-title{
+        font-family: 'titulos-h2';
+        padding: 10px 0;
+        background: #C69C6D;
+    }
+    header .bar-title h2{
+        font-size: 35px;
+        margin: 0;
+        text-align: center;
+        color: #F9EFE5;
+    }
+    header .logo-tarotist{
+        padding: 20px 0;
+    }
+}
+
+/* contact */
+#form{
+    padding-bottom: 80px;
+}
+.form{
+    background: #fff;
+    padding: 80px 130px;
+}
+.form .form-group{
+    margin-bottom: 60px;
+}
+.form .form-group span{
+    font-family: 'titulos-h3';
+    font-size: 60px;
+    width: 100%;
+    color: #666666;
+}
+.form .form-group label{
+    width: 100%;
+}
+.form .form-group input{
+    width: 100%;
+    font-family: 'placeholder-f';
+    font-size: 40px;
+    border-style: none;
+    border-bottom: 5px #666666 solid;
+}
+.form .form-group select{
+    font-family: 'placeholder-f';
+    font-size: 40px;
+    width: 100%;
+    background: transparent;
+    border-style: none;
+    color: #666666;
+    opacity: 1;
+    border-bottom: 5px #666666 solid;
+    appearance: none;
+}
+.form .form-group-check {
+    margin-top: 80px;
+}
+.form .form-group-check label{
+    font-size: 45px;
+    font-family: 'term';
+    line-height: 50px;
+}
+.form .form-group-check input{
+    height:30px ;
+    width: 30px;
+}
+.form .send-btn {
+    padding-top: 20px;
+}
+.form .send-btn button{
+    width: 100%;
+    font-size: 60px;
+    font-family: 'titulos-h3';
+    background: #C69C6D;
+    color: #fff;
+    border-style: none;
+    box-shadow: 15px 15px 15px 0 #666666;
+}
+.form .send-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+@media (max-width:991px){
+    .form{
+        background: #fff;
+        padding: 80px 90px;
+    }
+    .form .form-group span{
+        font-family: 'titulos-h3';
+        font-size: 40px;
+        width: 100%;
+        color: #666666;
+    }
+    .form .form-group input{
+        width: 100%;
+        font-family: 'placeholder-f';
+        font-size: 25px;
+        border-style: none;
+        border-bottom: 5px #666666 solid;
+    }
+    .form .form-group select{
+        font-family: 'placeholder-f';
+        font-size: 25px;
+        width: 100%;
+        background: transparent;
+        border-style: none;
+        color: #666666;
+        opacity: 1;
+        border-bottom: 5px #666666 solid;
+        appearance: none;
+    }
+    .form .form-group-check {
+        margin-top: 50px;
+    }
+    .form .form-group-check label{
+        font-size: 25px;
+        font-family: 'term';
+        line-height: 30px;
+    }
+    .form .form-group-check input{
+        height:20px ;
+        width: 20px;
+    }
+    .form .send-btn button{
+        width: 100%;
+        font-size: 40px;
+        font-family: 'titulos-h3';
+        background: #C69C6D;
+        color: #fff;
+        border-style: none;
+        box-shadow: 15px 15px 15px 0 #666666;
+    }
+}
+@media (max-width:767px){
+    #form{
+        padding-bottom: 40px;
+    }
+    .form{
+        background: #fff;
+        padding: 20px 20px;
+    }
+    .form .form-group{
+        margin-bottom: 30px;
+    }
+    .form .form-group span{
+        font-family: 'titulos-h3';
+        font-size: 25px;
+        width: 100%;
+        color: #666666;
+    }
+    .form .form-group input{
+        width: 100%;
+        font-family: 'placeholder-f';
+        font-size: 16px;
+        border-style: none;
+        border-bottom: 3px #666666 solid;
+    }
+    .form .form-group select{
+        font-family: 'placeholder-f';
+        font-size: 16px;
+        width: 100%;
+        background: transparent;
+        border-style: none;
+        color: #666666;
+        opacity: 1;
+        border-bottom: 3px #666666 solid;
+        appearance: none;
+    }
+    .form .form-group-check {
+        margin-top: 30px;
+    }
+    .form .form-group-check label{
+        font-size: 15px;
+        font-family: 'term';
+        line-height: 20px;
+    }
+    .form .form-group-check input{
+        height:13px ;
+        width: 13px;
+    }
+    .form .send-btn {
+        padding-top: 10px;
+    }
+    .form .send-btn button{
+        width: 100%;
+        font-size: 25px;
+        font-family: 'titulos-h3';
+        background: #C69C6D;
+        color: #fff;
+        border-style: none;
+        box-shadow: 8px 8px 8px 0 #666666;
+    }
+}
+
+/* confirmation */
+.confirmation .color{
+    border: 15px #C69C6D solid;
+    margin: 0;
+}
+.confirmation .bg{
+    border: 1px #F9EFE5 solid;
+}
+#confirmation{
+    padding-top: 30px;
+}
+#confirmation .img-decor img{
+    width: 100%;
+} 
+@media (max-width:767px){
+    .confirmation{
+        height: 100vh;
+    }
+    .color{
+        border: 10px #C69C6D solid;
+        margin: 0;
+    }
+    .bg{
+        border: 1px #F9EFE5 solid;
+        margin: 7px;
+    }
+}
+
+/* footer */
+#footer p{
+    color: #666666;
+    font-size: 30px;
+}
+#footer a{
+    text-decoration: none;
+    color: #666666;
+}
+@media (max-width:991px){
+    #footer p{
+        color: #666666;
+        font-size: 20px;
+    }
+}
+@media (max-width:767px){
+    #footer p{
+        color: #666666;
+        font-size: 10px;
+    }
+}
