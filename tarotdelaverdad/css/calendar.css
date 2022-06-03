@@ -94,8 +94,8 @@
 }
 
 .grid__cell--selected {
-    color: #1b1e22;
-    background-color: #CCCCCC;
+    color: #fff;
+    background-color: #de7558;
     border-radius: 0%;
 }
 

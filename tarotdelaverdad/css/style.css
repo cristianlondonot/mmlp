@@ -128,7 +128,7 @@ header .logo-tarotist img{
     font-family: 'titulos-h3';
     font-size: 60px;
     width: 100%;
-    color: #666666;
+    color: #000;
 }
 .form .form-group label{
     width: 100%;
@@ -138,7 +138,11 @@ header .logo-tarotist img{
     font-family: 'placeholder-f';
     font-size: 40px;
     border-style: none;
-    border-bottom: 5px #666666 solid;
+    border-bottom: 5px #000 solid;
+}
+.form .form-group input::placeholder{
+    color: #000;
+    opacity: 10;
 }
 .form .form-group select{
     font-family: 'placeholder-f';
@@ -146,7 +150,7 @@ header .logo-tarotist img{
     width: 100%;
     background: transparent;
     border-style: none;
-    color: #666666;
+    color: #000;
     opacity: 1;
     border-bottom: 5px #666666 solid;
     appearance: none;
@@ -188,14 +192,12 @@ header .logo-tarotist img{
         font-family: 'titulos-h3';
         font-size: 40px;
         width: 100%;
-        color: #666666;
     }
     .form .form-group input{
         width: 100%;
         font-family: 'placeholder-f';
         font-size: 25px;
         border-style: none;
-        border-bottom: 5px #666666 solid;
     }
     .form .form-group select{
         font-family: 'placeholder-f';
@@ -203,9 +205,7 @@ header .logo-tarotist img{
         width: 100%;
         background: transparent;
         border-style: none;
-        color: #666666;
         opacity: 1;
-        border-bottom: 5px #666666 solid;
         appearance: none;
     }
     .form .form-group-check {
@@ -245,14 +245,13 @@ header .logo-tarotist img{
         font-family: 'titulos-h3';
         font-size: 25px;
         width: 100%;
-        color: #666666;
     }
     .form .form-group input{
         width: 100%;
         font-family: 'placeholder-f';
         font-size: 16px;
         border-style: none;
-        border-bottom: 3px #666666 solid;
+        border-bottom: 3px #000 solid;
     }
     .form .form-group select{
         font-family: 'placeholder-f';
@@ -260,9 +259,9 @@ header .logo-tarotist img{
         width: 100%;
         background: transparent;
         border-style: none;
-        color: #666666;
+        color: #000;
         opacity: 1;
-        border-bottom: 3px #666666 solid;
+        border-bottom: 3px #000 solid;
         appearance: none;
     }
     .form .form-group-check {
@@ -309,11 +308,11 @@ header .logo-tarotist img{
     .confirmation{
         height: 100vh;
     }
-    .color{
+    .confirmation .color{
         border: 10px #C69C6D solid;
         margin: 0;
     }
-    .bg{
+    .confirmation .bg{
         border: 1px #F9EFE5 solid;
         margin: 7px;
     }
