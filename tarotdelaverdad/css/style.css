@@ -138,10 +138,10 @@ header .logo-tarotist img{
     font-family: 'placeholder-f';
     font-size: 40px;
     border-style: none;
-    border-bottom: 5px #000 solid;
+    border-bottom: 5px #666666 solid;
 }
 .form .form-group input::placeholder{
-    color: #000;
+    color: #666666;
     opacity: 10;
 }
 .form .form-group select{
@@ -150,7 +150,7 @@ header .logo-tarotist img{
     width: 100%;
     background: transparent;
     border-style: none;
-    color: #000;
+    color: #666666;
     opacity: 1;
     border-bottom: 5px #666666 solid;
     appearance: none;
@@ -291,11 +291,11 @@ header .logo-tarotist img{
 }
 
 /* confirmation */
-.confirmation .color{
+.color{
     border: 15px #C69C6D solid;
     margin: 0;
 }
-.confirmation .bg{
+.bg{
     border: 1px #F9EFE5 solid;
 }
 #confirmation{
@@ -308,11 +308,11 @@ header .logo-tarotist img{
     .confirmation{
         height: 100vh;
     }
-    .confirmation .color{
+    .color{
         border: 10px #C69C6D solid;
         margin: 0;
     }
-    .confirmation .bg{
+    .bg{
         border: 1px #F9EFE5 solid;
         margin: 7px;
     }
