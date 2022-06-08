@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+body{
+    background: url(../img/bg.jpg) center;
+    background-size: 100%;
+    background-repeat: repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    font-size: 35px;
+    color: #2E3192;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+b{
+    font-weight: bold;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+@media (max-width:991px) {
+    p{
+        font-size: 22px;
+        padding-bottom:20px;
+    }
+}
+@media (max-width:767px){
+    p{
+        font-size: 12px;
+        padding-bottom:0px !important;
+    }
+}
+
+/* header */
+#header {
+    padding-bottom: 80px;
+}
+#header .logo{
+    padding: 50px 0;
+}
+#header .logo img{
+    max-width: 860px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#header .call-to-action .icon img{
+    max-width: 200px;
+}
+#header .call-to-action .botton a{
+    position: relative;
+}
+#header .call-to-action .botton img{
+    max-width: 60px;
+    margin-top: -18px;
+}
+#header .call-to-action .botton .btn-primary{
+    background: #EA577A;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    padding: 0px 70px;
+    height: 100px;
+    border-radius: 0;
+    border-style: none;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+@media (max-width:1200px) {
+    #header .call-to-action .botton img{
+        max-width: 50px;
+    }
+    #header .call-to-action .botton .btn-primary{
+        font-size: 50px;
+        height: 70px;
+    }
+}
+@media (max-width:991px){
+    #header .logo{
+        padding: 30px 0;
+    }
+    #header .logo img{
+        max-width: 460px;
+    }
+    #header .call-to-action .icon img{
+        max-width: 120px;
+    }
+    #header .call-to-action .botton img{
+        max-width: 40px;
+        margin-top: -10px;
+    }
+    #header .call-to-action .botton .btn-primary{
+        font-size: 35px;
+        padding: 0px 10px !important;
+        height: 80px;
+        box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5);
+    }
+}
+@media (max-width:767px){
+    #header {
+        padding-bottom: 20px;
+    }
+    #header .logo{
+        padding: 20px 0;
+    }
+    #header .logo img{
+        max-width: 240px;
+    }
+    #header .call-to-action .icon img{
+        max-width: 60px;
+    }
+    #header .call-to-action .botton img{
+        max-width: 20px;
+        margin-top: -5px;
+    }
+    #header .call-to-action .botton .btn-primary{
+        font-size: 25px;
+        padding: 0px 20px;
+        height: 40px;
+    }
+}
+
+/* tirada-form */
+#tirada-form{
+    background: #2e3192c1;
+    padding: 80px 0 80px 0;
+}
+#tirada-form .form-group{
+    margin-bottom: 40px;
+    position: relative;
+}
+#tirada-form .form-group h3{
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#tirada-form .form-group input{
+    font-size: 40px;
+    width: 100%;
+    height: 80px;
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 30px;
+    font-weight: lighter;
+}
+#tirada-form .form-group select{
+    font-size: 40px;
+    width: 100%;
+    height: 80px;
+    border-radius: 0;
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border-style: none;
+    font-weight: lighter;
+    appearance: none;
+    text-indent: 15px;
+}
+#tirada-form .form-group .icon-select{
+    position: absolute;
+    width: 30px;
+    bottom: 30px;
+    right: 20px;
+}
+#tirada-form .form-group-check{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+#tirada-form .form-group-check label{
+    font-size: 40px;
+    color: #fff;
+}
+#tirada-form .form-group-check label a{
+    text-decoration: none;
+    color: #fff;
+}
+#tirada-form .form-group-check input{
+    height: 30px;
+    width: 30px;
+}
+#tirada-form .submit-btn{
+    display: flex;
+    justify-content: center;
+}
+#tirada-form .submit-btn input[type="submit"]{
+    background: #EA577A;
+    border-radius: 0;
+    border-style: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 70px;
+    width: 600px;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.5);
+}
+@media (max-width:991px){
+    #tirada-form{
+        padding: 40px 0 40px 0;
+    }
+    #tirada-form .form-group h3{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    #tirada-form .form-group input{
+        font-size: 20px;
+        height: 60px;
+        text-indent: 20px;
+    }
+    #tirada-form .form-group select{
+        font-size: 20px;
+        width: 100%;
+        height: 60px;
+        text-indent: 10px;
+    }
+    #tirada-form .form-group .icon-select{
+        position: absolute;
+        width: 20px;
+        bottom: 25px;
+        right: 20px;
+    }
+    #tirada-form .form-group-check label{
+        font-size: 25px;
+        color: #fff;
+    }
+    #tirada-form .form-group-check input{
+        height: 20px;
+        width: 20px;
+    }
+    #tirada-form .submit-btn input[type="submit"]{
+        background: #EA577A;
+        border-radius: 0;
+        border-style: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 50px;
+        width: 430px;
+        box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.5);
+    }
+}
+@media (max-width:767px){
+    #tirada-form{
+        padding: 20px 0;
+    }
+    #tirada-form .form-group{
+        margin-bottom: 16px;
+        position: relative;
+    }
+    #tirada-form .form-group h3{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    #tirada-form .form-group input{
+        font-size: 15px;
+        height: 40px;
+        text-indent: 10px;
+    }
+    #tirada-form .form-group select{
+        font-size: 15px;
+        width: 100%;
+        height: 40px;
+        text-indent: 5px;
+    }
+    #tirada-form .form-group .icon-select{
+        position: absolute;
+        width: 10px;
+        bottom: 15px;
+        right: 10px;
+    }
+    #tirada-form .form-group-check label{
+        font-size: 13px;
+        color: #fff;
+    }
+    #tirada-form .form-group-check input{
+        height: 13px;
+        width: 13px;
+    }
+    #tirada-form .submit-btn input[type="submit"]{
+        background: #EA577A;
+        border-radius: 0;
+        border-style: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 25px;
+        width: 200px;
+        box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.5);
+    }
+}
+
+/* about-us */
+#about-us{
+    padding: 80px 0 0 0;
+}
+#about-us .title{
+    padding-bottom: 50px;
+}
+#about-us .title h3{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #2E3192;
+}
+#about-us .bg-white{
+    background: rgba(255, 255, 255, 0.7) !important;
+}
+@media (max-width:991px){
+    #about-us{
+        padding: 40px 0 0 0;
+    }
+    #about-us .title h3{
+        font-size: 50px;
+    }
+    #tirada-form .form-group h3{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:767px){
+    #about-us{
+        padding: 20px 0 0 0;
+    }
+    #about-us .title h3{
+        font-size: 20px;
+    }
+    #about-us .title{
+        padding-bottom: 20px;
+    }
+    #about-us .pt-5{
+        padding-top: 1.5rem !important;
+    }
+    
+}
+
+/* footer */
+#footer .content{
+    font-size: 35px;
+    text-align: center;
+}
+#footer .content a{
+    text-decoration: none;
+    color: #000;
+}
+@media (max-width:991px){
+    #footer .content{
+        font-size: 20px;
+    }
+}
+@media (max-width:767px){
+    #footer .content{
+        font-size: 9px;
+    }
+}

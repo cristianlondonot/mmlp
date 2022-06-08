@@ -1,0 +1,25 @@
+/* Tirada de cartas */
+.card{
+  padding: 15px;
+}
+.carta {
+  width: 350px;
+}
+@media (max-width:1200px){
+  .carta {
+    width: 250px;
+  }
+}
+@media (max-width:991px){
+  .carta {
+    width: 200px;
+  }
+}
+@media (max-width:767px){
+  .card{
+    padding: 5px;
+  }
+  .carta {
+    width: 100px;
+  }
+}
