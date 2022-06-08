@@ -309,6 +309,9 @@ b{
     font-weight: 600;
     color: #2E3192;
 }
+#about-us .pt-5{
+    padding-top: 3rem;
+}
 #about-us .bg-white{
     background: rgba(255, 255, 255, 0.7) !important;
 }
