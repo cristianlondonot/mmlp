@@ -405,7 +405,8 @@ section{
     margin: auto;
 }
 #testimonials .test-box .aling{
-    align-items: center;
+    align-items: center !important;
+    display: flex;
 }
 #testimonials .test-box .name{
     text-align: center;
@@ -474,8 +475,17 @@ section{
         line-height: 35px;
         text-align: center;
     }
+    #testimonials .test-box .name{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
 }
 @media (max-width:767px){
+    #testimonials .test-box .aling{
+        align-items: center !important;
+        display: block;
+    }
     #testimonials .swiper-slide{
         padding: 0 10px;
         margin: 20px 0 10px 0;
