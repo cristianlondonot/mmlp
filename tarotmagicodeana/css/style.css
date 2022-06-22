@@ -15,18 +15,18 @@ body{
 }
 h1{
     font-family: 'Nuosu SIL', serif;
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     color: #c3503b;
 }
 h4{
-    font-size: 52px;
+    font-size: 37px;
     font-weight: 300;
     color: #af8a84;
 }
 h5{
-    font-size: 40px;
+    font-size: 37px;
     font-weight: 300;
     color: #af8a84;
     text-align: center;
@@ -43,6 +43,9 @@ b{
 }
 .justify-content-between{
     justify-content: space-between;
+}
+.container{
+    max-width: 1000px;
 }
 @media (max-width:991px) {
     h1{
@@ -76,13 +79,13 @@ b{
 
 /* header */
 #header .logo img{
-    max-width: 700px;
+    max-width: 550px;
     width: 100%;
     display: block;
     margin: auto;
 }
 #header .sub-title{
-    margin-top: 100px;
+    margin-top: 70px;
 }
 @media (max-width:991px){
     #header .logo img{
@@ -103,30 +106,30 @@ b{
 
 /* contact */
 #contact{
-    padding: 80px 0;
+    padding: 50px 0;
 }
 .card-block{
     background: #e2c7b2a1;
-    padding: 70px 0;
+    padding: 50px 0;
 }
 .input-block{
-    padding: 70px 0 0 0;
+    padding: 40px 0 0 0;
 }
 .input-block .title{
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 .form .form-group{
-    margin-bottom: 35px;
-    padding: 0 60px;
+    margin-bottom: 30px;
+    padding: 0 130px;
 }
 .form .form-group input{
     border-style: none;
     border-radius: 0;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 300;
     border: 1px #af8a84 solid;
     padding: 10px;
-    height: 70px;
+    height: 60px;
     color: #af8a84;
 }
 .form .form-group input::placeholder{
@@ -134,17 +137,17 @@ b{
     opacity: 10;
 }
 .form-group-check{
-    padding: 0 75px;
-    margin-bottom: 35px;
+    padding: 0 150px;
+    margin-bottom: 30px;
 }
 .form-group-check input{
-    height: 23px;
-    width: 23px;
+    height: 17px;
+    width: 17px;
     margin-right: 10px;
 }
 .form-group-check label{
     font-weight: 300;
-    font-size: 30px;
+    font-size: 20px;
 }
 .form-group-check label a{
     text-decoration: none;
@@ -152,7 +155,7 @@ b{
 }
 .btn-send .btn{
     background: #c3503b;
-    font-size: 52px;
+    font-size: 42px;
     display: block;
     margin: auto;
     border-radius: 0;
@@ -161,7 +164,7 @@ b{
     font-style: italic;
     border-style: none;
     box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.5);
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     text-shadow: 5px 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 @media (max-width:991px){
@@ -269,12 +272,12 @@ b{
     padding: 25px 40px;
 }
 .content-img-tarotist img{
-    max-width: 370px;
+    max-width: 300px;
 }
 #about-us .content-text p{
-    font-size: 45px;
+    font-size: 25px;
     text-align: justify;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 @media (max-width:991px){
@@ -329,7 +332,7 @@ b{
     display: block;
     margin: auto;
     border-radius: 0;
-    width: 650px;
+    width: 600px;
     padding: 0;
     font-weight: 600;
     font-style: italic;
@@ -350,7 +353,7 @@ b{
     display: block;
     margin: auto;
     border-radius: 0;
-    width: 650px;
+    width: 600px;
     padding: 0;
     font-weight: 600;
     font-style: italic;
