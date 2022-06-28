@@ -78,6 +78,9 @@ b{
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
 }
+.d-flex-alt{
+    display: flex;
+}
 @media (max-width:991px) {
     .decor{
         max-width: 400px;
@@ -176,28 +179,7 @@ b{
 
 /* contact */
 #contact{
-    background: url(../img/decor-1.png) bottom;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding-bottom: 300px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-position: 0 98%;
-    position: relative;
     z-index: 1;
-}
-#contact::before {
-    content: "";
-    background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
-    position: absolute;
-    bottom: 0;
-    top: 0px;
-    left: 0;
-    right: 0;
-    z-index: -1;
 }
 #contact .card-block{
     padding-bottom: 60px;
@@ -343,6 +325,21 @@ b{
     }
 }
 
+/* decoration */
+#decoration{
+    background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    margin-top: -100px;
+    align-items: flex-end;
+}
+#decoration .lat{
+    opacity: .4;
+    max-width: 700px;
+}
+#decoration .center{
+    max-width: 500px;
+    width: 100%;
+}
+
 /* tarot */
 #tarot{
     background: url(../img/bg-eltarot.png) center;
@@ -417,6 +414,11 @@ b{
     #tarot .final-content-text h6{
         margin-bottom: 10px;
     }
+}
+
+/* decor-alt */
+#decor-alt{
+    background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0), #fff);
 }
 
 /* vida */
