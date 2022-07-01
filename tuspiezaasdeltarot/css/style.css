@@ -614,15 +614,15 @@ b{
 
 /* footer */
 #footer p{
-    font-size: 20px;
+    font-size: 13px;
 }
 @media (max-width:991px){
     #footer p{
-        font-size: 15px;
+        font-size: 9px;
     }
 }
 @media (max-width:767px){
     #footer p{
-        font-size: 8px;
+        font-size: 7px;
     }
 }
