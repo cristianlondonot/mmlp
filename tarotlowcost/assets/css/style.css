@@ -1,0 +1,333 @@
+@font-face {
+    font-family: 'titulos';
+    src: url(../css/fonts/Hideout\ Condensed\ Semi\ Bold.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'titulos-alt';
+    src: url(../css/fonts/Ballpoint.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'btn';
+    src: url(../css/fonts/Athiti-SemiBold.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+main{
+    background: url(../img/bg-alt.jpg)center;
+    background-size: cover;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-family: 'titulos-alt';
+    font-size: 95px;
+    margin-top: 60px;
+    color: black;
+}
+h2{
+    font-family: 'titulos-alt';
+    font-size: 75px;
+    margin-bottom: 60px;
+    color: black;
+}
+p{
+    font-family: 'titulos-alt';
+    font-size: 65px;
+    margin-bottom: 80px;
+    color: #000;
+}
+.d-flex{
+    display: flex;
+}
+@media (max-width:969px){
+    .container-fluid{
+        max-width: 797px;
+    }
+    h1{
+        font-family: 'titulos-alt';
+        font-size: 55px;
+        margin-top: 60px;
+        color: black;
+    }
+    h2{
+        font-family: 'titulos-alt';
+        font-size: 40px;
+        margin-bottom: 60px;
+        color: black;
+    }
+    p{
+        font-family: 'titulos-alt';
+        font-size: 35px;
+        margin-bottom: 40px;
+        color: #000;
+    }
+}
+@media (max-width:797px){
+    .container-fluid{
+        max-width: 350px;
+    }
+    h1{
+        font-family: 'titulos-alt';
+        font-size: 25px;
+        margin-top: 10px;
+        color: black;
+    }
+    h2{
+        font-family: 'titulos-alt';
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: black;
+    }
+    p{
+        font-family: 'titulos-alt';
+        font-size: 15px;
+        margin-bottom: 30px;
+        color: #000;
+    }
+}
+
+/* header */
+#header{
+    background: url(../img/bg.jpg) center;
+    background-size: cover;
+}
+
+/* presentacion */
+#presentacion .card{
+    padding: 20px 50px;
+}
+#presentacion .tarotista{
+    padding: 50px 0;
+}
+#presentacion .tarotista img{
+    max-width: 350px;
+}
+#presentacion .content-text{
+    padding: 40px 0;
+}
+@media (max-width:797px){
+    #presentacion .content-text{
+        padding: 0px 0;
+    }
+}
+
+/* contact */
+#contact .title-btn{
+    justify-content: space-between;
+}
+#contact .title-btn .btn{
+    font-family: 'titulos';
+    font-size: 100px;
+    background: red;
+    border-style: none;
+    border-radius: 50px;
+    padding: 10px 60px;
+    width: 100%;
+}
+#contact .title-btn .img-decor img{
+    width: 130px;
+    margin-top: -50px;
+}
+#contact .form{
+    padding: 50px 0;
+}
+#contact .paso{
+    background: #3e556a;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+#contact .paso span{
+    font-size: 60px;
+    font-weight: 500;
+}
+#contact .form-group{
+    margin-bottom: 50px;
+}
+#contact .form-group input{
+    border-radius: 0;
+    border: 3px #3e556a solid;
+    font-size: 60px;
+    height: 90px;
+}
+#contact .btn-send{
+    display: flex;
+    justify-content: center;
+}
+#contact input[type="submit"]{
+    font-family: 'btn';
+    font-size: 90px;
+    font-weight: 500;
+    border-style: none;
+    color: #fff;
+    background: #079897;
+    padding: 5px 40px;
+    border-radius: 30px;
+}
+@media (max-width:1342px) {
+    #contact .title-btn .btn{
+        font-family: 'titulos';
+        font-size: 90px;
+        background: red;
+        border-style: none;
+        border-radius: 50px;
+        padding: 10px 40px;
+        width: 100%;
+    }
+    #contact .title-btn .img-decor img{
+        width: 110px;
+        margin-top: -50px;
+    }
+}
+@media (max-width:1200px){
+    #contact .title-btn .btn{
+        font-family: 'titulos';
+        font-size: 70px;
+        background: red;
+        border-style: none;
+        border-radius: 30px;
+        padding: 10px 40px;
+        width: 100%;
+    }
+    #contact .title-btn .img-decor img{
+        width: 80px;
+        margin-top: -20px;
+    }
+}
+@media (max-width:969px){
+    #contact .title-btn .btn{
+        font-family: 'titulos';
+        font-size: 50px;
+        background: red;
+        border-style: none;
+        border-radius: 20px;
+        padding: 5px 40px;
+        width: 100%;
+    }
+    #contact .title-btn .img-decor img{
+        width: 70px;
+        margin-top: -20px;
+    }
+    #contact .paso{
+        background: #3e556a;
+        color: #fff;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+    #contact .paso span{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    #contact .form-group{
+        margin-bottom: 30px;
+    }
+    #contact .form-group input{
+        border-radius: 0;
+        border: 3px #3e556a solid;
+        font-size: 35px;
+        height: 60px;
+    }
+    #contact input[type="submit"]{
+        font-family: 'btn';
+        font-size: 70px;
+        font-weight: 500;
+        border-style: none;
+        color: #fff;
+        background: #079897;
+        padding: 0px 20px;
+        border-radius: 20px;
+    }
+}
+@media (max-width:797px){
+    #contact .title-btn .btn{
+        font-family: 'titulos';
+        font-size: 20px;
+        background: red;
+        border-style: none;
+        border-radius: 10px;
+        padding: 5px 20px;
+        width: 100%;
+    }
+    #contact .title-btn .img-decor img{
+        width: 30px;
+        margin-top: -10px;
+    }
+    #contact .paso{
+        background: #3e556a;
+        color: #fff;
+        padding: 3px;
+        margin-bottom: 20px;
+    }
+    #contact .paso span{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    #contact .form{
+        padding: 20px 0;
+    }
+    #contact .form-group{
+        margin-bottom: 20px;
+    }
+    #contact .form-group input{
+        border-radius: 0;
+        border: 2px #3e556a solid;
+        font-size: 17px;
+        height: 35px;
+    }
+    #contact input[type="submit"]{
+        font-family: 'btn';
+        font-size: 30px;
+        font-weight: 500;
+        border-style: none;
+        color: #fff;
+        background: #079897;
+        padding: 0px 10px;
+        border-radius: 10px;
+    }
+}
+
+/* tarot */
+#tarot{
+    padding: 50px 0;
+}
+#tarot .decor img{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+#tarot .img-tarot{
+    margin-bottom: 80px;
+}
+#tarot .img-tarot img{
+    max-width: 750px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+@media (max-width:969px){
+    #tarot .img-tarot img{
+        max-width: 450px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
+@media (max-width:797px){
+    #tarot{
+        padding: 10px 0;
+    }
+    #tarot .img-tarot{
+        margin-bottom: 20px;
+    }
+    #tarot .img-tarot img{
+        max-width: 200px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
