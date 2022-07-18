@@ -37,9 +37,9 @@
 .chat-section .header-bg .call i{
     position: absolute;
     right: 20px;
-    top: 10px;
+    top: 20px;
     color: #fff;
-    font-size: 50px;
+    font-size: 40px;
     text-shadow: 3px 3px 3px #333;
 }
 .chat-section .header-bg .profile-info h3{
